@@ -1,6 +1,6 @@
 export type Language = 'pt' | 'en';
 
-export type TabId = 'home' | 'house' | 'local' | 'info';
+export type TabId = 'home' | 'house' | 'local' | 'info' | 'print';
 
 export interface TranslationContent {
   nav: {
@@ -33,6 +33,7 @@ export interface TranslationContent {
       cleaning: string;
       waste: string;
       safety: string;
+      gallery: string;
     };
   };
   local: {
@@ -108,6 +109,13 @@ export interface SafetyItem {
   location: string;
 }
 
+export interface GalleryItem {
+  id: string;
+  title: string;
+  description: string;
+  imageUrls: string[];
+}
+
 export interface HouseGuideData {
   appliances: Appliance[];
   cleaning: {
@@ -117,6 +125,7 @@ export interface HouseGuideData {
   };
   waste: WasteCategory[];
   safety: SafetyItem[];
+  gallery: GalleryItem[];
 }
 
 export type LocalCategoryId = 'eat' | 'beach' | 'hike' | 'shop' | 'snack' | 'park' | 'viewpoint' | 'museum';

@@ -97,6 +97,7 @@ export const TRANSLATIONS: Record<'en' | 'pt', TranslationContent> = {
         cleaning: 'Cleaning',
         waste: 'Recycling',
         safety: 'Safety',
+        gallery: 'Gallery',
       }
     },
     local: {
@@ -179,6 +180,7 @@ export const TRANSLATIONS: Record<'en' | 'pt', TranslationContent> = {
         cleaning: 'Limpeza',
         waste: 'Reciclagem',
         safety: 'Segurança',
+        gallery: 'Galeria',
       }
     },
     local: {
@@ -259,6 +261,13 @@ export const HOUSE_GUIDE_DATA: Record<'en' | 'pt', HouseGuideData> = {
     safety: [
       { id: 's1', name: 'Fire Extinguisher', location: 'Next to kitchen cabinet.' },
       { id: 's3', name: 'First Aid Kit', location: 'Bathroom cabinet.' },
+    ],
+    gallery: [
+      { id: 'living', title: 'Living Room', description: 'Spacious living area with TV and sofa bed.', imageUrls: ['/images/living_room.jpg', '/images/living_room_2.jpg'] },
+      { id: 'kitchen', title: 'Kitchen', description: 'Fully equipped kitchen with modern appliances.', imageUrls: ['/images/kitchen.jpg', '/images/kitchen_2.jpg'] },
+      { id: 'bedroom', title: 'Bedroom', description: 'Cozy bedroom with double bed and wardrobe.', imageUrls: ['/images/bedroom.jpg', '/images/bedroom_2.jpg'] },
+      { id: 'bedroom2', title: 'Bedroom 2', description: 'Comfortable second bedroom with air conditioning.', imageUrls: ['/images/bedroom_2_new.jpg'] },
+      { id: 'bathroom', title: 'Bathroom', description: 'Modern bathroom with walk-in shower.', imageUrls: ['/images/bathroom.jpg'] },
     ]
   },
   pt: {
@@ -287,6 +296,13 @@ export const HOUSE_GUIDE_DATA: Record<'en' | 'pt', HouseGuideData> = {
     safety: [
       { id: 's1', name: 'Extintor', location: 'Ao lado do armário da cozinha.' },
       { id: 's3', name: 'Kit Primeiros Socorros', location: 'Armário da casa de banho.' },
+    ],
+    gallery: [
+      { id: 'living', title: 'Sala de Estar', description: 'Sala espaçosa com TV e sofá-cama.', imageUrls: ['/images/living_room.jpg', '/images/living_room_2.jpg'] },
+      { id: 'kitchen', title: 'Cozinha', description: 'Cozinha totalmente equipada com eletrodomésticos modernos.', imageUrls: ['/images/kitchen.jpg', '/images/kitchen_2.jpg'] },
+      { id: 'bedroom', title: 'Quarto', description: 'Quarto aconchegante com cama de casal e guarda-roupa.', imageUrls: ['/images/bedroom.jpg', '/images/bedroom_2.jpg'] },
+      { id: 'bedroom2', title: 'Quarto 2', description: 'Segundo quarto confortável com ar condicionado.', imageUrls: ['/images/bedroom_2_new.jpg'] },
+      { id: 'bathroom', title: 'Casa de Banho', description: 'Casa de banho moderna com duche.', imageUrls: ['/images/bathroom.jpg'] },
     ]
   },
 };
@@ -923,7 +939,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'eat',
       title: 'Restaurante Macau',
       description: 'Local Chinese place with tasty dishes and friendly service.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx_udp_fZXUAT8meOptrwv5nu094U0640sFeAClzAaXHfhzsKa63EkmY--xNGc2RhsHsM2xa6WMwocnrYK_y4Ajt_G1PJruJkVH9JmVg7M4juwICHHbvnMQUqbfFK9E7X40ju1CSG6j5glM=w408-h253-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSynwjXVCmcpe_cAKDCqP-tWDXEhqbJXyYt-WnterK6HBPfhlEkt43-7oXA3NBqQqcPWOMIKgXU_RHt-7Gh9Jmkbg5GHQsuPWKmIMVt8SYotnmydxp_GovDPCsN7PzafDMf13rzM=w408-h306-k-no',
       distance: '5 min a pé',
       hostTip: 'Very reliable for a comforting Asian meal.',
       mapUrl: 'https://www.google.com/maps/place/Restaurante+%22Macau%22/@39.4598308,-31.1305423,17z/data=!3m1!5s0xb322433d0a2a223:0x3509d64fb07c990a!4m15!1m8!3m7!1s0xb322433d9e13457:0xa0899ceca083197!2sRestaurante+%22Macau%22!8m2!3d39.4598308!4d-31.1305423!10e1!16s%2Fg%2F11dxkdgd07!3m5!1s0xb322433d9e13457:0xa0899ceca083197!8m2!3d39.4598308!4d-31.1305423!16s%2Fg%2F11dxkdgd07'
@@ -1533,7 +1549,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'eat',
       title: 'Restaurante Macau',
       description: 'Restaurante chinês local com pratos saborosos e serviço amigável.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx_udp_fZXUAT8meOptrwv5nu094U0640sFeAClzAaXHfhzsKa63EkmY--xNGc2RhsHsM2xa6WMwocnrYK_y4Ajt_G1PJruJkVH9JmVg7M4juwICHHbvnMQUqbfFK9E7X40ju1CSG6j5glM=w408-h253-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSynwjXVCmcpe_cAKDCqP-tWDXEhqbJXyYt-WnterK6HBPfhlEkt43-7oXA3NBqQqcPWOMIKgXU_RHt-7Gh9Jmkbg5GHQsuPWKmIMVt8SYotnmydxp_GovDPCsN7PzafDMf13rzM=w408-h306-k-no',
       distance: '5 min a pé',
       hostTip: 'Muito fiável para uma refeição asiática reconfortante.',
       mapUrl: 'https://www.google.com/maps/place/Restaurante+%22Macau%22/@39.4598308,-31.1305423,17z/data=!3m1!5s0xb322433d0a2a223:0x3509d64fb07c990a!4m15!1m8!3m7!1s0xb322433d9e13457:0xa0899ceca083197!2sRestaurante+%22Macau%22!8m2!3d39.4598308!4d-31.1305423!10e1!16s%2Fg%2F11dxkdgd07!3m5!1s0xb322433d9e13457:0xa0899ceca083197!8m2!3d39.4598308!4d-31.1305423!16s%2Fg%2F11dxkdgd07'

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Header, BottomNav } from './Layout';
 import { HomeView, HouseGuideView, LocalGuideView, InfoView } from './Views';
+import { PrintView } from './PrintView';
 import { Language, TabId } from './types';
 import { TRANSLATIONS } from './constants';
 
@@ -30,6 +31,8 @@ const App: React.FC = () => {
         return <LocalGuideView t={t.local} lang={lang} />;
       case 'info':
         return <InfoView t={t.info} />;
+      case 'print':
+        return <PrintView t={t} lang={lang} onBack={() => setActiveTab('home')} />;
       default:
         return <HomeView t={t.home} onNavigate={setActiveTab} />;
     }
@@ -43,15 +46,19 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen font-sans text-stone-800 bg-white flex flex-col">
       {/* Header */}
-      <Header currentLang={lang} onToggleLang={toggleLanguage} />
+      <div className="print:hidden">
+        <Header currentLang={lang} onToggleLang={toggleLanguage} />
+      </div>
 
       {/* Main Content Area */}
-      <main className="flex-1 px-6 pt-6 pb-24 max-w-md mx-auto w-full">
+      <main className="flex-1 px-6 pt-6 pb-24 max-w-md mx-auto w-full print:max-w-none print:px-0 print:pt-0 print:pb-0">
         {renderContent()}
       </main>
 
       {/* Bottom Navigation */}
-      <BottomNav activeTab={activeTab} onTabChange={setActiveTab} t={t.nav} />
+      <div className="print:hidden">
+        <BottomNav activeTab={activeTab} onTabChange={setActiveTab} t={t.nav} />
+      </div>
     </div>
   );
 };

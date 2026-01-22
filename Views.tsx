@@ -5,7 +5,8 @@ import {
   LogOut, Tv, ThermometerSnowflake, Trash2, Droplets, Flame, Zap,
   LogIn, AlertTriangle, FileText, ShieldAlert, ChevronDown, Sparkles, AlertCircle,
   Mountain, Star, ArrowUpRight, Ambulance, Pill, Bus, Car, Book, Fan, Coffee,
-  Baby, Clock, Route, TrendingUp, Download, Fuel, Eye, Landmark
+  Baby, Clock, Route, TrendingUp, Download, Fuel, Eye, Landmark, Image as ImageIcon,
+  Printer, ChevronLeft, ChevronRight
 } from 'lucide-react';
 import { TranslationContent, Recommendation, Language, TabId, LocalCategoryId } from './types';
 import { HOUSE_GUIDE_DATA, RECOMMENDATIONS_DATA, PROPERTY_DATA } from './constants';
@@ -29,7 +30,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ t, onNavigate }) => {
     { id: 'checkin', label: t.actions.checkIn, icon: LogIn, action: () => onNavigate('house'), color: 'bg-teal-50 text-teal-700 border-teal-100' },
     { id: 'checkout', label: t.actions.checkOut, icon: LogOut, action: () => onNavigate('info'), color: 'bg-navy-50 text-navy-700 border-navy-100' },
     { id: 'emergency', label: t.actions.emergency, icon: AlertTriangle, action: () => onNavigate('info'), color: 'bg-red-50 text-red-700 border-red-100' },
-    { id: 'rules', label: t.actions.rules, icon: FileText, action: () => onNavigate('house'), color: 'bg-blue-50 text-blue-700 border-blue-100' },
+    { id: 'print', label: 'Full Guide / Print', icon: Printer, action: () => onNavigate('print'), color: 'bg-stone-50 text-stone-700 border-stone-100' },
   ];
 
   return (
@@ -120,10 +121,10 @@ interface HouseGuideViewProps {
   lang: Language;
 }
 
-type HouseTab = 'appliances' | 'cleaning' | 'waste' | 'safety';
+type HouseTab = 'appliances' | 'cleaning' | 'waste' | 'safety' | 'gallery';
 
 export const HouseGuideView: React.FC<HouseGuideViewProps> = ({ t, lang }) => {
-  const [activeTab, setActiveTab] = useState<HouseTab>('appliances');
+  const [activeTab, setActiveTab] = useState<HouseTab>('gallery');
   const data = HOUSE_GUIDE_DATA[lang];
 
   // Helper component for Icon selection
@@ -140,11 +141,12 @@ export const HouseGuideView: React.FC<HouseGuideViewProps> = ({ t, lang }) => {
     }
   };
 
-  const tabs: { id: HouseTab; label: string }[] = [
-    { id: 'appliances', label: t.tabs.appliances },
-    { id: 'cleaning', label: t.tabs.cleaning },
-    { id: 'waste', label: t.tabs.waste },
-    { id: 'safety', label: t.tabs.safety },
+  const tabs = [
+    { id: 'gallery' as const, label: t.tabs.gallery, icon: ImageIcon },
+    { id: 'appliances' as const, label: t.tabs.appliances, icon: Zap },
+    { id: 'cleaning' as const, label: t.tabs.cleaning, icon: Sparkles },
+    { id: 'waste' as const, label: t.tabs.waste, icon: Trash2 },
+    { id: 'safety' as const, label: t.tabs.safety, icon: ShieldAlert },
   ];
 
   return (
@@ -152,19 +154,24 @@ export const HouseGuideView: React.FC<HouseGuideViewProps> = ({ t, lang }) => {
       <h2 className="text-xl font-bold text-navy-900 px-1">{t.title}</h2>
 
       {/* Tabs */}
-      <div className="flex gap-2 overflow-x-auto no-scrollbar pb-1 -mx-6 px-6">
-        {tabs.map(tab => (
-          <button
-            key={tab.id}
-            onClick={() => setActiveTab(tab.id)}
-            className={`whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium transition-colors ${activeTab === tab.id
-              ? 'bg-teal-600 text-white shadow-md'
-              : 'bg-white text-navy-600 border border-navy-100 hover:bg-navy-50'
-              }`}
-          >
-            {tab.label}
-          </button>
-        ))}
+      {/* Tabs - Optimized for Mobile Grid */}
+      <div className="grid grid-cols-4 gap-2 pb-2">
+        {tabs.map((tab) => {
+          const isActive = activeTab === tab.id;
+          return (
+            <button
+              key={tab.id}
+              onClick={() => setActiveTab(tab.id)}
+              className={`flex flex-col items-center justify-center gap-1.5 px-1 py-3 rounded-xl text-[9px] font-bold transition-all duration-300 border leading-tight ${isActive
+                ? 'bg-teal-600 text-white border-teal-600 shadow-md scale-105 z-10'
+                : 'bg-white text-navy-600 border-navy-50 hover:bg-navy-50'
+                }`}
+            >
+              <tab.icon size={18} />
+              <span className="text-center truncate w-full px-0.5">{tab.label}</span>
+            </button>
+          );
+        })}
       </div>
 
       <div className="mt-4">
@@ -248,10 +255,22 @@ export const HouseGuideView: React.FC<HouseGuideViewProps> = ({ t, lang }) => {
             ))}
           </div>
         )}
+
+        {/* Gallery Tab */}
+        {activeTab === 'gallery' && (
+          <div className="space-y-6 animate-fade-in pb-4">
+            {data.gallery.map((item) => (
+              <GalleryCarousel key={item.id} item={item} />
+            ))}
+          </div>
+        )}
+
       </div>
-    </div>
+    </div >
   );
 };
+
+
 
 // Reusable Accordion
 const AccordionItem: React.FC<{ title: string; icon: React.ReactNode; children: React.ReactNode }> = ({ title, icon, children }) => {
@@ -281,6 +300,70 @@ const AccordionItem: React.FC<{ title: string; icon: React.ReactNode; children: 
           </div>
         </div>
       )}
+    </div>
+  );
+};
+
+// Gallery Carousel Component
+const GalleryCarousel: React.FC<{ item: import('./types').GalleryItem }> = ({ item }) => {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const hasMultiple = item.imageUrls.length > 1;
+
+  const nextImage = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setCurrentImageIndex((prev) => (prev + 1) % item.imageUrls.length);
+  };
+
+  const prevImage = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setCurrentImageIndex((prev) => (prev - 1 + item.imageUrls.length) % item.imageUrls.length);
+  };
+
+  return (
+    <div className="bg-white rounded-2xl shadow-sm border border-stone-100 overflow-hidden group">
+      <div className="relative h-64 overflow-hidden">
+        <img
+          src={item.imageUrls[currentImageIndex]}
+          alt={`${item.title} - ${currentImageIndex + 1}`}
+          className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+        />
+
+        {/* Navigation Arrows */}
+        {hasMultiple && (
+          <>
+            <button
+              onClick={prevImage}
+              className="absolute left-2 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-1.5 rounded-full shadow-sm backdrop-blur transition-all active:scale-95 z-10"
+            >
+              <ChevronLeft size={20} className="text-navy-900" />
+            </button>
+            <button
+              onClick={nextImage}
+              className="absolute right-2 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-1.5 rounded-full shadow-sm backdrop-blur transition-all active:scale-95 z-10"
+            >
+              <ChevronRight size={20} className="text-navy-900" />
+            </button>
+
+            {/* Dots */}
+            <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-1.5 bg-black/20 backdrop-blur-sm px-2 py-1 rounded-full z-10">
+              {item.imageUrls.map((_, idx) => (
+                <div
+                  key={idx}
+                  className={`w-1.5 h-1.5 rounded-full transition-all ${idx === currentImageIndex ? 'bg-white scale-125' : 'bg-white/50'}`}
+                />
+              ))}
+            </div>
+          </>
+        )}
+
+        <div className="absolute top-3 right-3 bg-white/90 backdrop-blur rounded-full p-2 text-teal-600 shadow-sm z-10">
+          <ImageIcon size={20} />
+        </div>
+      </div>
+      <div className="p-5">
+        <h3 className="font-serif text-lg font-bold text-navy-900 mb-2">{item.title}</h3>
+        <p className="text-stone-600 text-sm leading-relaxed">{item.description}</p>
+      </div>
     </div>
   );
 };
