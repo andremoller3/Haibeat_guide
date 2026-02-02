@@ -958,7 +958,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'park',
       title: 'Parque Florestal Luís Paulo Camacho',
       description: 'A fantastic forest reserve with animals (deer, ducks), picnic areas and a trout farm.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx1OTOwbIWBsape-b9InWqQdL-npQj5F9CqdGDHsH7o2bdFJ4sJr9rmvmO5F_xfWS9TdbIUYgNACKbiYNY3ygTjtg-DaussIBY7SnOl7GgH6Ze7KqjHJjZuocytpkQiHSMMRNnHARwS7Jwq=w426-h240-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAweqHRNXIqNLmEXp4s3Eml4JM619UPgAi8SELDFWbBYaRNtaXuAsN1u-BmPZPjSY31ZdiuyYgqm7NqRf_q-teJfeivteCc_CuCCojOElqkSb7mWoeHETxjJI8AnruzchL8KUcGKwdLd-5D-lQ=w426-h240-k-no',
       distance: '5 min drive / 25 min walk',
       hostTip: 'Kids love feeding the ducks and seeing the deer.',
       mapUrl: 'https://www.google.com/maps/place/Parque+da+Reserva+Florestal+de+Recreio+%22Lu%C3%ADs+Paulo+Camacho%22/@39.4627577,-31.1574254,17z/data=!3m1!4b1!4m6!3m5!1s0xb3225005cab68f3:0xbb0c6c5794ab4040!8m2!3d39.4627577!4d-31.1574254!16s%2Fg%2F11xvs74y2k!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1814,7 +1814,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'park',
       title: 'Parque Florestal Luís Paulo Camacho',
       description: 'Uma reserva florestal fantástica com animais (veados, patos), áreas de piquenique e um viveiro de trutas.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx1OTOwbIWBsape-b9InWqQdL-npQj5F9CqdGDHsH7o2bdFJ4sJr9rmvmO5F_xfWS9TdbIUYgNACKbiYNY3ygTjtg-DaussIBY7SnOl7GgH6Ze7KqjHJjZuocytpkQiHSMMRNnHARwS7Jwq=w426-h240-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAweqHRNXIqNLmEXp4s3Eml4JM619UPgAi8SELDFWbBYaRNtaXuAsN1u-BmPZPjSY31ZdiuyYgqm7NqRf_q-teJfeivteCc_CuCCojOElqkSb7mWoeHETxjJI8AnruzchL8KUcGKwdLd-5D-lQ=w426-h240-k-no',
       distance: '5 min de carro / 25 min a pé',
       hostTip: 'As crianças adoram alimentar os patos e ver os veados.',
       mapUrl: 'https://www.google.com/maps/place/Parque+da+Reserva+Florestal+de+Recreio+%22Lu%C3%ADs+Paulo+Camacho%22/@39.4627577,-31.1574254,17z/data=!3m1!4b1!4m6!3m5!1s0xb3225005cab68f3:0xbb0c6c5794ab4040!8m2!3d39.4627577!4d-31.1574254!16s%2Fg%2F11xvs74y2k!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
