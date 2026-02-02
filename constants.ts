@@ -1000,7 +1000,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'eat',
       title: 'Restaurante Bar "5 Sentidos"',
       description: 'Contemporary space with fish, meat, vegetarian options and wine.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxD0rvQP9lsXIGgHHJmPqbCBNu3UgQTvfPOGM3ApPSBPkpPuFVeK1m1DE4Xucwx-QdchllqlmSTqjYdVaKkfWnAe_ZuEzX7fzoy6RBo8lZ60gV2L4fCgsTZeOgKywbu2o99DaLyQw=w408-h306-k-no',
+      imageUrl: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=800',
       distance: '6 min a pé',
       hostTip: 'One of the best dining experiences on the island.',
       mapUrl: 'https://www.google.com/maps/place/Restaurante+Bar+%225+Sentidos%22/@39.461433,-31.1281205,17z/data=!4m15!1m8!3m7!1s0xb32243379c67cb3:0x5f8524f7a76c0c9f!2sRestaurante+Bar+%225+Sentidos%22!8m2!3d39.4618655!4d-31.1278443!10e9!16s%2Fg%2F11c5stp0bs!3m5!1s0xb32243379c67cb3:0x5f8524f7a76c0c9f!8m2!3d39.4618655!4d-31.1278443!16s%2Fg%2F11c5stp0bs!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1020,7 +1020,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'eat',
       title: 'Restaurante Pôr-do-Sol',
       description: 'Legendary sunset view. Most ordered: Grilled Limpets, Seaweed Tart, and Blood Sausage with Yam and Sweet Potato.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwlwdUmC6cYRNSA5-9QZz5N5v4DCKZh4oZBNUu_29fWW64tn63VdTh0ApD5mRdfIYAmU7wKX4PgxFKLgSofe_bkdNPJs3XDzR3JKucUjDmLM24uYk6-cnaB_bPj1fDnskd4pc0Twlhx_UE=w408-h544-k-no',
+      imageUrl: 'https://images.unsplash.com/photo-1536431311719-398b6704d4cc?auto=format&fit=crop&q=80&w=800',
       distance: '25 min de carro',
       hostTip: 'Taste local delicacies while watching the sun disappear.',
       mapUrl: 'https://www.google.com/maps/place/Restaurante+P%C3%B4r-do-Sol/@39.4361324,-31.2564499,17z/data=!3m1!4b1!4m6!3m5!1s0xb3222712982052d:0x8e58c0df41798f16!8m2!3d39.4361324!4d-31.2564499!16s%2Fg%2F11c2q30fx9!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1040,7 +1040,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'eat',
       title: 'Restaurante "Rainha do Bife"',
       description: 'The absolute choice for regional steak and local specialties. Popular dishes: Regional Steak, Oven/Grilled Limpets, Fresh Cheese, Octopus or Tuna.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx7a0CPjHZ1D3bnkPNU6B9xx0NO0wgzlOYHnIw8iXoFsGSNAb24N_CFU4iuDULee6aoAdv1oDla67FSsYnUc7Gc2bc9ZCFnpaEx8IJho_nQRdZgd3JQlzyHx8omwx18pt8AsBm0Tg=w408-h544-k-no',
+      imageUrl: 'https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&q=80&w=800',
       distance: '8 min a pé',
       hostTip: 'The "Queen Steak" is their signature dish. Start with Fresh Cheese with local pepper sauce.',
       mapUrl: 'https://www.google.com/maps?q=Restaurante+%22Rainha+do+Bife%22'
@@ -1110,7 +1110,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'eat',
       title: 'Restaurante "O Forno Transmontano"',
       description: 'Traditional restaurant offering hearty meals and wood-oven specialties.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSze8TtjDsdOhSvjkVYrk9FIGTyu-wr0_DgZjWzJZd9qR7ZHVJu5LqJMtaGDNXXJIFi4AoJlqWRzCHGvgEy_9wNQdrclVQhl8GKjGxXm2gxn9PByfCyFayJLfeT0pZzI0NWkR-q_t81qLiD0=w533-h240-k-no',
+      imageUrl: 'https://images.unsplash.com/photo-1595295333158-4742f28fbd85?auto=format&fit=crop&q=80&w=800',
       distance: 'Lajes',
       hostTip: 'Try the roasted meats!',
       mapUrl: 'https://www.google.com/maps/place/Restaurante+%22O+Forno+Transmontano%22/@39.3883899,-31.1925259,11.8z/data=!4m6!3m5!1s0xb322733a0ec1383:0x396e3f5400186aea!8m2!3d39.3861656!4d-31.1681189!16s%2Fg%2F11g9g01_47!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1610,7 +1610,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'eat',
       title: 'Restaurante Bar "5 Sentidos"',
       description: 'Espaço contemporâneo com peixe, carne, opções vegetarianas e vinho.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxD0rvQP9lsXIGgHHJmPqbCBNu3UgQTvfPOGM3ApPSBPkpPuFVeK1m1DE4Xucwx-QdchllqlmSTqjYdVaKkfWnAe_ZuEzX7fzoy6RBo8lZ60gV2L4fCgsTZeOgKywbu2o99DaLyQw=w408-h306-k-no',
+      imageUrl: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=800',
       distance: '6 min a pé',
       hostTip: 'Uma das melhores experiências gastronómicas da ilha.',
       mapUrl: 'https://www.google.com/maps/place/Restaurante+Bar+%225+Sentidos%22/@39.461433,-31.1281205,17z/data=!4m15!1m8!3m7!1s0xb32243379c67cb3:0x5f8524f7a76c0c9f!2sRestaurante+Bar+%225+Sentidos%22!8m2!3d39.4618655!4d-31.1278443!10e9!16s%2Fg%2F11c5stp0bs!3m5!1s0xb32243379c67cb3:0x5f8524f7a76c0c9f!8m2!3d39.4618655!4d-31.1278443!16s%2Fg%2F11c5stp0bs!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1630,7 +1630,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'eat',
       title: 'Restaurante Pôr-do-Sol',
       description: 'Vista lendária do pôr do sol. Mais pedidos: Lapas Grelhadas, Tarte de Algas e Morcela com Inhame e Batata Doce.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwlwdUmC6cYRNSA5-9QZz5N5v4DCKZh4oZBNUu_29fWW64tn63VdTh0ApD5mRdfIYAmU7wKX4PgxFKLgSofe_bkdNPJs3XDzR3JKucUjDmLM24uYk6-cnaB_bPj1fDnskd4pc0Twlhx_UE=w408-h544-k-no',
+      imageUrl: 'https://images.unsplash.com/photo-1536431311719-398b6704d4cc?auto=format&fit=crop&q=80&w=800',
       distance: '25 min de carro',
       hostTip: 'Prove iguarias locais enquanto vê o sol desaparecer.',
       mapUrl: 'https://www.google.com/maps/place/Restaurante+P%C3%B4r-do-Sol/@39.4361324,-31.2564499,17z/data=!3m1!4b1!4m6!3m5!1s0xb3222712982052d:0x8e58c0df41798f16!8m2!3d39.4361324!4d-31.2564499!16s%2Fg%2F11c2q30fx9!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1650,7 +1650,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'eat',
       title: 'Restaurante "Rainha do Bife"',
       description: 'A escolha absoluta para bife regional e especialidades locais. Pratos populares: Bife Regional, Lapas no Forno/Grelhadas, Queijo Fresco, Polvo ou Atum.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx7a0CPjHZ1D3bnkPNU6B9xx0NO0wgzlOYHnIw8iXoFsGSNAb24N_CFU4iuDULee6aoAdv1oDla67FSsYnUc7Gc2bc9ZCFnpaEx8IJho_nQRdZgd3JQlzyHx8omwx18pt8AsBm0Tg=w408-h544-k-no',
+      imageUrl: 'https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&q=80&w=800',
       distance: '8 min a pé',
       hostTip: 'O "Bife da Rainha" é o prato de assinatura. Comece com Queijo Fresco com molho de pimenta local.',
       mapUrl: 'https://www.google.com/maps?q=Restaurante+%22Rainha+do+Bife%22'
@@ -1720,7 +1720,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'eat',
       title: 'Restaurante "O Forno Transmontano"',
       description: 'Restaurante tradicional que oferece refeições fartas e especialidades em forno de lenha.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSze8TtjDsdOhSvjkVYrk9FIGTyu-wr0_DgZjWzJZd9qR7ZHVJu5LqJMtaGDNXXJIFi4AoJlqWRzCHGvgEy_9wNQdrclVQhl8GKjGxXm2gxn9PByfCyFayJLfeT0pZzI0NWkR-q_t81qLiD0=w533-h240-k-no',
+      imageUrl: 'https://images.unsplash.com/photo-1595295333158-4742f28fbd85?auto=format&fit=crop&q=80&w=800',
       distance: 'Lajes',
       hostTip: 'Experimente as carnes assadas!',
       mapUrl: 'https://www.google.com/maps/place/Restaurante+%22O+Forno+Transmontano%22/@39.3883899,-31.1925259,11.8z/data=!4m6!3m5!1s0xb322733a0ec1383:0x396e3f5400186aea!8m2!3d39.3861656!4d-31.1681189!16s%2Fg%2F11g9g01_47!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
