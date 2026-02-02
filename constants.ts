@@ -9,18 +9,21 @@ export const PROPERTY_DATA: PropertyData = {
     hospital: {
       name: 'Centro de Saúde Santa Cruz das Flores',
       address: 'Santa Cruz das Flores',
-      mapUrl: 'https://www.google.com/maps/place/Centro+de+Sa%C3%BAde+Santa+Cruz+das+Flores/@39.4517515,-31.1291442,17z/data=!3m1!4b1!4m6!3m5!1s0xb32242c3d289a55:0x4f828f80e638aad9!8m2!3d39.4517515!4d-31.1291442!16s%2Fg%2F119vfs4k9!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
+      mapUrl: 'https://www.google.com/maps/place/Centro+de+Sa%C3%BAde+Santa+Cruz+das+Flores/@39.4517515,-31.1291442,17z/data=!3m1!4b1!4m6!3m5!1s0xb32242c3d289a55:0x4f828f80e638aad9!8m2!3d39.4517515!4d-31.1291442!16s%2Fg%2F119vfs4k9!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D',
+      imageUrl: 'https://placehold.co/600x400/e2e8f0/1e293b?text=Health+Center'
     },
     pharmacies: [
       {
         name: 'Farmácia da Misericórdia',
         address: 'Santa Cruz das Flores',
-        mapUrl: 'https://www.google.com/maps/place/Farm%C3%A1cia+da+Miseric%C3%B3rdia/@39.4513757,-31.1291127,17z/data=!3m1!4b1!4m6!3m5!1s0xb32242bbddca04f:0x1c68c2cdc6698dae!8m2!3d39.4513757!4d-31.1291127!16s%2Fg%2F11c60c60pb!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
+        mapUrl: 'https://www.google.com/maps/place/Farm%C3%A1cia+da+Miseric%C3%B3rdia/@39.4513757,-31.1291127,17z/data=!3m1!4b1!4m6!3m5!1s0xb32242bbddca04f:0x1c68c2cdc6698dae!8m2!3d39.4513757!4d-31.1291127!16s%2Fg%2F11c60c60pb!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D',
+        imageUrl: 'https://placehold.co/600x400/e2e8f0/1e293b?text=Pharmacy+Santa+Cruz'
       },
       {
         name: 'Farmácia Misericórdia Posto Lajes',
         address: 'Lajes das Flores',
-        mapUrl: 'https://www.google.com/maps/place/Farm%C3%A1cia+Miseric%C3%B3rdia+Posto+Lajes/@39.377764,-31.1803521,17z/data=!3m1!4b1!4m6!3m5!1s0xb3221c64d1ddfff:0x4d3d8019bf7746ab!8m2!3d39.377764!4d-31.1803521!16s%2Fg%2F11h_c6l05b!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
+        mapUrl: 'https://www.google.com/maps/place/Farm%C3%A1cia+Miseric%C3%B3rdia+Posto+Lajes/@39.377764,-31.1803521,17z/data=!3m1!4b1!4m6!3m5!1s0xb3221c64d1ddfff:0x4d3d8019bf7746ab!8m2!3d39.377764!4d-31.1803521!16s%2Fg%2F11h_c6l05b!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D',
+        imageUrl: 'https://placehold.co/600x400/e2e8f0/1e293b?text=Pharmacy+Lajes'
       }
     ],
     gasStations: [

@@ -582,52 +582,53 @@ export const InfoView: React.FC<InfoViewProps> = ({ t }) => {
       </section>
 
       {/* Health Services */}
-      <section className="space-y-3">
+      <section className="space-y-6">
         <h3 className="text-xs font-bold text-navy-400 uppercase tracking-wider px-1">{t.sections.health}</h3>
-        <div className="grid grid-cols-1 gap-3">
-          {/* Health Center */}
-          <div className="bg-white p-4 rounded-xl border border-stone-200 shadow-sm flex justify-between items-start hover:border-blue-200 transition-colors">
-            <div className="flex gap-3">
-              <div className="bg-blue-50 text-blue-600 p-2 rounded-lg h-fit">
-                <Ambulance size={20} />
+        <div className="grid grid-cols-1 gap-6">
+          {[
+            { ...data.locations.hospital, label: t.items.hospital, icon: Ambulance, color: 'text-blue-500' },
+            ...data.locations.pharmacies.map(p => ({ ...p, label: t.items.pharmacy, icon: Pill, color: 'text-teal-500' }))
+          ].map((item, idx) => (
+            <div key={idx} className="group bg-white rounded-2xl shadow-sm border border-stone-100 overflow-hidden hover:shadow-md transition-all duration-300">
+              <div className="relative h-48 w-full overflow-hidden">
+                {item.imageUrl ? (
+                  <img
+                    src={item.imageUrl}
+                    alt={item.name}
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    referrerPolicy="no-referrer"
+                  />
+                ) : (
+                  <div className={`w-full h-full flex items-center justify-center bg-stone-50 ${item.color}`}>
+                    <item.icon size={48} className="opacity-20" />
+                  </div>
+                )}
+                <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-navy-900/60 to-transparent opacity-80"></div>
+                <div className="absolute bottom-3 left-4 text-white text-xs font-bold tracking-wider uppercase bg-navy-900/40 backdrop-blur-md px-2 py-1 rounded-md border border-white/20 flex items-center gap-2">
+                  <item.icon size={14} className="text-teal-200" />
+                  {item.label}
+                </div>
               </div>
-              <div>
-                <h4 className="font-bold text-navy-800 text-sm">{t.items.hospital}</h4>
-                <p className="text-xs text-stone-500 mt-0.5">{data.locations.hospital.name}</p>
-                <p className="text-xs text-stone-400 mt-1 truncate max-w-[150px]">{data.locations.hospital.address}</p>
-              </div>
-            </div>
-            <a
-              href={data.locations.hospital.mapUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-stone-400 hover:text-teal-600 bg-stone-50 p-2 rounded-full transition-colors"
-            >
-              <MapPin size={18} />
-            </a>
-          </div>
 
-          {/* Pharmacies */}
-          {data.locations.pharmacies.map((pharmacy, idx) => (
-            <div key={idx} className="bg-white p-4 rounded-xl border border-stone-200 shadow-sm flex justify-between items-start hover:border-teal-200 transition-colors">
-              <div className="flex gap-3">
-                <div className="bg-teal-50 text-teal-600 p-2 rounded-lg h-fit">
-                  <Pill size={20} />
+              <div className="p-5">
+                <div className="flex justify-between items-start mb-2">
+                  <h3 className="font-serif text-xl font-bold text-navy-900 leading-tight">
+                    {item.name}
+                  </h3>
+                  <a
+                    href={item.mapUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-stone-100 p-2 rounded-full text-stone-400 hover:text-teal-600 hover:bg-teal-50 transition-colors shrink-0"
+                  >
+                    <MapPin size={20} />
+                  </a>
                 </div>
-                <div>
-                  <h4 className="font-bold text-navy-800 text-sm">{t.items.pharmacy}</h4>
-                  <p className="text-xs text-stone-500 mt-0.5">{pharmacy.name}</p>
-                  <p className="text-xs text-stone-400 mt-1 truncate max-w-[150px]">{pharmacy.address}</p>
-                </div>
+
+                <p className="text-stone-600 text-sm leading-relaxed mb-1">
+                  {item.address}
+                </p>
               </div>
-              <a
-                href={pharmacy.mapUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-stone-400 hover:text-teal-600 bg-stone-50 p-2 rounded-full transition-colors"
-              >
-                <MapPin size={18} />
-              </a>
             </div>
           ))}
         </div>

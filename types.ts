@@ -150,6 +150,7 @@ export interface LocationInfo {
   name: string;
   address: string;
   mapUrl: string;
+  imageUrl?: string;
 }
 
 export interface PropertyData {
