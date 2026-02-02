@@ -886,7 +886,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'shop',
       title: 'Centro Comercial Floratlântico',
       description: 'Main commercial center in Santa Cruz with a supermarket and various shops.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxxOAqEW1vnWIDUasZAy1KRkPVbuA1ffT9-eYI1oKR3QRllcu6swVraY_WjsYeen3ABmq-a9PmT_Woi9VYaMCiye7KSNoZNCT1Q1VikO0tlSQu2hpFKwnOCYwuP_qinSmaQoloN_66Rl0Pf=w408-h306-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAweq83e9Y05vmqCZSIFmcpYalNuUX4P6UJX-IxrOqeOQXXDBfHQlK-cI4mqLT49vA9Yonuj4px9Kyc9AnVVjiCFDQioeLq8onDE7OjOdKDk16NH4vuygFUvPBqLoshUamlHSYAcd32gSCB5xr=w408-h306-k-no',
       distance: 'Santa Cruz',
       hostTip: 'One-stop shop for groceries and other needs.',
       mapUrl: 'https://www.google.com/maps?q=Centro+Comercial+Floratl%C3%A2ntico,+Santa+Cruz+das+Flores,+Portugal&ftid=0xb3224340f371dcb:0x5fd66d63e54dbe5d&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAINeCAypRLDk0Mjk3Njk1LDk0Mjc1NDE1LDk0Mjg0NDk5LDk0MjMxMTg4LDk0MjgwNTY4LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDk0Mjg2ODY5QgJHQg%3D%3D&skid=2e2b74df-dfc8-4624-b0b9-940be3488a03&g_st=ipc'
@@ -896,7 +896,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'shop',
       title: 'Hélio\'s',
       description: 'Well-stocked supermarket in Lajes das Flores.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzUgvzspAzWreuZ7qpLYXRge9hXqUi-i8CRyBSbs1ViWR9EZ3fURy94OY3y-MqmwvkOMefWOkMXKlGmPSXR20LTiKk7c_9cjSZwYYcWE13-8PtNfMOzianLLBjZbB9Fl-7ENLT_pHG5-60n=w408-h725-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAwephrPWnLvu15l4oEr5lYfBMnVCmgGy1Y_FYxh5C2IWkaqFE9usghNgGrGehvAuP34gVVHY_sINFv3DV4AQaoXIo706fpI-8cFGHx8A26NXzIFzTUOG1vpaqLqC2rJIFV6uVjtQPzlGg0494=w408-h725-k-no',
       distance: 'Lajes',
       hostTip: 'Good selection of essential items in Lajes.',
       mapUrl: 'https://www.google.com/maps?q=H%C3%A9lio%27s,+Lajes+das+Flores,+Portugal&ftid=0xb3220b62c96b0cb:0xdfaba8bf7782852c&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAIIgnKlEsOTQyOTc2OTUsOTQyNzU0MTUsOTQyODQ0OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsOTQyODY4NjlCAkdC&skid=486a56a2-7383-43eb-8f3c-987b2407828e&g_st=ipc'
@@ -926,7 +926,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'shop',
       title: 'Mini-Mercado Luís Gregório De Freitas (Lajes)',
       description: 'Grocery store in Lajes for quick shopping.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwzZA87ALDF8DcKQL8h2WNgwdf4gTLBdtnM-oqdFPWRYMfAlpgf9J9mI59mmGs9RcqFaZq_b-1-1lwyhjnEOlyXltUixbQBWoPI4q1MPznZNIZ7_gHZu7qT_ZBIxtmjHpei2eET3g=w408-h544-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAweqGOLgqV_9YmdhAy8-HCDQxKDcgopJN7Qeyi5-wbkVpes4pf8Xwjytz13ve7E5QGNIn4j1T02iOtEHWyA57gVgHBMyuDofS8p4ODSzk3QfMmZRX2ObYlesT3NPcBSIZndwx-kzUhg=w408-h544-k-no',
       distance: 'Lajes',
       hostTip: 'Convenient stop when in Lajes.',
       mapUrl: 'https://www.google.com/maps?q=Mini-Mercado+Lu%C3%ADs+Greg%C3%B3rio+De+Freitas,+Lda,+Lajes+das+Flores,+Portugal&ftid=0xb3220ca696910ef:0xf8c1bda85d81755c&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAIIgnKlEsOTQyOTc2OTUsOTQyNzU0MTUsOTQyODQ0OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsOTQyODY4NjlCAkdC&skid=a8a2e9b3-c67e-4b28-a4da-47e6e09f17a2&g_st=ipc'
@@ -1456,7 +1456,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'shop',
       title: 'Centro Comercial Floratlântico',
       description: 'Principal centro comercial em Santa Cruz com supermercado e várias lojas.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxxOAqEW1vnWIDUasZAy1KRkPVbuA1ffT9-eYI1oKR3QRllcu6swVraY_WjsYeen3ABmq-a9PmT_Woi9VYaMCiye7KSNoZNCT1Q1VikO0tlSQu2hpFKwnOCYwuP_qinSmaQoloN_66Rl0Pf=w408-h306-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAweq83e9Y05vmqCZSIFmcpYalNuUX4P6UJX-IxrOqeOQXXDBfHQlK-cI4mqLT49vA9Yonuj4px9Kyc9AnVVjiCFDQioeLq8onDE7OjOdKDk16NH4vuygFUvPBqLoshUamlHSYAcd32gSCB5xr=w408-h306-k-no',
       distance: 'Santa Cruz',
       hostTip: 'Loja única para compras de supermercado e outras necessidades.',
       mapUrl: 'https://www.google.com/maps?q=Centro+Comercial+Floratl%C3%A2ntico,+Santa+Cruz+das+Flores,+Portugal&ftid=0xb3224340f371dcb:0x5fd66d63e54dbe5d&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAINeCAypRLDk0Mjk3Njk1LDk0Mjc1NDE1LDk0Mjg0NDk5LDk0MjMxMTg4LDk0MjgwNTY4LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDk0Mjg2ODY5QgJHQg%3D%3D&skid=2e2b74df-dfc8-4624-b0b9-940be3488a03&g_st=ipc'
@@ -1466,7 +1466,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'shop',
       title: 'Hélio\'s',
       description: 'Supermercado bem abastecido nas Lajes das Flores.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzUgvzspAzWreuZ7qpLYXRge9hXqUi-i8CRyBSbs1ViWR9EZ3fURy94OY3y-MqmwvkOMefWOkMXKlGmPSXR20LTiKk7c_9cjSZwYYcWE13-8PtNfMOzianLLBjZbB9Fl-7ENLT_pHG5-60n=w408-h725-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAwephrPWnLvu15l4oEr5lYfBMnVCmgGy1Y_FYxh5C2IWkaqFE9usghNgGrGehvAuP34gVVHY_sINFv3DV4AQaoXIo706fpI-8cFGHx8A26NXzIFzTUOG1vpaqLqC2rJIFV6uVjtQPzlGg0494=w408-h725-k-no',
       distance: 'Lajes',
       hostTip: 'Boa seleção de itens essenciais nas Lajes.',
       mapUrl: 'https://www.google.com/maps?q=H%C3%A9lio%27s,+Lajes+das+Flores,+Portugal&ftid=0xb3220b62c96b0cb:0xdfaba8bf7782852c&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAIIgnKlEsOTQyOTc2OTUsOTQyNzU0MTUsOTQyODQ0OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsOTQyODY4NjlCAkdC&skid=486a56a2-7383-43eb-8f3c-987b2407828e&g_st=ipc'
@@ -1496,7 +1496,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'shop',
       title: 'Mini-Mercado Luís Gregório De Freitas (Lajes)',
       description: 'Mercearia nas Lajes para compras rápidas.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwzZA87ALDF8DcKQL8h2WNgwdf4gTLBdtnM-oqdFPWRYMfAlpgf9J9mI59mmGs9RcqFaZq_b-1-1lwyhjnEOlyXltUixbQBWoPI4q1MPznZNIZ7_gHZu7qT_ZBIxtmjHpei2eET3g=w408-h544-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAweqGOLgqV_9YmdhAy8-HCDQxKDcgopJN7Qeyi5-wbkVpes4pf8Xwjytz13ve7E5QGNIn4j1T02iOtEHWyA57gVgHBMyuDofS8p4ODSzk3QfMmZRX2ObYlesT3NPcBSIZndwx-kzUhg=w408-h544-k-no',
       distance: 'Lajes',
       hostTip: 'Paragem conveniente quando estiver nas Lajes.',
       mapUrl: 'https://www.google.com/maps?q=Mini-Mercado+Lu%C3%ADs+Greg%C3%B3rio+De+Freitas,+Lda,+Lajes+das+Flores,+Portugal&ftid=0xb3220ca696910ef:0xf8c1bda85d81755c&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAIIgnKlEsOTQyOTc2OTUsOTQyNzU0MTUsOTQyODQ0OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsOTQyODY4NjlCAkdC&skid=a8a2e9b3-c67e-4b28-a4da-47e6e09f17a2&g_st=ipc'
