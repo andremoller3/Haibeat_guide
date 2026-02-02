@@ -10,20 +10,20 @@ export const PROPERTY_DATA: PropertyData = {
       name: 'Centro de Saúde Santa Cruz das Flores',
       address: 'Santa Cruz das Flores',
       mapUrl: 'https://www.google.com/maps/place/Centro+de+Sa%C3%BAde+Santa+Cruz+das+Flores/@39.4517515,-31.1291442,17z/data=!3m1!4b1!4m6!3m5!1s0xb32242c3d289a55:0x4f828f80e638aad9!8m2!3d39.4517515!4d-31.1291442!16s%2Fg%2F119vfs4k9!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D',
-      imageUrl: 'https://placehold.co/600x400/e2e8f0/1e293b?text=Health+Center'
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAwepDGHRGQxLNXfZtjTYvJ1O3PCLVBcfzsWojMlHD4QD6y84f76rbf9aBI6vv_s4i1y7-K9OuS_o57n5pP-Qcv0P9LlvzFofx5_NYF6Rs_O6ajuWX4Z-mm1xD39WP2daPlYBEU16Q=w408-h306-k-no'
     },
     pharmacies: [
       {
         name: 'Farmácia da Misericórdia',
         address: 'Santa Cruz das Flores',
         mapUrl: 'https://www.google.com/maps/place/Farm%C3%A1cia+da+Miseric%C3%B3rdia/@39.4513757,-31.1291127,17z/data=!3m1!4b1!4m6!3m5!1s0xb32242bbddca04f:0x1c68c2cdc6698dae!8m2!3d39.4513757!4d-31.1291127!16s%2Fg%2F11c60c60pb!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D',
-        imageUrl: 'https://placehold.co/600x400/e2e8f0/1e293b?text=Pharmacy+Santa+Cruz'
+        imageUrl: 'https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=800&auto=format&fit=crop&q=80'
       },
       {
         name: 'Farmácia Misericórdia Posto Lajes',
         address: 'Lajes das Flores',
         mapUrl: 'https://www.google.com/maps/place/Farm%C3%A1cia+Miseric%C3%B3rdia+Posto+Lajes/@39.377764,-31.1803521,17z/data=!3m1!4b1!4m6!3m5!1s0xb3221c64d1ddfff:0x4d3d8019bf7746ab!8m2!3d39.377764!4d-31.1803521!16s%2Fg%2F11h_c6l05b!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D',
-        imageUrl: 'https://placehold.co/600x400/e2e8f0/1e293b?text=Pharmacy+Lajes'
+        imageUrl: 'https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=800&auto=format&fit=crop&q=80'
       }
     ],
     gasStations: [
