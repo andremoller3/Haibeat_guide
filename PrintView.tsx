@@ -75,6 +75,17 @@ export const PrintView: React.FC<PrintViewProps> = ({ t, lang, onBack }) => {
                         <div className="w-24 h-1 bg-teal-500 mb-8 mx-auto" />
                         <h1 className="text-6xl font-serif font-bold text-navy-900 mb-4 tracking-tight">Sleep HAIbeat</h1>
                         <p className="text-xl text-stone-500 uppercase tracking-[0.2em] font-light">Guest Guidebook</p>
+
+                        <div className="mt-12 flex flex-col items-center gap-3">
+                            <div className="p-2 bg-white border border-stone-200 rounded-lg shadow-sm">
+                                <img
+                                    src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://haibeat-guide.vercel.app/"
+                                    alt="Digital Guide QR Code"
+                                    className="w-32 h-32"
+                                />
+                            </div>
+                            <span className="text-[10px] uppercase tracking-widest text-stone-400 font-bold">Digital Version</span>
+                        </div>
                     </div>
 
                     <div className="bg-stone-50 p-8 rounded-2xl border border-stone-100 max-w-md mx-auto w-full">
