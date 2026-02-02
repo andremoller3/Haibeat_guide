@@ -129,7 +129,7 @@ export const TRANSLATIONS: Record<'en' | 'pt', TranslationContent> = {
       },
       actions: {
         call: 'Call',
-        directions: 'Map',
+        directions: 'See on Map',
         website: 'Visit',
         whatsapp: 'WhatsApp',
         copy: 'Copy Address',
@@ -212,7 +212,7 @@ export const TRANSLATIONS: Record<'en' | 'pt', TranslationContent> = {
       },
       actions: {
         call: 'Ligar',
-        directions: 'Mapa',
+        directions: 'Ver no Mapa',
         website: 'Aceder',
         whatsapp: 'WhatsApp',
         copy: 'Copiar',
