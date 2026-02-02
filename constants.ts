@@ -548,7 +548,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'museum',
       title: 'Dairy Museum',
       description: 'Exhibits related to the milk and cheese production that sustains the island.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxdGio2WEBSHex-8IpujkIxWMif5LkWuOu5gWu0RoFNfyIjnljOXSpmCAY_49SRWPhpXzzn4NXiRRa2GCKe7KDhUF64FPGdZa-c4dsPSr85mpxp-aiRalyR698iIsxhDGdPAws-HqU5941m=w408-h408-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAwepyya41Hzm77zfAAhd6YtGpJIQQ5no6acTJNAvMObDxeZ-ifPYfCTenaDTCid6dCon-UAs77ntikKtsGOmsvq0dt0IJyKvthv75d8wDRn24bIkhIqjcw650ySdDiiDcEkRbPPpK1l5fMI0Q=w408-h408-k-no',
       distance: 'Lajes das Flores',
       hostTip: 'Learn about the famous Azorean cheese making.',
       mapUrl: 'https://www.google.com/maps/place/Museu+dos+Lactic%C3%ADnios/@39.3795784,-31.1866628,17z/data=!3m1!4b1!4m6!3m5!1s0xb322100280a2ee9:0x7514904b4c2a6e4e!8m2!3d39.3795784!4d-31.1866628!16s%2Fg%2F11vzdsy0dm!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -578,7 +578,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'museum',
       title: 'Axe Museum (Museu do Machado)',
       description: 'Located in Cedros/Ponta Ruiva, featuring historical artifacts.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzxx2NF6EpoEAk6slZFTFuTPBFOpwVjeE-50cQ0RjG_G4q7KB_7812EQvUgdOEUxb-BiRVHCWciU8J9D91QTmdcZvZubrPgeBZwTt10nUBHqyk0oj4sev1XaF-3THG3EYNygg4=w408-h544-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAwep1K0VXYUyNT4_H2yeKPwe0VdLJU96XbOOzDdMEXVH35fJlfuaZortz9ArBWOZ5yooPd-25S5Q7J9_TAtovWT_D86kvwx1qQhJfPC2hi7pB0eoTi5kcx0vychVh4pX8xKs7zy4=w408-h544-k-no',
       distance: 'Cedros',
       hostTip: 'A unique small museum in the north.',
       mapUrl: 'https://www.google.com/maps/place/Museu+do+Machado+(+Cedros+-+Ponta+Ruiva)/@39.4949447,-31.1572034,17z/data=!3m1!4b1!4m6!3m5!1s0xb322580c2e5fe85:0x19499234dbc6d2b9!8m2!3d39.4949447!4d-31.1572034!16s%2Fg%2F11h1ywysx5!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -588,7 +588,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'museum',
       title: 'Boqueirão Whaling Factory',
       description: 'The old whale processing factory, now a museum showcasing the industrial side of whaling history.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSy3Am6P_VIFZg0Gic3EbWI5nvC4w0ZLbIi4RoScYuO2dxZDnfCz9ATWTNXuGwjwQhIoKgF5Bt31GMd21r-A71RRFv-bRRoTq0j47jRz6RpMLU72S2bCJA-oyde6zw2NersFVEY=w408-h544-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAwepwY-DaGTu4g4De886tUibaefiAaH8p4A9UQd-bLE3fBxgqVLFBa6_CC7c7Nj94hmGnH-X8cqr2hrpa_OXAN-hUhS24OCMC_bLNnWdAmcFXpmwEttFEccy2ld-jV-db2I-zCio=w408-h544-k-no',
       distance: 'Santa Cruz',
       hostTip: 'A fascinating look into the industrial past of the island.',
       mapUrl: 'https://www.google.com/maps/place/F%C3%A1brica+da+Baleia+do+Boqueir%C3%A3o/@39.4630269,-31.129927,17z/data=!3m1!4b1!4m6!3m5!1s0xb3224341624d703:0xd41180b710127ed!8m2!3d39.4630269!4d-31.129927!16s%2Fg%2F121tb_3g!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -772,7 +772,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'beach',
       title: 'Zona Balnear da Fajã Grande',
       description: 'Popular bathing area with ocean access and stunning views of the waterfalls and cliffs.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSw3XcnsiRDVfbuZOGJnyHBNCgZO2_YD5dE8CFqsgHY1CadI2hcjwCY3-dhh_CsC30MUMa7IXeKSgVAUG8mWaN5CHFngHY3ejebfV8TfNJz33dFW40xrmB7NQ7Z0rzhpAmNow3HFbw5f97E=w408-h306-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAwep1DN1FL9v25a6V4scaX6GOCToY-RzOb8nvzw969knNJ93-fTKNzdEmcOiBUAikfdnQ3tj7iHVkJhtPs2GcjvDaOyIyQD8jC1enl2fEwxPimgsJ9JFt23Y84_tXfq7m1ZVvQfdg8IP1UJM=w408-h306-k-no',
       distance: 'Fajã Grande',
       hostTip: 'Sunset here is spectacular.',
       mapUrl: 'https://www.google.com/maps?q=Zona+Balnear+da+Faj%C3%A3+Grande,+Ilha+das,+Faj%C3%A3+Grande,+Portugal&ftid=0xb32229df72552db:0x97628170b7feba2d&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAINeCAypRLDk0Mjk3Njk1LDk0Mjc1NDE1LDk0Mjg0NDk5LDk0MjMxMTg4LDk0MjgwNTY4LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDk0Mjg2ODY5QgJHQg%3D%3D&skid=60da92c2-a7db-4240-be26-4b2030030197&g_st=ipc'
@@ -1772,7 +1772,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'beach',
       title: 'Zona Balnear da Fajã Grande',
       description: 'Zona balnear popular com acesso ao oceano e vistas deslumbrantes das cascatas e falésias.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSw3XcnsiRDVfbuZOGJnyHBNCgZO2_YD5dE8CFqsgHY1CadI2hcjwCY3-dhh_CsC30MUMa7IXeKSgVAUG8mWaN5CHFngHY3ejebfV8TfNJz33dFW40xrmB7NQ7Z0rzhpAmNow3HFbw5f97E=w408-h306-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAwep1DN1FL9v25a6V4scaX6GOCToY-RzOb8nvzw969knNJ93-fTKNzdEmcOiBUAikfdnQ3tj7iHVkJhtPs2GcjvDaOyIyQD8jC1enl2fEwxPimgsJ9JFt23Y84_tXfq7m1ZVvQfdg8IP1UJM=w408-h306-k-no',
       distance: 'Fajã Grande',
       hostTip: 'O pôr do sol aqui é espetacular.',
       mapUrl: 'https://www.google.com/maps?q=Zona+Balnear+da+Faj%C3%A3+Grande,+Ilha+das,+Faj%C3%A3+Grande,+Portugal&ftid=0xb32229df72552db:0x97628170b7feba2d&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAINeCAypRLDk0Mjk3Njk1LDk0Mjc1NDE1LDk0Mjg0NDk5LDk0MjMxMTg4LDk0MjgwNTY4LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDk0Mjg2ODY5QgJHQg%3D%3D&skid=60da92c2-a7db-4240-be26-4b2030030197&g_st=ipc'
