@@ -129,7 +129,7 @@ export const TRANSLATIONS: Record<'en' | 'pt', TranslationContent> = {
       },
       actions: {
         call: 'Call',
-        directions: 'Get directions',
+        directions: 'Get Directions',
         website: 'Visit',
         whatsapp: 'WhatsApp',
         copy: 'Copy Address',
