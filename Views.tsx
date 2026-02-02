@@ -625,9 +625,20 @@ export const InfoView: React.FC<InfoViewProps> = ({ t }) => {
                   </a>
                 </div>
 
-                <p className="text-stone-600 text-sm leading-relaxed mb-1">
+                <p className="text-stone-600 text-sm leading-relaxed mb-4">
                   {item.address}
                 </p>
+
+                {/* Action Button */}
+                <a
+                  href={item.mapUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full py-2.5 bg-navy-900 hover:bg-navy-800 text-white text-sm font-semibold rounded-lg transition-colors flex items-center justify-center gap-2 shadow-sm"
+                >
+                  <MapPin size={16} />
+                  {t.actions.directions}
+                </a>
               </div>
             </div>
           ))}
