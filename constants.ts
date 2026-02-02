@@ -386,7 +386,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Monte das Cruzes Viewpoint',
       description: 'Offers a complete view over Santa Cruz das Flores, the airport and the ocean.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSy2WZU_Ppp4eWiPd92wD0WNXmsCVrnMsjZm496IzWtIwZ_AGMRxBifQR_m4IApd79UkXQeuBAIlHy54IKGxMsSZWH2gX3ST6rk-pvs_Yz7eigTWFmPMggstxIXSVu752GkuFX6XQQ=w426-h240-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAwer0OWpiOzOLmwYRgBYoUIaPSw_sHIvm-iIJ6gq_SRaSdl13Jc79ZVh54XLJz8dGjjUJgIZMFYMvgWYUsosxxXjZt-_jlcFtU4ZVfLB5W_kavbu-mWonG2akkyfGhTwAqE1Me6hWgQ=w426-h240-k-no',
       distance: 'Santa Cruz',
       hostTip: 'Best spot to see the whole town from above.',
       mapUrl: 'https://www.google.com/maps/place/Miradouro+do+Monte+das+Cruzes/@39.4515429,-31.1363516,17z/data=!3m1!4b1!4m6!3m5!1s0xb32242f5e7b14c9:0x72833a68bb791608!8m2!3d39.4515429!4d-31.1363516!16s%2Fg%2F1225f0hp!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -396,7 +396,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Fajã do Conde Viewpoint',
       description: 'A viewpoint offering views of the rugged coastline and the bay.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyGGoDgIgKKbs34B0H2cdR5_bL_JA8phouqkM7D3u92vshSatL0UHPmSJoAvqW9TuSTn1fk7EuCtOmcqGEqtH5K5lGc30D5Mu1qFejdjDy3HZBWv0nrXMWbKzaNuaIbJadckg=w408-h306-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAwerr63OnAu9eC4Sr_wRCng9d0Qol1IbCHwAxvuO3ildkmwJaq4sgBuvqqfjdcV7W16Xovk2EgygGTsNf7Ycm1wjPWXuxHR7zViAXtiKrgcxdVQtsGlEdv6i6aThKz9FyYwya-g=w408-h306-k-no',
       distance: 'Santa Cruz',
       hostTip: 'A nice quick stop on the coastal road.',
       mapUrl: 'https://www.google.com/maps/place/Miradouro+da+Faj%C3%A3+do+Conde/@39.4397841,-31.1468424,17z/data=!3m1!4b1!4m6!3m5!1s0xb32269f72846233:0x3c82a9ff97178154!8m2!3d39.4397841!4d-31.1468424!16s%2Fg%2F11g8gx_s6j!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -732,7 +732,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'beach',
       title: 'Poça das Salemas',
       description: 'Small hidden natural pool with crystal clear waters, accessible at low tide.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxgU4kkSsNT4FOE13gfQu0JDU8Fhphrhogcgl8NSovgY3NSMb0V8UYAAPsUb5CumUmzXRVs-0h4IhQ38nLNu0ztYjs1Vir_aD-3nsbPPmPRdeBl1cwC28X6xj_Bbu_fyrJtj1eJ=w408-h544-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAweoGkgpQq12i5Qkc0R95gbCsDFg0DeS4LtdSjIMWs5OQzGl_UAj1Ero4EdGk0ay8P4t6NKV1MkTAlIi_Y_MBukY5kpuaGhEDrLsxFs5U-lyKGW5TcMb63hONd4LCq1fA3Wdil9mi=w408-h544-k-no',
       distance: 'Santa Cruz',
       hostTip: 'Best visited during low tide to see the clear colors of the pool.',
       mapUrl: 'https://www.google.com/maps?q=Po%C3%A7a+das+Salemas,+9970-320+Santa+Cruz+das+Flores,+Portugal&ftid=0xb32243362d887f1:0x7844ff3bc034a7b5&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAIIgnKlEsOTQyOTc2OTUsOTQyNzU0MTUsOTQyODQ0OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsOTQyODIxMzQsOTQyODY4NjlCAkdC&skid=ba75130f-bd06-4f99-9907-a836257dc3ea&g_st=ipc'
@@ -844,7 +844,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'snack',
       title: 'Snackbar WRB',
       description: 'A popular spot for substantial snacks and friendly service.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSy25Xg9fkRiGP41Y9xs6RjS_h-eVJ3DGABszR6Z9FykihVfNvBblUeUprDIwutDlb0DxmCzJM8wxgpj0NTNh3HrIisl9w1lBvc0oq54l7utvB8ZtUABTOf7lUeTW2Uj_KzVtg5l=w408-h723-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAweqthadl5Xho3HAYTKO6tQ1DBDfhAtoHvbaxBjaYCcF-oCExtda7Cd68t6gu992tOK-szUlVoTqWbxfgLbxWSC1MsWH69jT-7IDviByzrdRAA3INq2wDXhcoeK3naoPquULXYGab=w408-h723-k-no',
       distance: 'Santa Cruz',
       hostTip: 'Good value for money.',
       mapUrl: 'https://www.google.com/maps/place/Snackbar+WRB/@39.4528608,-31.1282593,17z/data=!3m1!4b1!4m6!3m5!1s0xb322556a06de387:0x11537ec174a1b45!8m2!3d39.4528608!4d-31.1282593!16s%2Fg%2F11s2k8d722!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1143,7 +1143,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Monte das Cruzes Viewpoint',
       description: 'Oferece uma vista completa sobre Santa Cruz das Flores, o aeroporto e o oceano.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSy2WZU_Ppp4eWiPd92wD0WNXmsCVrnMsjZm496IzWtIwZ_AGMRxBifQR_m4IApd79UkXQeuBAIlHy54IKGxMsSZWH2gX3ST6rk-pvs_Yz7eigTWFmPMggstxIXSVu752GkuFX6XQQ=w426-h240-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAwer0OWpiOzOLmwYRgBYoUIaPSw_sHIvm-iIJ6gq_SRaSdl13Jc79ZVh54XLJz8dGjjUJgIZMFYMvgWYUsosxxXjZt-_jlcFtU4ZVfLB5W_kavbu-mWonG2akkyfGhTwAqE1Me6hWgQ=w426-h240-k-no',
       distance: 'Santa Cruz',
       hostTip: 'O melhor local para ver toda a vila de cima.',
       mapUrl: 'https://www.google.com/maps/place/Miradouro+do+Monte+das+Cruzes/@39.4515429,-31.1363516,17z/data=!3m1!4b1!4m6!3m5!1s0xb32242f5e7b14c9:0x72833a68bb791608!8m2!3d39.4515429!4d-31.1363516!16s%2Fg%2F1225f0hp!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1153,7 +1153,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Fajã do Conde Viewpoint',
       description: 'Um miradouro com vistas sobre a costa acidentada e a baía.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyGGoDgIgKKbs34B0H2cdR5_bL_JA8phouqkM7D3u92vshSatL0UHPmSJoAvqW9TuSTn1fk7EuCtOmcqGEqtH5K5lGc30D5Mu1qFejdjDy3HZBWv0nrXMWbKzaNuaIbJadckg=w408-h306-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAwerr63OnAu9eC4Sr_wRCng9d0Qol1IbCHwAxvuO3ildkmwJaq4sgBuvqqfjdcV7W16Xovk2EgygGTsNf7Ycm1wjPWXuxHR7zViAXtiKrgcxdVQtsGlEdv6i6aThKz9FyYwya-g=w408-h306-k-no',
       distance: 'Santa Cruz',
       hostTip: 'Uma paragem rápida e agradável na estrada costeira.',
       mapUrl: 'https://www.google.com/maps/place/Miradouro+da+Faj%C3%A3+do+Conde/@39.4397841,-31.1468424,17z/data=!3m1!4b1!4m6!3m5!1s0xb32269f72846233:0x3c82a9ff97178154!8m2!3d39.4397841!4d-31.1468424!16s%2Fg%2F11g8gx_s6j!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1558,7 +1558,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'snack',
       title: 'Snackbar WRB',
       description: 'Um local popular para lanches substanciais e serviço amigável.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSy25Xg9fkRiGP41Y9xs6RjS_h-eVJ3DGABszR6Z9FykihVfNvBblUeUprDIwutDlb0DxmCzJM8wxgpj0NTNh3HrIisl9w1lBvc0oq54l7utvB8ZtUABTOf7lUeTW2Uj_KzVtg5l=w408-h723-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAweqthadl5Xho3HAYTKO6tQ1DBDfhAtoHvbaxBjaYCcF-oCExtda7Cd68t6gu992tOK-szUlVoTqWbxfgLbxWSC1MsWH69jT-7IDviByzrdRAA3INq2wDXhcoeK3naoPquULXYGab=w408-h723-k-no',
       distance: 'Santa Cruz',
       hostTip: 'Boa relação qualidade/preço.',
       mapUrl: 'https://www.google.com/maps/place/Snackbar+WRB/@39.4528608,-31.1282593,17z/data=!3m1!4b1!4m6!3m5!1s0xb322556a06de387:0x11537ec174a1b45!8m2!3d39.4528608!4d-31.1282593!16s%2Fg%2F11s2k8d722!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1732,7 +1732,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'beach',
       title: 'Poça das Salemas',
       description: 'Pequena piscina natural escondida com águas cristalinas, acessível na maré baixa.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxgU4kkSsNT4FOE13gfQu0JDU8Fhphrhogcgl8NSovgY3NSMb0V8UYAAPsUb5CumUmzXRVs-0h4IhQ38nLNu0ztYjs1Vir_aD-3nsbPPmPRdeBl1cwC28X6xj_Bbu_fyrJtj1eJ=w408-h544-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAweoGkgpQq12i5Qkc0R95gbCsDFg0DeS4LtdSjIMWs5OQzGl_UAj1Ero4EdGk0ay8P4t6NKV1MkTAlIi_Y_MBukY5kpuaGhEDrLsxFs5U-lyKGW5TcMb63hONd4LCq1fA3Wdil9mi=w408-h544-k-no',
       distance: 'Santa Cruz',
       hostTip: 'Melhor visitar durante a maré baixa para ver as cores claras da piscina.',
       mapUrl: 'https://www.google.com/maps?q=Po%C3%A7a+das+Salemas,+9970-320+Santa+Cruz+das+Flores,+Portugal&ftid=0xb32243362d887f1:0x7844ff3bc034a7b5&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAIIgnKlEsOTQyOTc2OTUsOTQyNzU0MTUsOTQyODQ0OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsOTQyODIxMzQsOTQyODY4NjlCAkdC&skid=ba75130f-bd06-4f99-9907-a836257dc3ea&g_st=ipc'
