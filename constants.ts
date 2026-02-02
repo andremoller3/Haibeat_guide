@@ -276,7 +276,7 @@ export const HOUSE_GUIDE_DATA: Record<'en' | 'pt', HouseGuideData> = {
         }
       ],
       notes: [
-        'Please gently rinse sand off feet before entering the house.'
+        '(1) Alternatively, it can be placed in the living room or bedrooms of the house or apartment.'
       ]
     },
     waste: [
@@ -335,7 +335,7 @@ export const HOUSE_GUIDE_DATA: Record<'en' | 'pt', HouseGuideData> = {
         }
       ],
       notes: [
-        'Por favor, retire a areia dos pés antes de entrar em casa.'
+        '(1) Alternativamente, pode ser colocada na sala ou nos quartos da moradia ou apartamento.'
       ]
     },
     waste: [
