@@ -249,9 +249,33 @@ export const HOUSE_GUIDE_DATA: Record<'en' | 'pt', HouseGuideData> = {
     cleaning: {
       title: 'Cleaning & Linen Policy',
       policy: 'We maintain high hygiene standards for your comfort.',
+      schedules: [
+        {
+          title: 'General Cleaning',
+          frequency: [
+            'At least twice a week',
+            'Whenever requested by guest',
+            'Upon guest change'
+          ]
+        },
+        {
+          title: 'Bed Linen',
+          frequency: [
+            'At least once a week',
+            'Whenever requested by guest',
+            'Upon guest change'
+          ]
+        },
+        {
+          title: 'Towels',
+          frequency: [
+            'At least twice a week',
+            'Whenever requested by guest',
+            'Upon guest change'
+          ]
+        }
+      ],
       notes: [
-        'Fresh towels provided on arrival.',
-        'For stays longer than 7 days, towels and bed linen are changed mid-stay.',
         'Please gently rinse sand off feet before entering the house.'
       ]
     },
@@ -282,11 +306,35 @@ export const HOUSE_GUIDE_DATA: Record<'en' | 'pt', HouseGuideData> = {
       { id: 'washer', name: 'Máquina Lavar/Secar', iconName: 'Droplets', instruction: 'Pressione o botão azul "Push&Go" 2 seg para ciclo auto Lavar+Secar.' },
     ],
     cleaning: {
-      title: 'Limpeza e Roupa',
+      title: 'Arrumpação e Limpeza',
       policy: 'Mantemos elevados padrões de higiene para o seu conforto.',
+      schedules: [
+        {
+          title: 'Limpeza Geral',
+          frequency: [
+            'Pelo menos duas vezes por semana',
+            'Sempre que o hóspede o solicite',
+            'Sempre que haja mudança de hóspede'
+          ]
+        },
+        {
+          title: 'Roupas de Cama',
+          frequency: [
+            'Pelo menos uma vez por semana',
+            'Sempre que o hóspede o solicite',
+            'Sempre que haja mudança de hóspede'
+          ]
+        },
+        {
+          title: 'Atoalhados',
+          frequency: [
+            'Pelo menos duas vezes por semana',
+            'Sempre que o hóspede o solicite',
+            'Sempre que haja mudança de hóspede'
+          ]
+        }
+      ],
       notes: [
-        'Toalhas limpas fornecidas à chegada.',
-        'Para estadias superiores a 7 dias, toalhas e lençóis são trocados a meio da estadia.',
         'Por favor, retire a areia dos pés antes de entrar em casa.'
       ]
     },

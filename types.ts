@@ -116,11 +116,17 @@ export interface GalleryItem {
   imageUrls: string[];
 }
 
+export interface CleaningItem {
+  title: string;
+  frequency: string[];
+}
+
 export interface HouseGuideData {
   appliances: Appliance[];
   cleaning: {
     title: string;
     policy: string;
+    schedules: CleaningItem[];
     notes: string[];
   };
   waste: WasteCategory[];

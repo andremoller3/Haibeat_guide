@@ -188,26 +188,53 @@ export const HouseGuideView: React.FC<HouseGuideViewProps> = ({ t, lang }) => {
 
         {/* Cleaning Tab */}
         {activeTab === 'cleaning' && (
-          <div className="bg-white border border-teal-100 rounded-xl p-6 shadow-sm animate-fade-in">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="bg-teal-50 text-teal-600 p-2 rounded-lg">
-                <Sparkles size={24} />
+          <div className="space-y-4 animate-fade-in">
+            {/* Header Card */}
+            <div className="bg-white border border-teal-100 rounded-xl p-5 shadow-sm">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="bg-teal-50 text-teal-600 p-2 rounded-lg">
+                  <Sparkles size={20} />
+                </div>
+                <h3 className="text-lg font-bold text-navy-900">{data.cleaning.title}</h3>
               </div>
-              <h3 className="text-lg font-bold text-navy-900">{data.cleaning.title}</h3>
+              <p className="text-stone-600 text-sm leading-relaxed border-l-4 border-teal-300 pl-3 italic">
+                {data.cleaning.policy}
+              </p>
             </div>
 
-            <p className="text-navy-700 mb-6 italic border-l-4 border-teal-300 pl-4 py-1">
-              {data.cleaning.policy}
-            </p>
-
-            <ul className="space-y-3">
-              {data.cleaning.notes.map((note, idx) => (
-                <li key={idx} className="flex gap-3 text-sm text-stone-700">
-                  <div className="min-w-[6px] h-[6px] rounded-full bg-teal-400 mt-2" />
-                  <span>{note}</span>
-                </li>
+            {/* Schedules Grid */}
+            <div className="grid grid-cols-1 gap-3">
+              {data.cleaning.schedules.map((schedule, idx) => (
+                <div key={idx} className="bg-white border border-stone-100 rounded-xl p-4 shadow-sm">
+                  <h4 className="font-bold text-navy-800 mb-3 flex items-center gap-2">
+                    <div className="w-2 h-2 rounded-full bg-teal-500"></div>
+                    {schedule.title}
+                  </h4>
+                  <ul className="space-y-2 pl-1">
+                    {schedule.frequency.map((item, i) => (
+                      <li key={i} className="text-sm text-stone-600 flex items-start gap-2">
+                        <span className="text-stone-300 font-bold">•</span>
+                        <span className="leading-snug">{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               ))}
-            </ul>
+            </div>
+
+            {/* Notes */}
+            {data.cleaning.notes.length > 0 && (
+              <div className="bg-teal-50/50 border border-teal-100 rounded-xl p-4">
+                <ul className="space-y-2">
+                  {data.cleaning.notes.map((note, idx) => (
+                    <li key={idx} className="flex gap-2 text-xs font-medium text-teal-800">
+                      <Sparkles size={14} className="shrink-0 mt-0.5" />
+                      <span>{note}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
         )}
 
