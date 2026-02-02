@@ -968,7 +968,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'park',
       title: 'Parque Infantil do Altio',
       description: 'Located next to the campsite, offering ample green space and leisure equipment.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzOGd2KGzz_0dh0nGzeR1IpwDeVUYWWe6uaRyxRF8XUzGd08YUbWFmokg-I5KlHp3i9bTMoXeY04OV1E137Iy8jP8q1w2PdYXwCJeYr1Ic0dvjYl3Kf4qT8O8oJ8RFsGpRJefh0AhxY_TE=w426-h240-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAweq7Li9DgzS4bspfO9Q2wwlmuBTrjRZ0VZe6lkrwSG63an9_u53tzdkAnwgbaLZnaTvXZHXKzsVuk6l0B8buYMib6qu_XtBoqKOvEA89-Gsp0UAcBTT7jz9qSXJY0LgCSIalBygImw7BMIA=w426-h240-k-no',
       distance: '10 min walk',
       hostTip: 'Great for a picnic or playing in a quiet green space.',
       mapUrl: 'https://www.google.com/maps/place/Parque+Infantil+do+Altio+(Parque+de+Campismo+e+lazer)/@39.4580202,-31.1268106,17z/data=!3m1!4b1!4m6!3m5!1s0xb3225006fc83d07:0x5e5f2bd02b05bf2c!8m2!3d39.4580202!4d-31.1268106!16s%2Fg%2F11vpzgky2y!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -978,7 +978,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'park',
       title: 'Parque Infantil Teófilo Ferreira',
       description: 'A central park perfect for a quick stop while exploring the town.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxsJ7-Yt8ZtZEidGkjnhqjAiTRsN5YBt-ix7lphhZquWXF4OY2CTpQJbJFhhwKuXY2Lw8gBjmcOBi-BMG30Sg1vP35UsUQ_vHOzsXDjILqCZ_hDa03xsx-4eMSp6TuoAPM-wjv_=w426-h240-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAwep8ctVRM7lM0k2Wwa_vrKEDJD5Gs8riObwzafzmWeoDhzE0Lsqg6eM05L0smedcuPHToIRctcaOgbnsu0vLbsBvK7mg1qxKc6zKRu1vhp9j7vRnA-W_vcWCOm_z42Ts1oc9LcwS=w426-h240-k-no',
       distance: 'Center',
       hostTip: 'Conveniently located near cafes and the seafront.',
       mapUrl: 'https://www.google.com/maps/place/Parque+Infantil+Te%C3%B3filo+Ferreira/@39.4513482,-31.1281262,17z/data=!3m1!4b1!4m6!3m5!1s0xb32242ba7706485:0x7bf09d6e0f81ad4d!8m2!3d39.4513482!4d-31.1281262!16s%2Fg%2F11dzdbg588!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1824,7 +1824,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'park',
       title: 'Parque Infantil do Altio',
       description: 'Localizado ao lado do parque de campismo, oferecendo amplo espaço verde e equipamentos de lazer.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzOGd2KGzz_0dh0nGzeR1IpwDeVUYWWe6uaRyxRF8XUzGd08YUbWFmokg-I5KlHp3i9bTMoXeY04OV1E137Iy8jP8q1w2PdYXwCJeYr1Ic0dvjYl3Kf4qT8O8oJ8RFsGpRJefh0AhxY_TE=w426-h240-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAweq7Li9DgzS4bspfO9Q2wwlmuBTrjRZ0VZe6lkrwSG63an9_u53tzdkAnwgbaLZnaTvXZHXKzsVuk6l0B8buYMib6qu_XtBoqKOvEA89-Gsp0UAcBTT7jz9qSXJY0LgCSIalBygImw7BMIA=w426-h240-k-no',
       distance: '10 min a pé',
       hostTip: 'Ótimo para um piquenique ou brincar num espaço verde tranquilo.',
       mapUrl: 'https://www.google.com/maps/place/Parque+Infantil+do+Altio+(Parque+de+Campismo+e+lazer)/@39.4580202,-31.1268106,17z/data=!3m1!4b1!4m6!3m5!1s0xb3225006fc83d07:0x5e5f2bd02b05bf2c!8m2!3d39.4580202!4d-31.1268106!16s%2Fg%2F11vpzgky2y!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1834,7 +1834,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'park',
       title: 'Parque Infantil Teófilo Ferreira',
       description: 'Um parque central perfeito para uma paragem rápida enquanto explora a vila.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxsJ7-Yt8ZtZEidGkjnhqjAiTRsN5YBt-ix7lphhZquWXF4OY2CTpQJbJFhhwKuXY2Lw8gBjmcOBi-BMG30Sg1vP35UsUQ_vHOzsXDjILqCZ_hDa03xsx-4eMSp6TuoAPM-wjv_=w426-h240-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAwep8ctVRM7lM0k2Wwa_vrKEDJD5Gs8riObwzafzmWeoDhzE0Lsqg6eM05L0smedcuPHToIRctcaOgbnsu0vLbsBvK7mg1qxKc6zKRu1vhp9j7vRnA-W_vcWCOm_z42Ts1oc9LcwS=w426-h240-k-no',
       distance: 'Centro',
       hostTip: 'Convenientemente localizado perto de cafés e da beira-mar.',
       mapUrl: 'https://www.google.com/maps/place/Parque+Infantil+Te%C3%B3filo+Ferreira/@39.4513482,-31.1281262,17z/data=!3m1!4b1!4m6!3m5!1s0xb32242ba7706485:0x7bf09d6e0f81ad4d!8m2!3d39.4513482!4d-31.1281262!16s%2Fg%2F11dzdbg588!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
