@@ -406,7 +406,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Rocha dos Frades Viewpoint',
       description: 'View of an imposing rock formation rising from the sea.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwU50B95oApVXXFb8QAf2rq4e9R1A6jHtxzF16hVJUSxy3zmaMQ5TR9nUN5pri4wtEP3F-WuvAwloZ6eKr2_s337_67cXpH91pl2Je4lVSj0dc-dfd765qTJOsoQk12j2pVNZg=w408-h510-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAweq6daZrd9QFK4SKF35oDPm12z_nOQ4TbmIE_ilbxNNGFurWCbrmybglSCKprSWzRQN5_Lyaon2c_vBDtfyFluWkewOPoGc7uhY-9nU3rKycqWJfVpr7GclNbjBNH0rsz9fY0lE=w408-h510-k-no',
       distance: 'Lajes',
       hostTip: 'Impressive geological feature.',
       mapUrl: 'https://www.google.com/maps/place/Rocha+dos+Frades/@39.379941,-31.2127704,17z/data=!3m1!4b1!4m6!3m5!1s0xb32218d7cd36f41:0xf72a858679de26a9!8m2!3d39.379941!4d-31.2127704!16s%2Fg%2F11s56sn93s!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -416,7 +416,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Água Quente - Costa do Lajedo',
       description: 'A coastal spot known for its thermal springs and rugged beauty.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxe6a5dluedOel5DaWsl7GUAVwGcrBNLgC5oN6uJb_R2EtJZrZpwQuaSNVetIqXVgWj4dA5xIkUg0RrSEOkYlJYRvoA6AFVD9vVaNSVGaPIBEMBd6N8DMtqOsp5FfptGDV5kXLs=w408-h544-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAwepneZx2_Ps5OZvW522giaExUW9emUTcySkUTwW8-4vq18pBKPjt4Tqdp8xO8oq_AIurHskDJw_mwt806An1h2-eZMmwgMA6F9ccyL-QEcBNqBJfQX346Qd-r2_SGULqK-aLHNPb=w408-h544-k-no',
       distance: 'Lajedo',
       hostTip: 'Explore the unique coastal landscape here.',
       mapUrl: 'https://www.google.com/maps/place/%C3%81gua+Quente+-+Costa+do+Lajedo/@39.3764219,-31.2489338,17z/data=!3m1!4b1!4m6!3m5!1s0xb3221ca468d50a3:0x6bd6ea5c42b3275d!8m2!3d39.3764219!4d-31.2489338!16s%2Fg%2F11ghvbv0hg!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -426,7 +426,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Rocha dos Bordões',
       description: 'The famous vertical basalt columns, a geological wonder of the Azores.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzcu47hgWDCglMTaUAnTBGZf1FtOkThKLfklVS_BFWpif_T8HCcDN3Clf0Alg3QqpaDPdShXUC_WgyaO9SYyNX3xqx2Gc9QdE8AD2Lrc6S084o8LlcMIrTQMxAI5EbXu9huZxY9=w408-h306-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAweoMHNjv1ZWBD9dbV4JtLEKNATCWbxv8pPv_A1r5XtdSluYjj1LU_JuGabWVzOX-uzzQ6NexwV8_AYod8T7bgyOd5x3C9rd5sfC0zCt8a_mmnPDbCmD3fCHsQWn-TfdWN4fbow0n=w408-h306-k-no',
       distance: 'Mosteiro',
       hostTip: 'Iconic spot, looks great in the afternoon light.',
       mapUrl: 'https://www.google.com/maps/place/Rocha+dos+Bord%C3%B5es/@39.4059424,-31.2412996,17z/data=!3m1!4b1!4m6!3m5!1s0xb3221f297bb0f6f:0x52091192af853f6!8m2!3d39.4059424!4d-31.2412996!16s%2Fg%2F1226y7h6!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -436,7 +436,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Miradouro Raul Brandão',
       description: 'Overlooking Fajã Grande and the western ocean.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwa_TmThZCCIDkwi152cvt3qQhEn_a4xtXLkcwrHBHncyWeOooAJFnGSRKDKdyt8xnVlepRYVuBT1uidF2GLlC_Xey-EpbvTNubLxktupMrjbizrRF29mSbQ9xVlqWI6BtW-2Y=w408-h271-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAweqDAkXGhuhIJ_dto88Aj7WiYnW0to9-kh3GnmcYWbvoUxvumYePcfgep4onwkCrUcDL3k56lQV0HBDfnUME6KX-h737wd0zFK1dLpvVbgbgA0iwFD873FRZMkRVs29EHjp_JGc=w408-h271-k-no',
       distance: 'Fajã Grande',
       hostTip: 'Named after the famous Portuguese writer.',
       mapUrl: 'https://www.google.com/maps/place/Miradouro+Raul+Brand%C3%A3o/@39.4532163,-31.2557984,17z/data=!3m1!4b1!4m6!3m5!1s0xb32239967588f99:0x1749ecb0bd649006!8m2!3d39.4532163!4d-31.2557984!16s%2Fg%2F11t13_53sj!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1163,7 +1163,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Rocha dos Frades Viewpoint',
       description: 'Vista de uma imponente formação rochosa que se ergue do mar.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwU50B95oApVXXFb8QAf2rq4e9R1A6jHtxzF16hVJUSxy3zmaMQ5TR9nUN5pri4wtEP3F-WuvAwloZ6eKr2_s337_67cXpH91pl2Je4lVSj0dc-dfd765qTJOsoQk12j2pVNZg=w408-h510-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAweq6daZrd9QFK4SKF35oDPm12z_nOQ4TbmIE_ilbxNNGFurWCbrmybglSCKprSWzRQN5_Lyaon2c_vBDtfyFluWkewOPoGc7uhY-9nU3rKycqWJfVpr7GclNbjBNH0rsz9fY0lE=w408-h510-k-no',
       distance: 'Lajes',
       hostTip: 'Recurso geológico impressionante.',
       mapUrl: 'https://www.google.com/maps/place/Rocha+dos+Frades/@39.379941,-31.2127704,17z/data=!3m1!4b1!4m6!3m5!1s0xb32218d7cd36f41:0xf72a858679de26a9!8m2!3d39.379941!4d-31.2127704!16s%2Fg%2F11s56sn93s!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1173,7 +1173,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Água Quente - Costa do Lajedo',
       description: 'Um local costeiro conhecido pelas suas águas termais e beleza acidentada.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxe6a5dluedOel5DaWsl7GUAVwGcrBNLgC5oN6uJb_R2EtJZrZpwQuaSNVetIqXVgWj4dA5xIkUg0RrSEOkYlJYRvoA6AFVD9vVaNSVGaPIBEMBd6N8DMtqOsp5FfptGDV5kXLs=w408-h544-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAwepneZx2_Ps5OZvW522giaExUW9emUTcySkUTwW8-4vq18pBKPjt4Tqdp8xO8oq_AIurHskDJw_mwt806An1h2-eZMmwgMA6F9ccyL-QEcBNqBJfQX346Qd-r2_SGULqK-aLHNPb=w408-h544-k-no',
       distance: 'Lajedo',
       hostTip: 'Explore a paisagem costeira única aqui.',
       mapUrl: 'https://www.google.com/maps/place/%C3%81gua+Quente+-+Costa+do+Lajedo/@39.3764219,-31.2489338,17z/data=!3m1!4b1!4m6!3m5!1s0xb3221ca468d50a3:0x6bd6ea5c42b3275d!8m2!3d39.3764219!4d-31.2489338!16s%2Fg%2F11ghvbv0hg!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1183,7 +1183,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Rocha dos Bordões',
       description: 'As famosas colunas verticais de basalto, uma maravilha geológica dos Açores.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzcu47hgWDCglMTaUAnTBGZf1FtOkThKLfklVS_BFWpif_T8HCcDN3Clf0Alg3QqpaDPdShXUC_WgyaO9SYyNX3xqx2Gc9QdE8AD2Lrc6S084o8LlcMIrTQMxAI5EbXu9huZxY9=w408-h306-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAweoMHNjv1ZWBD9dbV4JtLEKNATCWbxv8pPv_A1r5XtdSluYjj1LU_JuGabWVzOX-uzzQ6NexwV8_AYod8T7bgyOd5x3C9rd5sfC0zCt8a_mmnPDbCmD3fCHsQWn-TfdWN4fbow0n=w408-h306-k-no',
       distance: 'Mosteiro',
       hostTip: 'Local icónico, ótimo à tarde com a luz do sol.',
       mapUrl: 'https://www.google.com/maps/place/Rocha+dos+Bord%C3%B5es/@39.4059424,-31.2412996,17z/data=!3m1!4b1!4m6!3m5!1s0xb3221f297bb0f6f:0x52091192af853f6!8m2!3d39.4059424!4d-31.2412996!16s%2Fg%2F1226y7h6!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1193,7 +1193,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Miradouro Raul Brandão',
       description: 'Com vista para a Fajã Grande e o oceano ocidental.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwa_TmThZCCIDkwi152cvt3qQhEn_a4xtXLkcwrHBHncyWeOooAJFnGSRKDKdyt8xnVlepRYVuBT1uidF2GLlC_Xey-EpbvTNubLxktupMrjbizrRF29mSbQ9xVlqWI6BtW-2Y=w408-h271-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAweqDAkXGhuhIJ_dto88Aj7WiYnW0to9-kh3GnmcYWbvoUxvumYePcfgep4onwkCrUcDL3k56lQV0HBDfnUME6KX-h737wd0zFK1dLpvVbgbgA0iwFD873FRZMkRVs29EHjp_JGc=w408-h271-k-no',
       distance: 'Fajã Grande',
       hostTip: 'Nomeado em homenagem ao famoso escritor português.',
       mapUrl: 'https://www.google.com/maps/place/Miradouro+Raul+Brand%C3%A3o/@39.4532163,-31.2557984,17z/data=!3m1!4b1!4m6!3m5!1s0xb32239967588f99:0x1749ecb0bd649006!8m2!3d39.4532163!4d-31.2557984!16s%2Fg%2F11t13_53sj!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
