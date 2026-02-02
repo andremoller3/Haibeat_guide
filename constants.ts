@@ -466,7 +466,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Miradouro Porto e Baía Ponta Delgada',
       description: 'Scenic view over the northern port and bay.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSw6cnSpxc0oeNNSxQcOksezDhr5tPXqunVEfSEB2-Mzug1-8ieumMZt5AeKoU63JUtFrRcRtUZu53bzq2IFFXDA7QFM4goUdxwn91w_TQ6nYvf5wbzfknXdpB86IYGmiQstICjr=w408-h306-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAweoT3AQUQtltiatAYNpWHXb7aB4yT9RiAo7xKbU7UyfI96DuMynusDjXE8weC0OtWofzap6bTOl8pZcsejolI0yNK-npH9bfIQjno5n0Xk1JflYKmTMw8MfA_y8CtEBzJX5zRaxp=w408-h306-k-no',
       distance: 'Ponta Delgada',
       hostTip: 'A lovely view of the northern coast.',
       mapUrl: 'https://www.google.com/maps/place/Miradouro+sobre+o+Porto+e+Ba%C3%ADa+de+Ponta+Delgada/@39.5201155,-31.2078181,17z/data=!3m1!4b1!4m6!3m5!1s0xb323ce7af42ed9d:0xd02f72cdbfc8ad2f!8m2!3d39.5201155!4d-31.2078181!16s%2Fg%2F11g9vn2j3y!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -476,7 +476,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Miradouro de Ponta Delgada',
       description: 'Overlooking the village of Ponta Delgada.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx96MoBFoTxlCawD4i9djtFYijvhai7CcKj31BUEDkX_N137DYYk8p2JxW896dTRoh5tidG8t7WVHA0f4OiuAL1O6HZi_kUx3PYnJCeSSOFyjCRz2YhsyBuB3PdilyV7fflVzsuXqo19L8Q=w408-h544-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAweoi-tapA6SK6rIclx-cbiKKqxYCH5eFGftWaj46FYozo3-07hxUJ_Q6kaHWuHGC4HnHuTVvXGmwJBbvB19vAOcjeUsshQO_ETuAOCvFlS2Z8DDyFa7A9dvZslpmZJEY4KvvQPHUIJLtvig-=w408-h544-k-no',
       distance: 'Ponta Delgada',
       hostTip: 'Great perspective of the northern village.',
       mapUrl: 'https://www.google.com/maps/place/Miradouro+de+Ponta+Delgada/@39.5069145,-31.2167686,17z/data=!3m1!4b1!4m6!3m5!1s0xb323d355c4c41d1:0xb756d28b30c3940f!8m2!3d39.5069145!4d-31.2167686!16s%2Fg%2F11qhgcpnqz!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -496,7 +496,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Miradouro dos Caimbros',
       description: 'View over the northeast coast and the sea.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSymisvq-WDlkqdmSKDlPckXQ7LJAU618jEiPhdnz-18BnN1PpA-yva1pXzjQb9qAASgC3COxq9TkQFd_Y4tFoQ7uzVSy1gIMJeMrGq3TABFghYW5Zw6uYiMCQYCyXRvpvbgIkAxLkNJm22f=w408-h306-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAwep_0ZeL_5z_KQc5lwP8rPnXdkVFwmNZdn-pPJ33jVHgo-iod4aTFMg0EWklAG2Ds4vAHBraka9yarNlQJkPvPrknDh-C1ylkAmJm07rNAnKhXiOEJLNW_7N31fIae6IpBKtPCp4-yHy1HA3=w408-h306-k-no',
       distance: 'Cedros',
       hostTip: 'Beautiful coastal views.',
       mapUrl: 'https://www.google.com/maps/place/Miradouro+dos+Caimbros/@39.4722134,-31.1469764,17z/data=!3m1!4b1!4m6!3m5!1s0xb32254178115c5f:0x75911aa589c5301e!8m2!3d39.4722134!4d-31.1469764!16s%2Fg%2F11jmwgsl2r!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -506,7 +506,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Miradouro Craveiro Lopes',
       description: 'Surrounded by hydrangeas with deep valley views.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxIemEf2yeOEJ3ikBdO0Tg0IpIVq5YkMNM3O7yxvxIptXI7Va1TjDVjE_fura2Ru7PtK3RdkzrPna_wzN1vCFVmal1NU7DEqGXtiuTYuevjuLrKLZQt0t1mHGWNXyXAdOrKH8fROY8l7nno=w408-h306-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAweoU6U8C5gK_Ox4l_5erqFWURR5zHuZeln6CnC9iRKpot6dVceCgkVbIMf1L3jqKtpsHrw3PUM7g3CSa2bCfV-Qusb7ptz5m_peSXp-rea7RcJm8yFxnV6OnHSxRz-90j2wnZjea9zr_rNR5=w408-h306-k-no',
       distance: 'Flores',
       hostTip: 'A classic viewpoint often surrounded by flowers.',
       mapUrl: 'https://www.google.com/maps/place/Miradouro+Craveiro+Lopes/@39.4264449,-31.2383823,17z/data=!3m1!4b1!4m6!3m5!1s0xb3223c09d02b631:0x2514eab45f603c9e!8m2!3d39.4264449!4d-31.2383823!16s%2Fg%2F11rbf_505m!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
