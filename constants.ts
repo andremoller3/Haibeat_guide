@@ -1020,7 +1020,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'eat',
       title: 'Restaurante Pôr-do-Sol',
       description: 'Legendary sunset view. Most ordered: Grilled Limpets, Seaweed Tart, and Blood Sausage with Yam and Sweet Potato.',
-      imageUrl: 'https://images.unsplash.com/photo-1536431311719-398b6704d4cc?auto=format&fit=crop&q=80&w=800',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAweqnUFamCxQ2TsyefkQ6BRE0sz8F_CmQSkz6OILZ_XfNMhhsHdPY7pyfL7m2jctJdjzcjiowulGrrM5BpGccs7lSrTgvXhj6dHmzcm8jd8wrZsA7CoGWuk3raFfrXCJO6JzCNgXvPc8PZ-U=w408-h544-k-no',
       distance: '25 min de carro',
       hostTip: 'Taste local delicacies while watching the sun disappear.',
       mapUrl: 'https://www.google.com/maps/place/Restaurante+P%C3%B4r-do-Sol/@39.4361324,-31.2564499,17z/data=!3m1!4b1!4m6!3m5!1s0xb3222712982052d:0x8e58c0df41798f16!8m2!3d39.4361324!4d-31.2564499!16s%2Fg%2F11c2q30fx9!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1110,7 +1110,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'eat',
       title: 'Restaurante "O Forno Transmontano"',
       description: 'Traditional restaurant offering hearty meals and wood-oven specialties.',
-      imageUrl: 'https://images.unsplash.com/photo-1595295333158-4742f28fbd85?auto=format&fit=crop&q=80&w=800',
+      imageUrl: '/images/restaurant_forno.png',
       distance: 'Lajes',
       hostTip: 'Try the roasted meats!',
       mapUrl: 'https://www.google.com/maps/place/Restaurante+%22O+Forno+Transmontano%22/@39.3883899,-31.1925259,11.8z/data=!4m6!3m5!1s0xb322733a0ec1383:0x396e3f5400186aea!8m2!3d39.3861656!4d-31.1681189!16s%2Fg%2F11g9g01_47!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1630,7 +1630,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'eat',
       title: 'Restaurante Pôr-do-Sol',
       description: 'Vista lendária do pôr do sol. Mais pedidos: Lapas Grelhadas, Tarte de Algas e Morcela com Inhame e Batata Doce.',
-      imageUrl: 'https://images.unsplash.com/photo-1536431311719-398b6704d4cc?auto=format&fit=crop&q=80&w=800',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAweqnUFamCxQ2TsyefkQ6BRE0sz8F_CmQSkz6OILZ_XfNMhhsHdPY7pyfL7m2jctJdjzcjiowulGrrM5BpGccs7lSrTgvXhj6dHmzcm8jd8wrZsA7CoGWuk3raFfrXCJO6JzCNgXvPc8PZ-U=w408-h544-k-no',
       distance: '25 min de carro',
       hostTip: 'Prove iguarias locais enquanto vê o sol desaparecer.',
       mapUrl: 'https://www.google.com/maps/place/Restaurante+P%C3%B4r-do-Sol/@39.4361324,-31.2564499,17z/data=!3m1!4b1!4m6!3m5!1s0xb3222712982052d:0x8e58c0df41798f16!8m2!3d39.4361324!4d-31.2564499!16s%2Fg%2F11c2q30fx9!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1720,7 +1720,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'eat',
       title: 'Restaurante "O Forno Transmontano"',
       description: 'Restaurante tradicional que oferece refeições fartas e especialidades em forno de lenha.',
-      imageUrl: 'https://images.unsplash.com/photo-1595295333158-4742f28fbd85?auto=format&fit=crop&q=80&w=800',
+      imageUrl: '/images/restaurant_forno.png',
       distance: 'Lajes',
       hostTip: 'Experimente as carnes assadas!',
       mapUrl: 'https://www.google.com/maps/place/Restaurante+%22O+Forno+Transmontano%22/@39.3883899,-31.1925259,11.8z/data=!4m6!3m5!1s0xb322733a0ec1383:0x396e3f5400186aea!8m2!3d39.3861656!4d-31.1681189!16s%2Fg%2F11g9g01_47!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
