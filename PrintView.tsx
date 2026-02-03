@@ -1,7 +1,8 @@
 import React from 'react';
 import {
     Wifi, Tv, ThermometerSnowflake, Flame, Zap, Droplets, Fan, Coffee,
-    AlertCircle, Utensils, Umbrella, ShoppingCart, Baby, Eye, Landmark, MapPin
+    AlertCircle, Utensils, Umbrella, ShoppingCart, Baby, Eye, Landmark, MapPin,
+    Sparkles, Bus, Car, Fuel, Book
 } from 'lucide-react';
 import { TranslationContent, Language } from './types';
 import { HOUSE_GUIDE_DATA, RECOMMENDATIONS_DATA, PROPERTY_DATA } from './constants';
@@ -220,6 +221,47 @@ export const PrintView: React.FC<PrintViewProps> = ({ t, lang, onBack }) => {
                                                 </div>
                                             </div>
                                         </div>
+
+                                        {/* Cleaning Section */}
+                                        <div className="mt-10 break-inside-avoid">
+                                            <h3 className="font-serif text-xl font-bold text-navy-800 mb-6 flex items-center gap-3">
+                                                <span className="w-8 h-px bg-navy-200"></span>
+                                                {t.house.tabs.cleaning}
+                                            </h3>
+                                            <div className="bg-teal-50/50 border border-teal-100 rounded-xl p-6">
+                                                <div className="flex items-center gap-3 mb-4">
+                                                    <div className="bg-white text-teal-600 p-2 rounded-lg shadow-sm">
+                                                        <Sparkles size={20} />
+                                                    </div>
+                                                    <h4 className="font-bold text-navy-900">{houseData.cleaning.title}</h4>
+                                                </div>
+                                                <p className="text-stone-600 text-sm mb-6 italic">{houseData.cleaning.policy}</p>
+
+                                                <div className="grid grid-cols-3 gap-4 mb-6">
+                                                    {houseData.cleaning.schedules.map((schedule, idx) => (
+                                                        <div key={idx} className="bg-white p-3 rounded-lg border border-teal-50 shadow-sm">
+                                                            <h5 className="font-bold text-teal-800 text-sm mb-2">{schedule.title}</h5>
+                                                            <ul className="space-y-1">
+                                                                {schedule.frequency.map((item, i) => (
+                                                                    <li key={i} className="text-[10px] text-stone-600 leading-tight">• {item}</li>
+                                                                ))}
+                                                            </ul>
+                                                        </div>
+                                                    ))}
+                                                </div>
+
+                                                {houseData.cleaning.notes.length > 0 && (
+                                                    <ul className="space-y-1">
+                                                        {houseData.cleaning.notes.map((note, idx) => (
+                                                            <li key={idx} className="text-xs text-teal-800 flex gap-2">
+                                                                <span>•</span>
+                                                                <span>{note}</span>
+                                                            </li>
+                                                        ))}
+                                                    </ul>
+                                                )}
+                                            </div>
+                                        </div>
                                     </div>
                                 </section>
 
@@ -234,6 +276,7 @@ export const PrintView: React.FC<PrintViewProps> = ({ t, lang, onBack }) => {
 
                                     <div className="grid grid-cols-2 gap-16">
                                         <div className="space-y-8">
+                                            {/* Emergency */}
                                             <div>
                                                 <h3 className="font-bold text-sm uppercase text-stone-400 mb-4 tracking-wider">{t.info.sections.emergency}</h3>
                                                 <div className="space-y-4">
@@ -245,28 +288,98 @@ export const PrintView: React.FC<PrintViewProps> = ({ t, lang, onBack }) => {
                                                         <span className="font-medium text-stone-600">{t.info.items.host}</span>
                                                         <span className="font-bold text-navy-900 text-lg">{propertyData.hostPhone}</span>
                                                     </div>
+                                                </div>
+                                            </div>
 
+                                            {/* Transport */}
+                                            <div>
+                                                <h3 className="font-bold text-sm uppercase text-stone-400 mb-4 tracking-wider">{t.info.sections.transport}</h3>
+                                                <div className="space-y-4">
+                                                    <div>
+                                                        <p className="font-bold text-navy-900 mb-1 flex items-center gap-2">
+                                                            <Bus size={16} className="text-navy-600" />
+                                                            {t.info.items.bus}
+                                                        </p>
+                                                        <p className="text-sm text-stone-600">{t.info.descriptions.bus}</p>
+                                                    </div>
+                                                    <div>
+                                                        <p className="font-bold text-navy-900 mb-1 flex items-center gap-2">
+                                                            <Car size={16} className="text-navy-600" />
+                                                            {t.info.items.parking}
+                                                        </p>
+                                                        <p className="text-sm text-stone-600">{t.info.descriptions.parking}</p>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div>
-                                            <h3 className="font-bold text-sm uppercase text-stone-400 mb-4 tracking-wider">{t.info.sections.health}</h3>
-                                            <div className="space-y-6">
-                                                <div className="break-inside-avoid">
-                                                    <p className="font-bold text-navy-900 mb-1 flex items-center gap-2">
-                                                        <MapPin size={16} className="text-teal-600" />
-                                                        {t.info.items.hospital}
-                                                    </p>
-                                                    <p className="text-lg text-stone-800 mb-1">{propertyData.locations.hospital.name}</p>
-                                                    <p className="text-sm text-stone-500">{propertyData.locations.hospital.address}</p>
+                                        <div className="space-y-8">
+                                            {/* Health */}
+                                            <div>
+                                                <h3 className="font-bold text-sm uppercase text-stone-400 mb-4 tracking-wider">{t.info.sections.health}</h3>
+                                                <div className="space-y-6">
+                                                    <div className="break-inside-avoid">
+                                                        <p className="font-bold text-navy-900 mb-1 flex items-center gap-2">
+                                                            <MapPin size={16} className="text-teal-600" />
+                                                            {t.info.items.hospital}
+                                                        </p>
+                                                        <p className="text-lg text-stone-800 mb-1">{propertyData.locations.hospital.name}</p>
+                                                        <p className="text-sm text-stone-500">{propertyData.locations.hospital.address}</p>
+                                                    </div>
+                                                    <div className="break-inside-avoid">
+                                                        <p className="font-bold text-navy-900 mb-1 flex items-center gap-2">
+                                                            <MapPin size={16} className="text-teal-600" />
+                                                            {t.info.items.pharmacy}
+                                                        </p>
+                                                        {propertyData.locations.pharmacies.map((pharmacy, idx) => (
+                                                            <div key={idx} className="mb-2 last:mb-0">
+                                                                <p className="text-lg text-stone-800">{pharmacy.name}</p>
+                                                                <p className="text-xs text-stone-500">{pharmacy.address}</p>
+                                                            </div>
+                                                        ))}
+                                                    </div>
                                                 </div>
-                                                <div className="break-inside-avoid">
-                                                    <p className="font-bold text-navy-900 mb-1 flex items-center gap-2">
-                                                        <MapPin size={16} className="text-teal-600" />
-                                                        {t.info.items.pharmacy}
-                                                    </p>
-                                                    <p className="text-lg text-stone-800">{propertyData.locations.pharmacies[0].name}</p>
+                                            </div>
+
+                                            {/* Fuel */}
+                                            <div>
+                                                <h3 className="font-bold text-sm uppercase text-stone-400 mb-4 tracking-wider">{t.info.sections.fuel}</h3>
+                                                <div className="space-y-4">
+                                                    <div>
+                                                        <p className="font-bold text-navy-900 mb-2 flex items-center gap-2">
+                                                            <Fuel size={16} className="text-stone-600" />
+                                                            {t.info.items.gasStation}
+                                                        </p>
+                                                        <ul className="text-sm text-stone-600 space-y-1">
+                                                            {propertyData.locations.gasStations.map((station, idx) => (
+                                                                <li key={idx}>• {station.name} ({station.address})</li>
+                                                            ))}
+                                                        </ul>
+                                                    </div>
+                                                    <div>
+                                                        <p className="font-bold text-navy-900 mb-2 flex items-center gap-2">
+                                                            <Zap size={16} className="text-green-600" />
+                                                            {t.info.items.evStation}
+                                                        </p>
+                                                        <ul className="text-sm text-stone-600 space-y-1">
+                                                            {propertyData.locations.evStations.map((station, idx) => (
+                                                                <li key={idx}>• {station.name}</li>
+                                                            ))}
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            {/* Legal */}
+                                            <div className="pt-4 border-t border-stone-100">
+                                                <h3 className="font-bold text-sm uppercase text-stone-400 mb-2 tracking-wider">{t.info.sections.legal}</h3>
+                                                <div className="flex items-center gap-2 text-sm text-stone-600">
+                                                    <Book size={16} className="text-red-400" />
+                                                    <span>{t.info.items.complaints}:</span>
+                                                    <span className="font-mono text-xs">{propertyData.complaintsBookUrl}</span>
+                                                </div>
+                                                <div className="mt-2 text-xs text-stone-400">
+                                                    License: {propertyData.licenseNumber}
                                                 </div>
                                             </div>
                                         </div>
