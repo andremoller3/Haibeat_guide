@@ -157,6 +157,7 @@ export interface LocationInfo {
   address: string;
   mapUrl: string;
   imageUrl?: string;
+  phone?: string;
 }
 
 export interface PropertyData {

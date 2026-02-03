@@ -2,7 +2,7 @@ import React from 'react';
 import {
     Wifi, Tv, ThermometerSnowflake, Flame, Zap, Droplets, Fan, Coffee,
     AlertCircle, Utensils, Umbrella, ShoppingCart, Baby, Eye, Landmark, MapPin,
-    Sparkles, Bus, Car, Fuel, Book
+    Sparkles, Bus, Car, Fuel, Book, Phone
 } from 'lucide-react';
 import { TranslationContent, Language } from './types';
 import { HOUSE_GUIDE_DATA, RECOMMENDATIONS_DATA, PROPERTY_DATA } from './constants';
@@ -327,7 +327,13 @@ export const PrintView: React.FC<PrintViewProps> = ({ t, lang, onBack }) => {
                                                             {t.info.items.hospital}
                                                         </p>
                                                         <p className="text-lg text-stone-800 mb-1">{propertyData.locations.hospital.name}</p>
-                                                        <p className="text-sm text-stone-500">{propertyData.locations.hospital.address}</p>
+                                                        <p className="text-sm text-stone-500 mb-1">{propertyData.locations.hospital.address}</p>
+                                                        {propertyData.locations.hospital.phone && (
+                                                            <div className="flex items-center gap-2 text-sm text-stone-600">
+                                                                <Phone size={14} className="text-teal-600" />
+                                                                <span>{propertyData.locations.hospital.phone}</span>
+                                                            </div>
+                                                        )}
                                                     </div>
                                                     <div className="break-inside-avoid">
                                                         <p className="font-bold text-navy-900 mb-1 flex items-center gap-2">
@@ -337,7 +343,13 @@ export const PrintView: React.FC<PrintViewProps> = ({ t, lang, onBack }) => {
                                                         {propertyData.locations.pharmacies.map((pharmacy, idx) => (
                                                             <div key={idx} className="mb-2 last:mb-0">
                                                                 <p className="text-lg text-stone-800">{pharmacy.name}</p>
-                                                                <p className="text-xs text-stone-500">{pharmacy.address}</p>
+                                                                <p className="text-xs text-stone-500 mb-0.5">{pharmacy.address}</p>
+                                                                {pharmacy.phone && (
+                                                                    <div className="flex items-center gap-2 text-xs text-stone-600">
+                                                                        <Phone size={12} className="text-teal-600" />
+                                                                        <span>{pharmacy.phone}</span>
+                                                                    </div>
+                                                                )}
                                                             </div>
                                                         ))}
                                                     </div>

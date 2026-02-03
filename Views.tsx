@@ -656,6 +656,13 @@ export const InfoView: React.FC<InfoViewProps> = ({ t }) => {
                   {item.address}
                 </p>
 
+                {item.phone && (
+                  <div className="flex items-center gap-2 mb-4 text-stone-600">
+                    <Phone size={16} className="text-teal-600" />
+                    <a href={`tel:${item.phone}`} className="text-sm hover:underline hover:text-teal-800 font-medium">{item.phone}</a>
+                  </div>
+                )}
+
                 {/* Action Button */}
                 <a
                   href={item.mapUrl}
