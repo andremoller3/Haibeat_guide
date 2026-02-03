@@ -223,27 +223,30 @@ export const PrintView: React.FC<PrintViewProps> = ({ t, lang, onBack }) => {
                                         </div>
 
                                         {/* Cleaning Section */}
-                                        <div className="mt-10 break-inside-avoid">
-                                            <h3 className="font-serif text-xl font-bold text-navy-800 mb-6 flex items-center gap-3">
+                                        <div className="mt-8 break-inside-avoid">
+                                            <h3 className="font-serif text-xl font-bold text-navy-800 mb-4 flex items-center gap-3">
                                                 <span className="w-8 h-px bg-navy-200"></span>
                                                 {t.house.tabs.cleaning}
                                             </h3>
-                                            <div className="bg-teal-50/50 border border-teal-100 rounded-xl p-6">
-                                                <div className="flex items-center gap-3 mb-4">
-                                                    <div className="bg-white text-teal-600 p-2 rounded-lg shadow-sm">
-                                                        <Sparkles size={20} />
+                                            <div className="bg-teal-50/50 border border-teal-100 rounded-xl p-4">
+                                                <div className="flex items-center gap-2 mb-2">
+                                                    <div className="bg-white text-teal-600 p-1.5 rounded-lg shadow-sm">
+                                                        <Sparkles size={16} />
                                                     </div>
-                                                    <h4 className="font-bold text-navy-900">{houseData.cleaning.title}</h4>
+                                                    <h4 className="font-bold text-navy-900 text-sm">{houseData.cleaning.title}</h4>
                                                 </div>
-                                                <p className="text-stone-600 text-sm mb-6 italic">{houseData.cleaning.policy}</p>
+                                                <p className="text-stone-600 text-xs mb-4 italic pl-1">{houseData.cleaning.policy}</p>
 
-                                                <div className="grid grid-cols-3 gap-4 mb-6">
+                                                <div className="grid grid-cols-3 gap-3 mb-4">
                                                     {houseData.cleaning.schedules.map((schedule, idx) => (
-                                                        <div key={idx} className="bg-white p-3 rounded-lg border border-teal-50 shadow-sm">
-                                                            <h5 className="font-bold text-teal-800 text-sm mb-2">{schedule.title}</h5>
+                                                        <div key={idx} className="bg-white p-2.5 rounded-lg border border-teal-50 shadow-sm">
+                                                            <h5 className="font-bold text-teal-800 text-xs mb-1.5">{schedule.title}</h5>
                                                             <ul className="space-y-1">
                                                                 {schedule.frequency.map((item, i) => (
-                                                                    <li key={i} className="text-[10px] text-stone-600 leading-tight">• {item}</li>
+                                                                    <li key={i} className="text-[9px] text-stone-600 leading-tight flex items-start gap-1">
+                                                                        <span className="text-teal-300">•</span>
+                                                                        <span>{item}</span>
+                                                                    </li>
                                                                 ))}
                                                             </ul>
                                                         </div>
@@ -251,10 +254,10 @@ export const PrintView: React.FC<PrintViewProps> = ({ t, lang, onBack }) => {
                                                 </div>
 
                                                 {houseData.cleaning.notes.length > 0 && (
-                                                    <ul className="space-y-1">
+                                                    <ul className="space-y-1 pl-1">
                                                         {houseData.cleaning.notes.map((note, idx) => (
-                                                            <li key={idx} className="text-xs text-teal-800 flex gap-2">
-                                                                <span>•</span>
+                                                            <li key={idx} className="text-[10px] text-teal-800 flex gap-2">
+                                                                <span className="text-teal-400">•</span>
                                                                 <span>{note}</span>
                                                             </li>
                                                         ))}
