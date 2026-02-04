@@ -1226,7 +1226,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Miradouro Porto e Baía Ponta Delgada',
       description: 'Vista panorâmica sobre o porto e a baía a norte.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSw6cnSpxc0oeNNSxQcOksezDhr5tPXqunVEfSEB2-Mzug1-8ieumMZt5AeKoU63JUtFrRcRtUZu53bzq2IFFXDA7QFM4goUdxwn91w_TQ6nYvf5wbzfknXdpB86IYGmiQstICjr=w408-h306-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAweoT3AQUQtltiatAYNpWHXb7aB4yT9RiAo7xKbU7UyfI96DuMynusDjXE8weC0OtWofzap6bTOl8pZcsejolI0yNK-npH9bfIQjno5n0Xk1JflYKmTMw8MfA_y8CtEBzJX5zRaxp=w408-h306-k-no',
       distance: 'Ponta Delgada',
       hostTip: 'Uma vista encantadora da costa norte.',
       mapUrl: 'https://www.google.com/maps/place/Miradouro+sobre+o+Porto+e+Ba%C3%ADa+de+Ponta+Delgada/@39.5201155,-31.2078181,17z/data=!3m1!4b1!4m6!3m5!1s0xb323ce7af42ed9d:0xd02f72cdbfc8ad2f!8m2!3d39.5201155!4d-31.2078181!16s%2Fg%2F11g9vn2j3y!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1236,7 +1236,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Miradouro de Ponta Delgada',
       description: 'Com vista para a vila de Ponta Delgada.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx96MoBFoTxlCawD4i9djtFYijvhai7CcKj31BUEDkX_N137DYYk8p2JxW896dTRoh5tidG8t7WVHA0f4OiuAL1O6HZi_kUx3PYnJCeSSOFyjCRz2YhsyBuB3PdilyV7fflVzsuXqo19L8Q=w408-h544-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAweoi-tapA6SK6rIclx-cbiKKqxYCH5eFGftWaj46FYozo3-07hxUJ_Q6kaHWuHGC4HnHuTVvXGmwJBbvB19vAOcjeUsshQO_ETuAOCvFlS2Z8DDyFa7A9dvZslpmZJEY4KvvQPHUIJLtvig-=w408-h544-k-no',
       distance: 'Ponta Delgada',
       hostTip: 'Ótima perspetiva da vila do norte.',
       mapUrl: 'https://www.google.com/maps/place/Miradouro+de+Ponta+Delgada/@39.5069145,-31.2167686,17z/data=!3m1!4b1!4m6!3m5!1s0xb323d355c4c41d1:0xb756d28b30c3940f!8m2!3d39.5069145!4d-31.2167686!16s%2Fg%2F11qhgcpnqz!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1256,7 +1256,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Miradouro dos Caimbros',
       description: 'Vista sobre a costa nordeste e o mar.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSymisvq-WDlkqdmSKDlPckXQ7LJAU618jEiPhdnz-18BnN1PpA-yva1pXzjQb9qAASgC3COxq9TkQFd_Y4tFoQ7uzVSy1gIMJeMrGq3TABFghYW5Zw6uYiMCQYCyXRvpvbgIkAxLkNJm22f=w408-h306-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAwep_0ZeL_5z_KQc5lwP8rPnXdkVFwmNZdn-pPJ33jVHgo-iod4aTFMg0EWklAG2Ds4vAHBraka9yarNlQJkPvPrknDh-C1ylkAmJm07rNAnKhXiOEJLNW_7N31fIae6IpBKtPCp4-yHy1HA3=w408-h306-k-no',
       distance: 'Cedros',
       hostTip: 'Belas vistas costeiras.',
       mapUrl: 'https://www.google.com/maps/place/Miradouro+dos+Caimbros/@39.4722134,-31.1469764,17z/data=!3m1!4b1!4m6!3m5!1s0xb32254178115c5f:0x75911aa589c5301e!8m2!3d39.4722134!4d-31.1469764!16s%2Fg%2F11jmwgsl2r!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1266,7 +1266,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Miradouro Craveiro Lopes',
       description: 'Cercado por hortênsias com vistas profundas para o vale.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxIemEf2yeOEJ3ikBdO0Tg0IpIVq5YkMNM3O7yxvxIptXI7Va1TjDVjE_fura2Ru7PtK3RdkzrPna_wzN1vCFVmal1NU7DEqGXtiuTYuevjuLrKLZQt0t1mHGWNXyXAdOrKH8fROY8l7nno=w408-h306-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAweoU6U8C5gK_Ox4l_5erqFWURR5zHuZeln6CnC9iRKpot6dVceCgkVbIMf1L3jqKtpsHrw3PUM7g3CSa2bCfV-Qusb7ptz5m_peSXp-rea7RcJm8yFxnV6OnHSxRz-90j2wnZjea9zr_rNR5=w408-h306-k-no',
       distance: 'Flores',
       hostTip: 'Um miradouro clássico muitas vezes cercado por flores.',
       mapUrl: 'https://www.google.com/maps/place/Miradouro+Craveiro+Lopes/@39.4264449,-31.2383823,17z/data=!3m1!4b1!4m6!3m5!1s0xb3223c09d02b631:0x2514eab45f603c9e!8m2!3d39.4264449!4d-31.2383823!16s%2Fg%2F11rbf_505m!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1308,7 +1308,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'museum',
       title: 'Dairy Museum',
       description: 'Exposições relacionadas com a produção de leite e queijo que sustenta a ilha.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxdGio2WEBSHex-8IpujkIxWMif5LkWuOu5gWu0RoFNfyIjnljOXSpmCAY_49SRWPhpXzzn4NXiRRa2GCKe7KDhUF64FPGdZa-c4dsPSr85mpxp-aiRalyR698iIsxhDGdPAws-HqU5941m=w408-h408-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAwepyya41Hzm77zfAAhd6YtGpJIQQ5no6acTJNAvMObDxeZ-ifPYfCTenaDTCid6dCon-UAs77ntikKtsGOmsvq0dt0IJyKvthv75d8wDRn24bIkhIqjcw650ySdDiiDcEkRbPPpK1l5fMI0Q=w408-h408-k-no',
       distance: 'Lajes das Flores',
       hostTip: 'Aprenda sobre a famosa produção de queijo dos Açores.',
       mapUrl: 'https://www.google.com/maps/place/Museu+dos+Lactic%C3%ADnios/@39.3795784,-31.1866628,17z/data=!3m1!4b1!4m6!3m5!1s0xb322100280a2ee9:0x7514904b4c2a6e4e!8m2!3d39.3795784!4d-31.1866628!16s%2Fg%2F11vzdsy0dm!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1338,7 +1338,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'museum',
       title: 'Axe Museum (Museu do Machado)',
       description: 'Localizado em Cedros/Ponta Ruiva, com artefactos históricos.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzxx2NF6EpoEAk6slZFTFuTPBFOpwVjeE-50cQ0RjG_G4q7KB_7812EQvUgdOEUxb-BiRVHCWciU8J9D91QTmdcZvZubrPgeBZwTt10nUBHqyk0oj4sev1XaF-3THG3EYNygg4=w408-h544-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAwep1K0VXYUyNT4_H2yeKPwe0VdLJU96XbOOzDdMEXVH35fJlfuaZortz9ArBWOZ5yooPd-25S5Q7J9_TAtovWT_D86kvwx1qQhJfPC2hi7pB0eoTi5kcx0vychVh4pX8xKs7zy4=w408-h544-k-no',
       distance: 'Cedros',
       hostTip: 'Um pequeno museu único no norte.',
       mapUrl: 'https://www.google.com/maps/place/Museu+do+Machado+(+Cedros+-+Ponta+Ruiva)/@39.4949447,-31.1572034,17z/data=!3m1!4b1!4m6!3m5!1s0xb322580c2e5fe85:0x19499234dbc6d2b9!8m2!3d39.4949447!4d-31.1572034!16s%2Fg%2F11h1ywysx5!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1348,7 +1348,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'museum',
       title: 'Boqueirão Whaling Factory',
       description: 'A antiga fábrica de processamento de baleias, agora um museu que mostra o lado industrial da história da baleação.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSy3Am6P_VIFZg0Gic3EbWI5nvC4w0ZLbIi4RoScYuO2dxZDnfCz9ATWTNXuGwjwQhIoKgF5Bt31GMd21r-A71RRFv-bRRoTq0j47jRz6RpMLU72S2bCJA-oyde6zw2NersFVEY=w408-h544-k-no',
+      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAwepwY-DaGTu4g4De886tUibaefiAaH8p4A9UQd-bLE3fBxgqVLFBa6_CC7c7Nj94hmGnH-X8cqr2hrpa_OXAN-hUhS24OCMC_bLNnWdAmcFXpmwEttFEccy2ld-jV-db2I-zCio=w408-h544-k-no',
       distance: 'Santa Cruz',
       hostTip: 'Um olhar fascinante sobre o passado industrial da ilha.',
       mapUrl: 'https://www.google.com/maps/place/F%C3%A1brica+da+Baleia+do+Boqueir%C3%A3o/@39.4630269,-31.129927,17z/data=!3m1!4b1!4m6!3m5!1s0xb3224341624d703:0xd41180b710127ed!8m2!3d39.4630269!4d-31.129927!16s%2Fg%2F121tb_3g!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
