@@ -177,13 +177,13 @@ export const PrintView: React.FC<PrintViewProps> = ({ t, lang, onBack }) => {
                                                 ))}
                                             </div>
                                             {houseData.appliancesNote && (
-                                                <div className="mt-6 bg-teal-50 border border-teal-100 rounded-xl p-4 flex flex-col items-center text-center gap-3 break-inside-avoid">
+                                                <div className="mt-4 bg-teal-50 border border-teal-100 rounded-xl p-3 flex flex-row items-center gap-4 break-inside-avoid shadow-sm">
                                                     <img
                                                         src={houseData.appliancesNote.imageUrl}
                                                         alt="Manuals Drawer"
-                                                        className="w-full max-w-[200px] sm:max-w-sm rounded-lg object-contain"
+                                                        className="w-24 sm:w-32 h-auto rounded border border-teal-200 object-contain shrink-0 bg-white"
                                                     />
-                                                    <p className="text-sm text-teal-900 font-medium">
+                                                    <p className="text-xs text-teal-900 font-medium leading-snug">
                                                         {houseData.appliancesNote.text}
                                                     </p>
                                                 </div>
