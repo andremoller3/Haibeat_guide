@@ -176,9 +176,22 @@ export const PrintView: React.FC<PrintViewProps> = ({ t, lang, onBack }) => {
                                                     </div>
                                                 ))}
                                             </div>
+                                            {houseData.appliancesNote && (
+                                                <div className="mt-6 bg-teal-50 border border-teal-100 rounded-xl p-4 flex flex-col items-center text-center gap-3 break-inside-avoid">
+                                                    <img
+                                                        src={houseData.appliancesNote.imageUrl}
+                                                        alt="Manuals Drawer"
+                                                        className="w-full max-w-[200px] sm:max-w-sm rounded-lg object-contain"
+                                                    />
+                                                    <p className="text-sm text-teal-900 font-medium">
+                                                        {houseData.appliancesNote.text}
+                                                    </p>
+                                                </div>
+                                            )}
                                         </div>
 
                                         <div className="break-inside-avoid">
+
                                             {/* Safety First */}
                                             <div className="mb-10 break-inside-avoid">
                                                 <h3 className="font-serif text-xl font-bold text-navy-800 mb-6 flex items-center gap-3">
