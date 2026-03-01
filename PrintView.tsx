@@ -100,24 +100,8 @@ export const PrintView: React.FC<PrintViewProps> = ({ t, lang, onBack }) => {
                         </div>
                     </div>
 
-                    <div className="bg-stone-50 p-8 rounded-2xl border border-stone-100 max-w-md mx-auto w-full mt-4">
-                        <h3 className="text-sm uppercase font-bold text-stone-400 mb-4 tracking-wider">Wi-Fi Access</h3>
-                        <div className="flex flex-col gap-4">
-                            <div className="flex items-center justify-between border-b border-stone-200 pb-2">
-                                <div className="flex items-center gap-3 text-navy-900">
-                                    <Wifi size={20} />
-                                    <span className="font-semibold">Network</span>
-                                </div>
-                                <span className="font-mono text-lg">Sleep HAIbeat AL</span>
-                            </div>
-                            <div className="flex items-center justify-between">
-                                <div className="flex items-center gap-3 text-navy-900">
-                                    <Zap size={20} />
-                                    <span className="font-semibold">Password</span>
-                                </div>
-                                <span className="font-mono text-lg">Haiguest</span>
-                            </div>
-                        </div>
+                    <div className="max-w-md mx-auto w-full mt-2 flex justify-center">
+                        <img src="/wifi.png" alt="Wi-Fi Access" className="max-w-[300px] w-full h-auto object-contain" />
                     </div>
 
                     <div className="mt-16 text-xs text-stone-400 font-mono">
