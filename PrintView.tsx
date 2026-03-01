@@ -98,10 +98,11 @@ export const PrintView: React.FC<PrintViewProps> = ({ t, lang, onBack }) => {
                                 </span>
                             </div>
                         </div>
-                    </div>
 
-                    <div className="max-w-md mx-auto w-full mt-2 flex justify-center">
-                        <img src="/wifi.png" alt="Wi-Fi Access" className="max-w-[300px] w-full h-auto object-contain" />
+                        {/* Wi-Fi Image */}
+                        <div className="mt-12 max-w-lg mx-auto w-full flex justify-center">
+                            <img src="/wifi.png" alt="Wi-Fi Access" className="max-w-[480px] w-full h-auto object-contain" />
+                        </div>
                     </div>
 
                     <div className="mt-16 text-xs text-stone-400 font-mono">
