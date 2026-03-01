@@ -759,7 +759,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'beach',
       title: 'Natural Swimming Pools of Poça das Mulheres',
       description: 'Famous volcanic pools in Santa Cruz, featuring concrete platforms and easy access.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzC5Vr99RgHPpsXU2An8wtxv78XHA2y7QmmlFx3i1GYBw9stM0ooLzioSSDeufE8uPNus3oqVNJPJGmU38hIlKLgYfYwmL_laeEC76WmLdTlz4x0uP-JSZnwZ-7FVKBqBiKHu97mA=w408-h306-k-no',
+      imageUrl: '/mulheres.png',
       distance: 'Santa Cruz',
       hostTip: 'A classic spot for locals with safe swimming areas.',
       mapUrl: 'https://www.google.com/maps?q=Natural+Swimming+Pools+of+Po%C3%A7a+das+Mulheres,+R.+do+Boqueir%C3%A3o+9970,+Santa+Cruz+das+Flores,+Portugal&ftid=0xb3225dfc95e7599:0x7f2c80941fb9e559&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAIIgnKlEsOTQyOTc2OTUsOTQyNzU0MTUsOTQyODQ0OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsOTQyODY4NjlCAkdC&skid=e2833fbe-abc2-4fff-9d76-2416549d9485&g_st=ipc'
@@ -769,7 +769,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'beach',
       title: 'Zona Balnear do Boqueirão',
       description: 'Swimming area at the old whaling port, offering deep ocean swimming.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzE-kXADnfXv2AcE-ismZmAG-pC2eV5I4gM6e558e5RWM-0tgClr-u7KSPxgDEOK69KbCkPfV8PZHh0pHVy5R7yQSjMRxFkcBOHmZd_NV0ROkKL4jdnxTvKgadcFCyTdlTB=w408-h305-k-no',
+      imageUrl: '/boqueirao.png',
       distance: 'Santa Cruz',
       hostTip: 'Great for jumping into the deep blue ocean.',
       mapUrl: 'https://www.google.com/maps?q=Zona+Balnear+do+Boqueir%C3%A3o,+Boqueir%C3%A3o,+Ilha+das,+Santa+Cruz+das+Flores,+Portugal&ftid=0xb3224345d22c895:0x7b0802fd60c03744&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAIIgnKlEsOTQyOTc2OTUsOTQyNzU0MTUsOTQyODQ0OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsOTQyODY4NjlCAkdC&skid=51b63987-3d00-47fa-806b-4ead37bd2a29&g_st=ipc'
@@ -779,7 +779,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'beach',
       title: 'Calheta Beach (Lajes)',
       description: 'A calm port area in Lajes used for swimming, usually protected from waves.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz2ZQRfPcF2FxIV9aOOc8Zt2XiDYopOfu1uwIwYg_cZfG3NHF-XwJ6i-8YsgEiXrgkzTS9rfdnwlUPXPjF8nGwGB440IBcAARoAv212oGNIp-eHMOWG0SWDLd5HQFfC7Sa-SQsMJg=w408-h306-k-no',
+      imageUrl: '/calheta.png',
       distance: 'Lajes',
       hostTip: 'Good spot if the sea is rough elsewhere.',
       mapUrl: 'https://www.google.com/maps?q=Calheta+Beach,+Lajes+das+Flores,+Portugal&ftid=0xb3227355343ea83:0x605f67963dd8dcc5&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAINeCAypRLDk0Mjk3Njk1LDk0Mjc1NDE1LDk0Mjg0NDk5LDk0MjMxMTg4LDk0MjgwNTY4LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDk0Mjg2ODY5QgJHQg%3D%3D&skid=3e2db9cf-8aea-4c36-813e-0ea2cf3176d8&g_st=ipc'
@@ -799,7 +799,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'beach',
       title: 'Cascata do Poço do Bacalhau',
       description: 'A unique experience to swim at the base of a 90m waterfall.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz_tZsJw8b8pQrkZgVRmGwL2WRotEt_h-foNjYfG8CpETHcq8nuMPhNeFWZVZ_LDJjpbzoOFTGFuo-ZhPhWDu1hNzugn4IEJnP_H_E4R2OqgFZf8bb3neKhie9MZuqG1iqlOw0=w408-h408-k-no',
+      imageUrl: '/bacalhau.png',
       distance: 'Fajã Grande',
       hostTip: 'The water is fresh and invigorating!',
       mapUrl: 'https://www.google.com/maps?q=FP5R+7M+Cascata+do+Po%C3%A7o+do+Bacalhau,+In%C3%ADcio+do+percurso+Po%C3%A7o+do+Bacalhau,+9960-030+Faj%C3%A3+Grande,+Portugal&ftid=0xb32229b14cf36eb:0x530161c4276f70bb&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAINeCAypRLDk0Mjk3Njk1LDk0Mjc1NDE1LDk0Mjg0NDk5LDk0MjMxMTg4LDk0MjgwNTY4LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDk0Mjg2ODY5QgJHQg%3D%3D&skid=4f40869c-ac79-4922-9cc3-6d99ac9a0c07&g_st=ipc'
@@ -809,7 +809,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'beach',
       title: 'Poço Redondo',
       description: 'A hidden natural riverside spot in Fazenda, surrounded by lush vegetation.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz11diJWEF3JoosXlVf9BewmelUkZAxDGlPMHnZvC8esGzxmS07y3WvAlbH4ZeSNFb3yjF3jeNDo79lrdSVJHW1jW6QVT-7x7tC4GNyAr6xUNwrfo8m9GUc48aj-M85prDjZk0jrZYHi8nv=w519-h240-k-no',
+      imageUrl: '/redondo.png',
       distance: 'Fazenda',
       hostTip: 'A peaceful spot away from the crowds.',
       mapUrl: 'https://www.google.com/maps?q=9RVH+HX+Po%C3%A7o+Redondo,+Fazenda,+Portugal&ftid=0xb32270038ba0d1b:0x9c5c4372ea725cf3&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAIIgnKlEsOTQyOTc2OTUsOTQyNzU0MTUsOTQyODQ0OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsOTQyODY4NjlCAkdC&skid=8fe113ad-99fb-44a6-8c30-d956fa826804&g_st=ipc'
@@ -819,7 +819,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'beach',
       title: 'Porto Velho',
       description: 'Historical port area in the center of Santa Cruz, popular for diving and swimming.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz5l120MYtLh952mKl0MJrGGi9MbnzGZXI3njIKyy4Ir2OonS6IutT6dmiWTsfOIm9WsYb2iMSw332yvua_Wl723B-3TcoaPOwwYILtBgeiRnvdpMl9Jq75m6n2z8tlIpN_F41r=w408-h306-k-no',
+      imageUrl: '/porto_velho.png',
       distance: 'Santa Cruz',
       hostTip: 'Convenient spot if you are staying in the town center.',
       mapUrl: 'https://www.google.com/maps?q=Porto+Velho,+9970-320+Santa+Cruz+das+Flores,+Portugal&ftid=0xb32242cb37d37af:0x9a8496584e0bf24&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAINeCAypRLDk0Mjk3Njk1LDk0Mjc1NDE1LDk0Mjg0NDk5LDk0MjMxMTg4LDk0MjgwNTY4LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDk0Mjg2ODY5QgJHQg%3D%3D&skid=8ccdee60-6f5f-41db-9e72-b8bbfd5382ce&g_st=ipc'
@@ -1741,7 +1741,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'beach',
       title: 'Piscinas Naturais da Poça das Mulheres',
       description: 'Piscinas vulcânicas famosas em Santa Cruz, com plataformas de betão e fácil acesso.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzC5Vr99RgHPpsXU2An8wtxv78XHA2y7QmmlFx3i1GYBw9stM0ooLzioSSDeufE8uPNus3oqVNJPJGmU38hIlKLgYfYwmL_laeEC76WmLdTlz4x0uP-JSZnwZ-7FVKBqBiKHu97mA=w408-h306-k-no',
+      imageUrl: '/mulheres.png',
       distance: 'Santa Cruz',
       hostTip: 'Um local clássico para os habitantes locais com áreas de natação seguras.',
       mapUrl: 'https://www.google.com/maps?q=Natural+Swimming+Pools+of+Po%C3%A7a+das+Mulheres,+R.+do+Boqueir%C3%A3o+9970,+Santa+Cruz+das+Flores,+Portugal&ftid=0xb3225dfc95e7599:0x7f2c80941fb9e559&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAIIgnKlEsOTQyOTc2OTUsOTQyNzU0MTUsOTQyODQ0OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsOTQyODY4NjlCAkdC&skid=e2833fbe-abc2-4fff-9d76-2416549d9485&g_st=ipc'
@@ -1751,7 +1751,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'beach',
       title: 'Zona Balnear do Boqueirão',
       description: 'Zona balnear no antigo porto baleeiro, oferecendo natação em mar profundo.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzE-kXADnfXv2AcE-ismZmAG-pC2eV5I4gM6e558e5RWM-0tgClr-u7KSPxgDEOK69KbCkPfV8PZHh0pHVy5R7yQSjMRxFkcBOHmZd_NV0ROkKL4jdnxTvKgadcFCyTdlTB=w408-h305-k-no',
+      imageUrl: '/boqueirao.png',
       distance: 'Santa Cruz',
       hostTip: 'Ótimo para saltar para o oceano azul profundo.',
       mapUrl: 'https://www.google.com/maps?q=Zona+Balnear+do+Boqueir%C3%A3o,+Boqueir%C3%A3o,+Ilha+das,+Santa+Cruz+das+Flores,+Portugal&ftid=0xb3224345d22c895:0x7b0802fd60c03744&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAIIgnKlEsOTQyOTc2OTUsOTQyNzU0MTUsOTQyODQ0OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsOTQyODY4NjlCAkdC&skid=51b63987-3d00-47fa-806b-4ead37bd2a29&g_st=ipc'
@@ -1761,7 +1761,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'beach',
       title: 'Praia da Calheta (Lajes)',
       description: 'Uma zona portuária calma nas Lajes usada para natação, geralmente protegida das ondas.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz2ZQRfPcF2FxIV9aOOc8Zt2XiDYopOfu1uwIwYg_cZfG3NHF-XwJ6i-8YsgEiXrgkzTS9rfdnwlUPXPjF8nGwGB440IBcAARoAv212oGNIp-eHMOWG0SWDLd5HQFfC7Sa-SQsMJg=w408-h306-k-no',
+      imageUrl: '/calheta.png',
       distance: 'Lajes',
       hostTip: 'Bom local se o mar estiver agitado noutros lugares.',
       mapUrl: 'https://www.google.com/maps?q=Calheta+Beach,+Lajes+das+Flores,+Portugal&ftid=0xb3227355343ea83:0x605f67963dd8dcc5&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAINeCAypRLDk0Mjk3Njk1LDk0Mjc1NDE1LDk0Mjg0NDk5LDk0MjMxMTg4LDk0MjgwNTY4LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDk0Mjg2ODY5QgJHQg%3D%3D&skid=3e2db9cf-8aea-4c36-813e-0ea2cf3176d8&g_st=ipc'
@@ -1781,7 +1781,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'beach',
       title: 'Cascata do Poço do Bacalhau',
       description: 'Uma experiência única de nadar na base de uma cascata de 90m.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz_tZsJw8b8pQrkZgVRmGwL2WRotEt_h-foNjYfG8CpETHcq8nuMPhNeFWZVZ_LDJjpbzoOFTGFuo-ZhPhWDu1hNzugn4IEJnP_H_E4R2OqgFZf8bb3neKhie9MZuqG1iqlOw0=w408-h408-k-no',
+      imageUrl: '/bacalhau.png',
       distance: 'Fajã Grande',
       hostTip: 'A água é fresca e revigorante!',
       mapUrl: 'https://www.google.com/maps?q=FP5R+7M+Cascata+do+Po%C3%A7o+do+Bacalhau,+In%C3%ADcio+do+percurso+Po%C3%A7o+do+Bacalhau,+9960-030+Faj%C3%A3+Grande,+Portugal&ftid=0xb32229b14cf36eb:0x530161c4276f70bb&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAINeCAypRLDk0Mjk3Njk1LDk0Mjc1NDE1LDk0Mjg0NDk5LDk0MjMxMTg4LDk0MjgwNTY4LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDk0Mjg2ODY5QgJHQg%3D%3D&skid=4f40869c-ac79-4922-9cc3-6d99ac9a0c07&g_st=ipc'
@@ -1791,7 +1791,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'beach',
       title: 'Poço Redondo',
       description: 'Um local natural ribeirinho escondido na Fazenda, rodeado por vegetação luxuriante.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz11diJWEF3JoosXlVf9BewmelUkZAxDGlPMHnZvC8esGzxmS07y3WvAlbH4ZeSNFb3yjF3jeNDo79lrdSVJHW1jW6QVT-7x7tC4GNyAr6xUNwrfo8m9GUc48aj-M85prDjZk0jrZYHi8nv=w519-h240-k-no',
+      imageUrl: '/redondo.png',
       distance: 'Fazenda',
       hostTip: 'Um local tranquilo longe das multidões.',
       mapUrl: 'https://www.google.com/maps?q=9RVH+HX+Po%C3%A7o+Redondo,+Fazenda,+Portugal&ftid=0xb32270038ba0d1b:0x9c5c4372ea725cf3&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAIIgnKlEsOTQyOTc2OTUsOTQyNzU0MTUsOTQyODQ0OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsOTQyODY4NjlCAkdC&skid=8fe113ad-99fb-44a6-8c30-d956fa826804&g_st=ipc'
@@ -1801,7 +1801,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'beach',
       title: 'Porto Velho',
       description: 'Zona portuária histórica no centro de Santa Cruz, popular para mergulho e natação.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz5l120MYtLh952mKl0MJrGGi9MbnzGZXI3njIKyy4Ir2OonS6IutT6dmiWTsfOIm9WsYb2iMSw332yvua_Wl723B-3TcoaPOwwYILtBgeiRnvdpMl9Jq75m6n2z8tlIpN_F41r=w408-h306-k-no',
+      imageUrl: '/porto_velho.png',
       distance: 'Santa Cruz',
       hostTip: 'Local conveniente se estiver alojado no centro da vila.',
       mapUrl: 'https://www.google.com/maps?q=Porto+Velho,+9970-320+Santa+Cruz+das+Flores,+Portugal&ftid=0xb32242cb37d37af:0x9a8496584e0bf24&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAINeCAypRLDk0Mjk3Njk1LDk0Mjc1NDE1LDk0Mjg0NDk5LDk0MjMxMTg4LDk0MjgwNTY4LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDk0Mjg2ODY5QgJHQg%3D%3D&skid=8ccdee60-6f5f-41db-9e72-b8bbfd5382ce&g_st=ipc'
