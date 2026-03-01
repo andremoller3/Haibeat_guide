@@ -87,9 +87,20 @@ export const PrintView: React.FC<PrintViewProps> = ({ t, lang, onBack }) => {
                             </div>
                             <span className="text-[10px] uppercase tracking-widest text-stone-400 font-bold">Digital Version</span>
                         </div>
+
+                        {/* Destacado: Telefone de Contato */}
+                        <div className="mt-10 bg-teal-50 border-2 border-teal-200 p-5 rounded-2xl max-w-sm mx-auto w-full shadow-sm">
+                            <h3 className="text-xs uppercase font-bold text-teal-700 mb-2 tracking-wider">Contact Phone / Telefone</h3>
+                            <div className="flex items-center justify-center gap-3 text-navy-900">
+                                <Phone size={24} className="text-teal-600" />
+                                <span className="font-mono flex flex-col items-baseline leading-none">
+                                    <span className="text-2xl font-bold text-teal-900">+351 292 542 369</span>
+                                </span>
+                            </div>
+                        </div>
                     </div>
 
-                    <div className="bg-stone-50 p-8 rounded-2xl border border-stone-100 max-w-md mx-auto w-full">
+                    <div className="bg-stone-50 p-8 rounded-2xl border border-stone-100 max-w-md mx-auto w-full mt-4">
                         <h3 className="text-sm uppercase font-bold text-stone-400 mb-4 tracking-wider">Wi-Fi Access</h3>
                         <div className="flex flex-col gap-4">
                             <div className="flex items-center justify-between border-b border-stone-200 pb-2">
