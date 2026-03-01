@@ -545,7 +545,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'museum',
       title: 'Whaling Museum',
       description: 'Dedicated to the history of whaling, displaying boats and tools used by whalers.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzLxrM8oe619_G-DiP9nYr513BXmncufhgu3OyrmBpT5dQRc1UQoi4PxGLlG7LeOdR3Ychmz1IvW381md0qkwofgMZoRFftdqhECYlCiqaD1s5BBmIk5dZEWYkPMLO4AFqDKQ8i=w408-h306-k-no',
+      imageUrl: '/baleeiro.png',
       distance: 'Lajes das Flores',
       hostTip: 'Essential to understand the maritime history of Lajes.',
       mapUrl: 'https://www.google.com/maps/place/Museu+Baleeiro/@39.3790987,-31.1710098,17z/data=!3m1!4b1!4m6!3m5!1s0xb322737261eddf1:0xf798849e84db856d!8m2!3d39.3790987!4d-31.1710098!16s%2Fg%2F11sqj6ns2d!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -555,7 +555,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'museum',
       title: 'Municipal Museum Lajes das Flores',
       description: 'The local municipal museum preserving the cultural heritage of Lajes.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxMgwRX5EIlk1FdZ0bZVSFbEMX8F8kguK-wTQZrTmoWd8RXtZeqBcIVeu-8cdA4SJr4Hh2nJ7-qSp9C1EYZSR4FN-aFVfwh-OpeikneDAJScDoxhBZA02pCkrQfDE6o--Gw3fD9Y0D7t9w8=w408-h307-k-no',
+      imageUrl: '/municipal_lajes.png',
       distance: 'Lajes das Flores',
       hostTip: 'Located in the heart of the village.',
       mapUrl: 'https://www.google.com/maps/place/Museu+Municipal+Lajes+das+Flores/@39.3775626,-31.1787431,17z/data=!3m1!4b1!4m6!3m5!1s0xb3221002110a9a5:0x3e695508a13cb44e!8m2!3d39.3775626!4d-31.1787431!16s%2Fg%2F11ldhfzl0c!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -575,7 +575,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'museum',
       title: 'Farmer\'s Museum',
       description: 'A collection honoring the work and tools of the local farmers.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxbAk879kNziY10t0NmeQXgao5jqndfvK7MLzgYwTJT1DRYG2p8ovpZF89ty2hwqJAgILgE11UUVHj-z8TY5Qrodg0YRFl7YG5L8kaZLLt3RlERB8QAudWgWuUqGmOD53CisokwhiTZXpI-=w408-h408-k-no',
+      imageUrl: '/lavrador.png',
       distance: 'Lajes das Flores',
       hostTip: 'See the traditional tools used in the fields.',
       mapUrl: 'https://www.google.com/maps/place/Museu+lavrador/@39.3800377,-31.1867594,17z/data=!3m1!4b1!4m6!3m5!1s0xb32210041a68373:0x9d1dfd63f5d7f338!8m2!3d39.3800377!4d-31.1867594!16s%2Fg%2F11vx5slzy4!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -615,7 +615,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'museum',
       title: 'Museu das Flores',
       description: 'The main museum located in the historic Convent of São Boaventura.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSys8-TFLPgBc17UZ4g-FkDOcs-1ua_aXibw6-kPlmk_ZYISft6I70RaxIj0ybp4pejMMePHkZZHeV_huy0L-jRsMPgWx9sPDzZsOfB2y3DG4-reO3LMyZGoQriVbOuBBv9qWQViqsKcoGk=w408-h544-k-no',
+      imageUrl: '/museu_flores.png',
       distance: 'Santa Cruz',
       hostTip: 'Explore the cloisters and the history of the island.',
       mapUrl: 'https://www.google.com/maps/place/Museu+das+Flores/@39.4520195,-31.1481575,15z/data=!4m10!1m2!2m1!1smuseu+perto+de+Santa+Cruz+das+Flores,+Portugal!3m6!1s0xb32242b91e55f45:0x7c2692f18a14840e!8m2!3d39.4520195!4d-31.1291031!15sCi5tdXNldSBwZXJ0byBkZSBTYW50YSBDcnV6IGRhcyBGbG9yZXMsIFBvcnR1Z2FskgEGbXVzZXVt4AEA!16s%2Fg%2F120trymd!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1293,7 +1293,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'museum',
       title: 'Whaling Museum',
       description: 'Dedicado à história da caça à baleia, exibindo barcos e ferramentas usadas pelos baleeiros.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzLxrM8oe619_G-DiP9nYr513BXmncufhgu3OyrmBpT5dQRc1UQoi4PxGLlG7LeOdR3Ychmz1IvW381md0qkwofgMZoRFftdqhECYlCiqaD1s5BBmIk5dZEWYkPMLO4AFqDKQ8i=w408-h306-k-no',
+      imageUrl: '/baleeiro.png',
       distance: 'Lajes das Flores',
       hostTip: 'Essencial para compreender a história marítima das Lajes.',
       mapUrl: 'https://www.google.com/maps/place/Museu+Baleeiro/@39.3790987,-31.1710098,17z/data=!3m1!4b1!4m6!3m5!1s0xb322737261eddf1:0xf798849e84db856d!8m2!3d39.3790987!4d-31.1710098!16s%2Fg%2F11sqj6ns2d!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1303,7 +1303,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'museum',
       title: 'Municipal Museum Lajes das Flores',
       description: 'O museu municipal local preserva o património cultural das Lajes.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxMgwRX5EIlk1FdZ0bZVSFbEMX8F8kguK-wTQZrTmoWd8RXtZeqBcIVeu-8cdA4SJr4Hh2nJ7-qSp9C1EYZSR4FN-aFVfwh-OpeikneDAJScDoxhBZA02pCkrQfDE6o--Gw3fD9Y0D7t9w8=w408-h307-k-no',
+      imageUrl: '/municipal_lajes.png',
       distance: 'Lajes das Flores',
       hostTip: 'Localizado no coração da vila.',
       mapUrl: 'https://www.google.com/maps/place/Museu+Municipal+Lajes+das+Flores/@39.3775626,-31.1787431,17z/data=!3m1!4b1!4m6!3m5!1s0xb3221002110a9a5:0x3e695508a13cb44e!8m2!3d39.3775626!4d-31.1787431!16s%2Fg%2F11ldhfzl0c!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1323,7 +1323,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'museum',
       title: 'Farmer\'s Museum',
       description: 'Uma coleção que homenageia o trabalho e as ferramentas dos agricultores locais.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxbAk879kNziY10t0NmeQXgao5jqndfvK7MLzgYwTJT1DRYG2p8ovpZF89ty2hwqJAgILgE11UUVHj-z8TY5Qrodg0YRFl7YG5L8kaZLLt3RlERB8QAudWgWuUqGmOD53CisokwhiTZXpI-=w408-h408-k-no',
+      imageUrl: '/lavrador.png',
       distance: 'Lajes das Flores',
       hostTip: 'Veja as ferramentas tradicionais usadas nos campos.',
       mapUrl: 'https://www.google.com/maps/place/Museu+lavrador/@39.3800377,-31.1867594,17z/data=!3m1!4b1!4m6!3m5!1s0xb32210041a68373:0x9d1dfd63f5d7f338!8m2!3d39.3800377!4d-31.1867594!16s%2Fg%2F11vx5slzy4!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1363,7 +1363,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'museum',
       title: 'Museu das Flores',
       description: 'O principal museu, situado no histórico Convento de São Boaventura.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSys8-TFLPgBc17UZ4g-FkDOcs-1ua_aXibw6-kPlmk_ZYISft6I70RaxIj0ybp4pejMMePHkZZHeV_huy0L-jRsMPgWx9sPDzZsOfB2y3DG4-reO3LMyZGoQriVbOuBBv9qWQViqsKcoGk=w408-h544-k-no',
+      imageUrl: '/museu_flores.png',
       distance: 'Santa Cruz',
       hostTip: 'Explore os claustros e a história da ilha.',
       mapUrl: 'https://www.google.com/maps/place/Museu+das+Flores/@39.4520195,-31.1481575,15z/data=!4m10!1m2!2m1!1smuseu+perto+de+Santa+Cruz+das+Flores,+Portugal!3m6!1s0xb32242b91e55f45:0x7c2692f18a14840e!8m2!3d39.4520195!4d-31.1291031!15sCi5tdXNldSBwZXJ0byBkZSBTYW50YSBDcnV6IGRhcyBGbG9yZXMsIFBvcnR1Z2FskgEGbXVzZXVt4AEA!16s%2Fg%2F120trymd!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
