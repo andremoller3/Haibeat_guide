@@ -998,7 +998,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'eat',
       title: 'Restaurante Macau',
       description: 'Local Chinese place with tasty dishes and friendly service.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSynwjXVCmcpe_cAKDCqP-tWDXEhqbJXyYt-WnterK6HBPfhlEkt43-7oXA3NBqQqcPWOMIKgXU_RHt-7Gh9Jmkbg5GHQsuPWKmIMVt8SYotnmydxp_GovDPCsN7PzafDMf13rzM=w408-h306-k-no',
+      imageUrl: '/images/macau.png',
       distance: '5 min a pé',
       hostTip: 'Very reliable for a comforting Asian meal.',
       mapUrl: 'https://www.google.com/maps/place/Restaurante+%22Macau%22/@39.4598308,-31.1305423,17z/data=!3m1!5s0xb322433d0a2a223:0x3509d64fb07c990a!4m15!1m8!3m7!1s0xb322433d9e13457:0xa0899ceca083197!2sRestaurante+%22Macau%22!8m2!3d39.4598308!4d-31.1305423!10e1!16s%2Fg%2F11dxkdgd07!3m5!1s0xb322433d9e13457:0xa0899ceca083197!8m2!3d39.4598308!4d-31.1305423!16s%2Fg%2F11dxkdgd07'
@@ -1599,7 +1599,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'eat',
       title: 'Restaurante Macau',
       description: 'Restaurante chinês local com pratos saborosos e serviço amigável.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSynwjXVCmcpe_cAKDCqP-tWDXEhqbJXyYt-WnterK6HBPfhlEkt43-7oXA3NBqQqcPWOMIKgXU_RHt-7Gh9Jmkbg5GHQsuPWKmIMVt8SYotnmydxp_GovDPCsN7PzafDMf13rzM=w408-h306-k-no',
+      imageUrl: '/images/macau.png',
       distance: '5 min a pé',
       hostTip: 'Muito fiável para uma refeição asiática reconfortante.',
       mapUrl: 'https://www.google.com/maps/place/Restaurante+%22Macau%22/@39.4598308,-31.1305423,17z/data=!3m1!5s0xb322433d0a2a223:0x3509d64fb07c990a!4m15!1m8!3m7!1s0xb322433d9e13457:0xa0899ceca083197!2sRestaurante+%22Macau%22!8m2!3d39.4598308!4d-31.1305423!10e1!16s%2Fg%2F11dxkdgd07!3m5!1s0xb322433d9e13457:0xa0899ceca083197!8m2!3d39.4598308!4d-31.1305423!16s%2Fg%2F11dxkdgd07'
