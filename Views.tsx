@@ -21,7 +21,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ t, onNavigate }) => {
   const [copied, setCopied] = useState(false);
 
   const handleCopyWifi = () => {
-    navigator.clipboard.writeText('HAIbeatGuest2025');
+    navigator.clipboard.writeText('Haiguest');
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -62,13 +62,13 @@ export const HomeView: React.FC<HomeViewProps> = ({ t, onNavigate }) => {
           <div className="space-y-4">
             <div>
               <p className="text-teal-200 text-xs uppercase tracking-wider font-semibold mb-1">{t.wifiTitle}</p>
-              <p className="text-xl font-bold tracking-wide">SleepHAIbeat_Guest</p>
+              <p className="text-xl font-bold tracking-wide">Sleep HAIbeat AL</p>
             </div>
 
             <div>
               <p className="text-teal-200 text-xs uppercase tracking-wider font-semibold mb-1">{t.wifiPasswordLabel}</p>
               <div className="flex items-center gap-3">
-                <p className="text-xl font-mono bg-black/20 px-2 py-1 rounded select-all border border-white/5">HAIbeatGuest2025</p>
+                <p className="text-xl font-mono bg-black/20 px-2 py-1 rounded select-all border border-white/5">Haiguest</p>
               </div>
             </div>
 
@@ -183,6 +183,19 @@ export const HouseGuideView: React.FC<HouseGuideViewProps> = ({ t, lang }) => {
                 <p className="text-stone-600 leading-relaxed">{item.instruction}</p>
               </AccordionItem>
             ))}
+
+            {data.appliancesNote && (
+              <div className="mt-6 bg-teal-50 border border-teal-100 rounded-xl p-4 flex flex-col items-center text-center gap-3">
+                <img
+                  src={data.appliancesNote.imageUrl}
+                  alt="Manuals Drawer"
+                  className="w-full max-w-[200px] sm:max-w-sm rounded-lg object-contain"
+                />
+                <p className="text-sm text-teal-900 font-medium">
+                  {data.appliancesNote.text}
+                </p>
+              </div>
+            )}
           </div>
         )}
 
@@ -463,13 +476,15 @@ export const LocalGuideView: React.FC<LocalGuideViewProps> = ({ t, lang }) => {
                 <img
                   src={getOptimizedImageUrl(rec.imageUrl)}
                   alt={rec.title}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  className={`w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 ${rec.imageUrl.startsWith('/') ? 'object-center' : 'object-center'}`}
                   referrerPolicy="no-referrer"
                 />
-                <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-navy-900/60 to-transparent opacity-80"></div>
-                <div className="absolute bottom-3 left-4 text-white text-xs font-bold tracking-wider uppercase bg-navy-900/40 backdrop-blur-md px-2 py-1 rounded-md border border-white/20">
-                  {rec.distance}
-                </div>
+                <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-navy-900/20 to-transparent"></div>
+                {rec.categoryId !== 'eat' && rec.categoryId !== 'snack' && (
+                  <div className="absolute bottom-3 left-4 text-white text-xs font-bold tracking-wider uppercase bg-navy-900/40 backdrop-blur-md px-2 py-1 rounded-md border border-white/20">
+                    {rec.distance}
+                  </div>
+                )}
               </div>
 
               {/* Content Body */}
@@ -560,9 +575,10 @@ export const LocalGuideView: React.FC<LocalGuideViewProps> = ({ t, lang }) => {
 // --- Info View ---
 interface InfoViewProps {
   t: TranslationContent['info'];
+  onNavigate: (tab: TabId) => void;
 }
 
-export const InfoView: React.FC<InfoViewProps> = ({ t }) => {
+export const InfoView: React.FC<InfoViewProps> = ({ t, onNavigate }) => {
   const data = PROPERTY_DATA;
 
   return (
@@ -602,7 +618,7 @@ export const InfoView: React.FC<InfoViewProps> = ({ t }) => {
               <span className="text-xs text-stone-500">Maria Silva (9h - 20h)</span>
             </div>
           </div>
-          <a href={`https://wa.me/${data.hostPhone}`} className="text-teal-700 bg-teal-50 px-4 py-2 rounded-lg text-sm font-semibold hover:bg-teal-100 transition-colors">
+          <a href={`https://wa.me/${data.hostPhone.replace(/\s+/g, '')}`} className="text-teal-700 bg-teal-50 px-4 py-2 rounded-lg text-sm font-semibold hover:bg-teal-100 transition-colors">
             {t.actions.whatsapp}
           </a>
         </div>
@@ -788,14 +804,22 @@ export const InfoView: React.FC<InfoViewProps> = ({ t }) => {
           </div>
         </a>
 
-        {/* License Footer */}
-        <div className="text-center pt-8 pb-4">
-          <p className="text-xs font-mono text-teal-400">
-            Registo Nacional de Turismo
-          </p>
+        {/* Legal Footer */}
+        <div className="flex flex-col items-center justify-center pt-8 pb-8 space-y-4">
+          <a href={data.complaintsBookUrl} target="_blank" rel="noopener noreferrer" className="block transform transition-transform hover:scale-105">
+            <img src="/livro-reclamacoes.png" alt="Livro de Reclamações" className="h-10 w-auto opacity-90 hover:opacity-100" />
+          </a>
           <p className="text-sm font-bold text-navy-500 mt-1">
-            {data.licenseNumber}
+            NIPC {data.nipc}
           </p>
+
+          {/* Admin Link */}
+          <button
+            onClick={() => onNavigate('admin')}
+            className="mt-8 text-[10px] text-stone-200 hover:text-stone-400 transition-colors uppercase tracking-widest font-bold"
+          >
+            Admin
+          </button>
         </div>
       </section>
     </div>

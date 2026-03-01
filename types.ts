@@ -1,6 +1,6 @@
 export type Language = 'pt' | 'en';
 
-export type TabId = 'home' | 'house' | 'local' | 'info' | 'print';
+export type TabId = 'home' | 'house' | 'local' | 'info' | 'print' | 'admin';
 
 export interface TranslationContent {
   nav: {
@@ -82,6 +82,8 @@ export interface TranslationContent {
     descriptions: {
       bus: string;
       parking: string;
+      gasStation?: string;
+      evStation?: string;
     };
   };
 }
@@ -132,6 +134,17 @@ export interface HouseGuideData {
   waste: WasteCategory[];
   safety: SafetyItem[];
   gallery: GalleryItem[];
+  appliancesNote?: {
+    text: string;
+    imageUrl: string;
+  };
+  info?: {
+    title: string;
+    sections: Record<string, string>;
+    actions: Record<string, string>;
+    items: Record<string, string>;
+    descriptions: Record<string, string>;
+  };
 }
 
 export type LocalCategoryId = 'eat' | 'beach' | 'hike' | 'shop' | 'snack' | 'park' | 'viewpoint' | 'museum';
@@ -161,7 +174,7 @@ export interface LocationInfo {
 }
 
 export interface PropertyData {
-  licenseNumber: string;
+  nipc: string;
   complaintsBookUrl: string;
   hostPhone: string;
   emergencyPhone: string;

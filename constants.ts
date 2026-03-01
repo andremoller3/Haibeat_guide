@@ -1,9 +1,9 @@
 import { TranslationContent, Recommendation, HouseGuideData, PropertyData } from './types';
 
 export const PROPERTY_DATA: PropertyData = {
-  licenseNumber: '123456/AL',
+  nipc: '517 550 415',
   complaintsBookUrl: 'https://www.livroreclamacoes.pt/inicio',
-  hostPhone: '+351912345678',
+  hostPhone: '+351 963793643',
   emergencyPhone: '112',
   locations: {
     hospital: {
@@ -138,7 +138,7 @@ export const TRANSLATIONS: Record<'en' | 'pt', TranslationContent> = {
         copy: 'Copy Address',
       },
       items: {
-        host: 'Host Support',
+        host: 'WhatsApp',
         pharmacy: 'Pharmacy',
         hospital: 'Health Center',
         taxi: 'Taxi',
@@ -152,6 +152,8 @@ export const TRANSLATIONS: Record<'en' | 'pt', TranslationContent> = {
       descriptions: {
         bus: 'Buses (UTC) run around the island. The main stop is in the town center square.',
         parking: 'Free street parking is available on the street. Please adhere to yellow line restrictions.',
+        gasStation: 'Galp Santa Cruz, Feliciano & Feliciano (Estrada Regional), Galp Lajes, Cooperativa União Agrícola (Lajes).',
+        evStation: 'Galp Charging Station (Santa Cruz), Galp Charging Station (Lajes).',
       },
     },
   },
@@ -221,7 +223,7 @@ export const TRANSLATIONS: Record<'en' | 'pt', TranslationContent> = {
         copy: 'Copiar',
       },
       items: {
-        host: 'Apoio ao Cliente',
+        host: 'WhatsApp',
         pharmacy: 'Farmácia',
         hospital: 'Centro de Saúde',
         taxi: 'Táxi',
@@ -235,6 +237,8 @@ export const TRANSLATIONS: Record<'en' | 'pt', TranslationContent> = {
       descriptions: {
         bus: 'Os autocarros (UTC) circulam pela ilha. A paragem principal é no largo central.',
         parking: 'Estacionamento gratuito na rua. Respeite as linhas amarelas.',
+        gasStation: 'Galp Santa Cruz, Feliciano & Feliciano (Estrada Regional), Galp Lajes, Cooperativa União Agrícola (Lajes).',
+        evStation: 'Estação de Carregamento Galp (Santa Cruz), Estação de Carregamento Galp (Lajes).',
       },
     },
   },
@@ -249,6 +253,10 @@ export const HOUSE_GUIDE_DATA: Record<'en' | 'pt', HouseGuideData> = {
       { id: 'micro', name: 'Microwave', iconName: 'Zap', instruction: 'Slide finger on the touch bar to set time and press "Start". For Grill, select mode before starting.' },
       { id: 'washer', name: 'Washer & Dryer', iconName: 'Droplets', instruction: 'Press blue "Push&Go" button for 2 sec to start auto Wash+Dry cycle.' },
     ],
+    appliancesNote: {
+      text: 'For more detailed instructions, the complete equipment manuals are available in the bottom drawer of the blue cabinet.',
+      imageUrl: '/manuals_drawer.png',
+    },
     cleaning: {
       title: 'Cleaning & Linen Policy',
       policy: 'We maintain high hygiene standards for your comfort.',
@@ -287,6 +295,7 @@ export const HOUSE_GUIDE_DATA: Record<'en' | 'pt', HouseGuideData> = {
       { id: 'blue', name: 'Paper & Cardboard', colorClass: 'bg-blue-500', borderColorClass: 'border-blue-500', description: 'Clean paper boxes, newspapers, magazines.' },
       { id: 'green', name: 'Glass', colorClass: 'bg-green-500', borderColorClass: 'border-green-500', description: 'Glass bottles and jars (without lids).' },
       { id: 'grey', name: 'General Waste', colorClass: 'bg-stone-500', borderColorClass: 'border-stone-500', description: 'Organic waste, dirty paper, non-recyclables.' },
+      { id: 'eco', name: 'Eco-Point', colorClass: 'bg-teal-500', borderColorClass: 'border-teal-500', description: 'Eco-Point located 50m to the right of the main gate.' },
     ],
     safety: [
       { id: 's1', name: 'Fire Extinguisher', location: 'Next to kitchen cabinet.' },
@@ -308,6 +317,10 @@ export const HOUSE_GUIDE_DATA: Record<'en' | 'pt', HouseGuideData> = {
       { id: 'micro', name: 'Micro-ondas', iconName: 'Zap', instruction: 'Deslize o dedo na barra para definir o tempo e pressione "Start".' },
       { id: 'washer', name: 'Máquina Lavar/Secar', iconName: 'Droplets', instruction: 'Pressione o botão azul "Push&Go" 2 seg para ciclo auto Lavar+Secar.' },
     ],
+    appliancesNote: {
+      text: 'Para consulta de instruções mais detalhadas, os manuais completos dos equipamentos encontram-se disponíveis na última gaveta do armário azul.',
+      imageUrl: '/manuals_drawer.png',
+    },
     cleaning: {
       title: 'Arrumpação e Limpeza',
       policy: 'Mantemos elevados padrões de higiene para o seu conforto.',
@@ -346,6 +359,7 @@ export const HOUSE_GUIDE_DATA: Record<'en' | 'pt', HouseGuideData> = {
       { id: 'blue', name: 'Papel e Cartão', colorClass: 'bg-blue-500', borderColorClass: 'border-blue-500', description: 'Caixas de papel limpas, jornais, revistas.' },
       { id: 'green', name: 'Vidro', colorClass: 'bg-green-500', borderColorClass: 'border-green-500', description: 'Garrafas e frascos de vidro (sem tampas).' },
       { id: 'grey', name: 'Lixo Indiferenciado', colorClass: 'bg-stone-500', borderColorClass: 'border-stone-500', description: 'Lixo orgânico, papel sujo, não recicláveis.' },
+      { id: 'eco', name: 'Eco-Ponto', colorClass: 'bg-teal-500', borderColorClass: 'border-teal-500', description: 'Ecoponto localizado a 50m à direita do portão principal.' },
     ],
     safety: [
       { id: 's1', name: 'Extintor', location: 'Ao lado do armário da cozinha.' },
@@ -817,7 +831,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'snack',
       title: 'Ponto de Encontro',
       description: 'A central meeting point with a friendly atmosphere, perfect for a quick coffee or light snack.',
-      imageUrl: 'https://lh3.googleusercontent.com/p/AF1QipOCmhcP8zaqTYODWih1cB1XAQlWwFuifIVl1KWm=w408-h306-k-no',
+      imageUrl: '/ponto_encontro.png',
       distance: 'Santa Cruz',
       hostTip: 'Great spot to mingle with locals.',
       mapUrl: 'https://www.google.com/maps/place/Ponto+de+Encontro/@39.4621574,-31.1300832,17z/data=!3m1!4b1!4m6!3m5!1s0xb32258ba0ce8b2b:0xa8aff4041cb76b5b!8m2!3d39.4621574!4d-31.1300832!16s%2Fg%2F11yprcmdqc!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -852,16 +866,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       hostTip: 'Good value for money.',
       mapUrl: 'https://www.google.com/maps/place/Snackbar+WRB/@39.4528608,-31.1282593,17z/data=!3m1!4b1!4m6!3m5!1s0xb322556a06de387:0x11537ec174a1b45!8m2!3d39.4528608!4d-31.1282593!16s%2Fg%2F11s2k8d722!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
     },
-    {
-      id: 'fora-d-horas',
-      categoryId: 'snack',
-      title: 'Snack Bar - Fora d\'Horas',
-      description: 'As the name implies, a great place for late-night snacks and drinks.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwl0_AcieG1T42bpXZCGI2fOJB6pDbzxxML6AchKHtR8wqIFMLjm5QDnbc9qcS4uuqKn5kRwYcgKFckuL9ujObv9LScyvPa7HgrHkvm4af-cWNhDs8IrEaYRuy0QuYNZShnracDGA=w408-h306-k-no',
-      distance: 'Santa Cruz',
-      hostTip: 'Perfect for after-dinner drinks.',
-      mapUrl: 'https://www.google.com/maps/place/Snack+Bar+-+Fora+d\'Horas/@39.4624022,-31.1300228,17z/data=!3m1!4b1!4m6!3m5!1s0xb32255ce04fdaf7:0x286cbfdce4bb92db!8m2!3d39.4624022!4d-31.1300228!16s%2Fg%2F11hgk1s9rm!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
-    },
+
     {
       id: 'happy-hour',
       categoryId: 'snack',
@@ -1003,7 +1008,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'eat',
       title: 'Restaurante Bar "5 Sentidos"',
       description: 'Contemporary space with fish, meat, vegetarian options and wine.',
-      imageUrl: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=800',
+      imageUrl: '/5_sentidos.png',
       distance: '6 min a pé',
       hostTip: 'One of the best dining experiences on the island.',
       mapUrl: 'https://www.google.com/maps/place/Restaurante+Bar+%225+Sentidos%22/@39.461433,-31.1281205,17z/data=!4m15!1m8!3m7!1s0xb32243379c67cb3:0x5f8524f7a76c0c9f!2sRestaurante+Bar+%225+Sentidos%22!8m2!3d39.4618655!4d-31.1278443!10e9!16s%2Fg%2F11c5stp0bs!3m5!1s0xb32243379c67cb3:0x5f8524f7a76c0c9f!8m2!3d39.4618655!4d-31.1278443!16s%2Fg%2F11c5stp0bs!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1043,7 +1048,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'eat',
       title: 'Restaurante "Rainha do Bife"',
       description: 'The absolute choice for regional steak and local specialties. Popular dishes: Regional Steak, Oven/Grilled Limpets, Fresh Cheese, Octopus or Tuna.',
-      imageUrl: 'https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&q=80&w=800',
+      imageUrl: '/rainha_do_bife.png',
       distance: '8 min a pé',
       hostTip: 'The "Queen Steak" is their signature dish. Start with Fresh Cheese with local pepper sauce.',
       mapUrl: 'https://www.google.com/maps?q=Restaurante+%22Rainha+do+Bife%22'
@@ -1113,7 +1118,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'eat',
       title: 'Restaurante "O Forno Transmontano"',
       description: 'Traditional restaurant offering hearty meals and wood-oven specialties.',
-      imageUrl: '/images/restaurant_forno.png',
+      imageUrl: '/forno_transmontano.png',
       distance: 'Lajes',
       hostTip: 'Try the roasted meats!',
       mapUrl: 'https://www.google.com/maps/place/Restaurante+%22O+Forno+Transmontano%22/@39.3883899,-31.1925259,11.8z/data=!4m6!3m5!1s0xb322733a0ec1383:0x396e3f5400186aea!8m2!3d39.3861656!4d-31.1681189!16s%2Fg%2F11g9g01_47!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1341,7 +1346,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AHVAwep1K0VXYUyNT4_H2yeKPwe0VdLJU96XbOOzDdMEXVH35fJlfuaZortz9ArBWOZ5yooPd-25S5Q7J9_TAtovWT_D86kvwx1qQhJfPC2hi7pB0eoTi5kcx0vychVh4pX8xKs7zy4=w408-h544-k-no',
       distance: 'Cedros',
       hostTip: 'Um pequeno museu único no norte.',
-      mapUrl: 'https://www.google.com/maps/place/Museu+do+Machado+(+Cedros+-+Ponta+Ruiva)/@39.4949447,-31.1572034,17z/data=!3m1!4b1!4m6!3m5!1s0xb322580c2e5fe85:0x19499234dbc6d2b9!8m2!3d39.4949447!4d-31.1572034!16s%2Fg%2F11h1ywysx5!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
+      mapUrl: 'https://www.google.com/maps/place/Museu+do+Machado+%28+Cedros+-+Ponta+Ruiva%29/@39.4949447,-31.1572034,17z/data=!3m1!4b1!4m6!3m5!1s0xb322580c2e5fe85:0x19499234dbc6d2b9!8m2!3d39.4949447!4d-31.1572034!16s%2Fg%2F11h1ywysx5!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
     },
     {
       id: 'fabrica-baleia',
@@ -1531,7 +1536,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'snack',
       title: 'Ponto de Encontro',
       description: 'Um ponto de encontro central com um ambiente amigável, perfeito para um café rápido ou um lanche leve.',
-      imageUrl: 'https://lh3.googleusercontent.com/p/AF1QipOCmhcP8zaqTYODWih1cB1XAQlWwFuifIVl1KWm=w408-h306-k-no',
+      imageUrl: '/ponto_encontro.png',
       distance: 'Santa Cruz',
       hostTip: 'Ótimo local para conviver com os habitantes locais.',
       mapUrl: 'https://www.google.com/maps/place/Ponto+de+Encontro/@39.4621574,-31.1300832,17z/data=!3m1!4b1!4m6!3m5!1s0xb32258ba0ce8b2b:0xa8aff4041cb76b5b!8m2!3d39.4621574!4d-31.1300832!16s%2Fg%2F11yprcmdqc!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1566,16 +1571,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       hostTip: 'Boa relação qualidade/preço.',
       mapUrl: 'https://www.google.com/maps/place/Snackbar+WRB/@39.4528608,-31.1282593,17z/data=!3m1!4b1!4m6!3m5!1s0xb322556a06de387:0x11537ec174a1b45!8m2!3d39.4528608!4d-31.1282593!16s%2Fg%2F11s2k8d722!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
     },
-    {
-      id: 'fora-d-horas',
-      categoryId: 'snack',
-      title: 'Snack Bar - Fora d\'Horas',
-      description: 'Como o nome indica, um ótimo lugar para lanches e bebidas tarde da noite.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwl0_AcieG1T42bpXZCGI2fOJB6pDbzxxML6AchKHtR8wqIFMLjm5QDnbc9qcS4uuqKn5kRwYcgKFckuL9ujObv9LScyvPa7HgrHkvm4af-cWNhDs8IrEaYRuy0QuYNZShnracDGA=w408-h306-k-no',
-      distance: 'Santa Cruz',
-      hostTip: 'Perfeito para bebidas depois do jantar.',
-      mapUrl: 'https://www.google.com/maps/place/Snack+Bar+-+Fora+d\'Horas/@39.4624022,-31.1300228,17z/data=!3m1!4b1!4m6!3m5!1s0xb32255ce04fdaf7:0x286cbfdce4bb92db!8m2!3d39.4624022!4d-31.1300228!16s%2Fg%2F11hgk1s9rm!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
-    },
+
     {
       id: 'happy-hour',
       categoryId: 'snack',
@@ -1613,7 +1609,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'eat',
       title: 'Restaurante Bar "5 Sentidos"',
       description: 'Espaço contemporâneo com peixe, carne, opções vegetarianas e vinho.',
-      imageUrl: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=800',
+      imageUrl: '/5_sentidos.png',
       distance: '6 min a pé',
       hostTip: 'Uma das melhores experiências gastronómicas da ilha.',
       mapUrl: 'https://www.google.com/maps/place/Restaurante+Bar+%225+Sentidos%22/@39.461433,-31.1281205,17z/data=!4m15!1m8!3m7!1s0xb32243379c67cb3:0x5f8524f7a76c0c9f!2sRestaurante+Bar+%225+Sentidos%22!8m2!3d39.4618655!4d-31.1278443!10e9!16s%2Fg%2F11c5stp0bs!3m5!1s0xb32243379c67cb3:0x5f8524f7a76c0c9f!8m2!3d39.4618655!4d-31.1278443!16s%2Fg%2F11c5stp0bs!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1653,7 +1649,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'eat',
       title: 'Restaurante "Rainha do Bife"',
       description: 'A escolha absoluta para bife regional e especialidades locais. Pratos populares: Bife Regional, Lapas no Forno/Grelhadas, Queijo Fresco, Polvo ou Atum.',
-      imageUrl: 'https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&q=80&w=800',
+      imageUrl: '/rainha_do_bife.png',
       distance: '8 min a pé',
       hostTip: 'O "Bife da Rainha" é o prato de assinatura. Comece com Queijo Fresco com molho de pimenta local.',
       mapUrl: 'https://www.google.com/maps?q=Restaurante+%22Rainha+do+Bife%22'
@@ -1723,7 +1719,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'eat',
       title: 'Restaurante "O Forno Transmontano"',
       description: 'Restaurante tradicional que oferece refeições fartas e especialidades em forno de lenha.',
-      imageUrl: '/images/restaurant_forno.png',
+      imageUrl: '/forno_transmontano.png',
       distance: 'Lajes',
       hostTip: 'Experimente as carnes assadas!',
       mapUrl: 'https://www.google.com/maps/place/Restaurante+%22O+Forno+Transmontano%22/@39.3883899,-31.1925259,11.8z/data=!4m6!3m5!1s0xb322733a0ec1383:0x396e3f5400186aea!8m2!3d39.3861656!4d-31.1681189!16s%2Fg%2F11g9g01_47!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'

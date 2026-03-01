@@ -97,20 +97,20 @@ export const PrintView: React.FC<PrintViewProps> = ({ t, lang, onBack }) => {
                                     <Wifi size={20} />
                                     <span className="font-semibold">Network</span>
                                 </div>
-                                <span className="font-mono text-lg">SleepHAIbeat_Guest</span>
+                                <span className="font-mono text-lg">Sleep HAIbeat AL</span>
                             </div>
                             <div className="flex items-center justify-between">
                                 <div className="flex items-center gap-3 text-navy-900">
                                     <Zap size={20} />
                                     <span className="font-semibold">Password</span>
                                 </div>
-                                <span className="font-mono text-lg">HAIbeatGuest2025</span>
+                                <span className="font-mono text-lg">Haiguest</span>
                             </div>
                         </div>
                     </div>
 
                     <div className="mt-16 text-xs text-stone-400 font-mono">
-                        {propertyData.licenseNumber} &bull; {propertyData.locations.hospital.address}
+                        NIPC {propertyData.nipc} &bull; {propertyData.locations.hospital.address}
                     </div>
                 </div>
 
@@ -388,13 +388,14 @@ export const PrintView: React.FC<PrintViewProps> = ({ t, lang, onBack }) => {
                                             {/* Legal */}
                                             <div className="pt-4 border-t border-stone-100">
                                                 <h3 className="font-bold text-sm uppercase text-stone-400 mb-2 tracking-wider">{t.info.sections.legal}</h3>
-                                                <div className="flex items-center gap-2 text-sm text-stone-600">
+                                                <div className="flex items-center gap-2 text-sm text-stone-600 mb-4">
                                                     <Book size={16} className="text-red-400" />
                                                     <span>{t.info.items.complaints}:</span>
                                                     <span className="font-mono text-xs">{propertyData.complaintsBookUrl}</span>
                                                 </div>
-                                                <div className="mt-2 text-xs text-stone-400">
-                                                    License: {propertyData.licenseNumber}
+                                                <div className="flex items-center gap-3">
+                                                    <img src="/livro-reclamacoes.png" alt="Livro de Reclamações" className="h-6 w-auto grayscale" />
+                                                    <span className="text-xs text-stone-500 font-bold">NIPC {propertyData.nipc}</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -432,7 +433,7 @@ export const PrintView: React.FC<PrintViewProps> = ({ t, lang, onBack }) => {
                                                                     <img
                                                                         src={getOptimizedImageUrl(item.imageUrl)}
                                                                         alt={item.title}
-                                                                        className="w-full h-full object-cover grayscale-[10%] group-print:grayscale-0"
+                                                                        className={`w-full h-full object-cover grayscale-[10%] group-print:grayscale-0 ${item.imageUrl.startsWith('/') ? 'object-center' : 'object-center'}`}
                                                                     />
                                                                 </div>
 
@@ -440,9 +441,11 @@ export const PrintView: React.FC<PrintViewProps> = ({ t, lang, onBack }) => {
                                                                 <div className="flex-1 min-w-0 py-1">
                                                                     <div className="flex justify-between items-start mb-2">
                                                                         <h4 className="font-bold text-lg text-navy-900 leading-tight">{item.title}</h4>
-                                                                        <span className="text-xs font-mono font-bold text-teal-700 bg-teal-50 px-2 py-1 rounded ml-4 whitespace-nowrap border border-teal-100">
-                                                                            {item.distance}
-                                                                        </span>
+                                                                        {item.categoryId !== 'eat' && item.categoryId !== 'snack' && (
+                                                                            <span className="text-xs font-mono font-bold text-teal-700 bg-teal-50 px-2 py-1 rounded ml-4 whitespace-nowrap border border-teal-100">
+                                                                                {item.distance}
+                                                                            </span>
+                                                                        )}
                                                                     </div>
 
                                                                     <p className="text-sm text-stone-600 mb-3 leading-relaxed max-w-2xl">{item.description}</p>

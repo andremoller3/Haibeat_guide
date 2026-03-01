@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Header, BottomNav } from './Layout';
 import { HomeView, HouseGuideView, LocalGuideView, InfoView } from './Views';
 import { PrintView } from './PrintView';
+import { AdminView } from './AdminView';
+import { ChatWidget } from './ChatWidget';
 import { Language, TabId } from './types';
 import { TRANSLATIONS } from './constants';
 
@@ -30,9 +32,11 @@ const App: React.FC = () => {
       case 'local':
         return <LocalGuideView t={t.local} lang={lang} />;
       case 'info':
-        return <InfoView t={t.info} />;
+        return <InfoView t={t.info} onNavigate={setActiveTab} />;
       case 'print':
         return <PrintView t={t} lang={lang} onBack={() => setActiveTab('home')} />;
+      case 'admin':
+        return <AdminView onLogout={() => setActiveTab('home')} />;
       default:
         return <HomeView t={t.home} onNavigate={setActiveTab} />;
     }
@@ -46,7 +50,7 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen font-sans text-stone-800 bg-white flex flex-col">
       {/* Header */}
-      <div className="print:hidden">
+      <div className={`print:hidden ${activeTab === 'admin' ? 'hidden' : ''}`}>
         <Header currentLang={lang} onToggleLang={toggleLanguage} />
       </div>
 
@@ -56,8 +60,13 @@ const App: React.FC = () => {
       </main>
 
       {/* Bottom Navigation */}
-      <div className="print:hidden">
+      <div className={`print:hidden ${activeTab === 'admin' ? 'hidden' : ''}`}>
         <BottomNav activeTab={activeTab} onTabChange={setActiveTab} t={t.nav} />
+      </div>
+
+      {/* Chat Widget */}
+      <div className={`print:hidden ${activeTab === 'admin' ? 'hidden' : ''}`}>
+        <ChatWidget language={lang} />
       </div>
     </div>
   );
