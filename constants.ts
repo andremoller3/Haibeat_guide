@@ -383,7 +383,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Morro Alto Viewpoint',
       description: 'The highest point on the island offering panoramic views of lagoons and valleys.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxIv191fx4vhaU8MQ_9GOsDnADLa5unttfcLI67WzitsooKG6tOkzlBjIcOD7T9TaHjSlOPxTqttIn3cr0QR1fgsDb-AszyigAFEeuJXXCnxIYvO_hsIWrhzyGKFdRVVFEhllQk=w408-h306-k-no',
+      imageUrl: '/morro_alto.png',
       distance: 'Central Plateau',
       hostTip: 'Often cloudy, but spectacular when clear.',
       mapUrl: 'https://www.google.com/maps/place/Morro+Alto/@39.4631789,-31.2200023,17z/data=!3m1!4b1!4m6!3m5!1s0xb322336c2e250bb:0x5b9f3622b27c9de2!8m2!3d39.4631789!4d-31.2200023!16s%2Fg%2F11rrsd8mcz!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -393,7 +393,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Vale da Fazenda Viewpoint',
       description: 'Overlooking the picturesque Fazenda valley.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyMw5wQOUCBiw89V_nXVfdqDgHCae2vML705PdTXfxiXN5h7eA9BT9G1zwz5Cd1DIMiHtWujxmTJ3vTEWGXWwtxvrnd4bX8kTAu2bZeX9AzdOzw7fypRgAJ6cobx9dsnHaJ5On6=w408-h544-k-no',
+      imageUrl: '/vale_fazenda.png',
       distance: 'Fazenda',
       hostTip: 'Great stop for a photo of the green valley.',
       mapUrl: 'https://www.google.com/maps/place/Miradouro+do+Vale+da+Fazenda/@39.4745771,-31.2011809,17z/data=!3m1!4b1!4m6!3m5!1s0xb3223b4d28f41b3:0xfed0df10b4d3372e!8m2!3d39.4745771!4d-31.2011809!16s%2Fg%2F11g0ngzy19!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -463,7 +463,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Farol de Albarnaz',
       description: 'The westernmost lighthouse of the Azores with dramatic cliff views.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzEVpQnVsC8pZtUrerCa99Yj7lQZXXmQIuoediF-L83hvPxGdnqvFWlNQ6Q1z9jOlrxmNYJ_GVMf01SnJDhis_unuGBi7YPaviWxaPtv_Nco34wPyYdoCVZn3EThEf4K3EtcZaq=w408-h306-k-no',
+      imageUrl: '/albarnaz.png',
       distance: 'Ponta Delgada',
       hostTip: 'Windy but beautiful location.',
       mapUrl: 'https://www.google.com/maps/place/Farol+de+Albarnaz/@39.5199229,-31.2358461,17z/data=!3m1!4b1!4m6!3m5!1s0xb323d15d8329337:0x7bf1b0583b0a42c6!8m2!3d39.5199229!4d-31.2358461!16s%2Fm%2F011q9963!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -473,7 +473,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Miradouro da Baía de Além',
       description: 'View over the bay and the islet of Monchique, the westernmost point of Europe.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxqv4gMQ70Pfh05UvMzIVfBkjJ7CHVb15da0xqb81KUrk3hOrl2aprTEZOi-1LnWRrtrjwadnTJ4ZpA_XH_HoxotuqukP-scnHaXF1nPMY_wzduCcqtGA7p7WqLwMTGrWojeJo=w408-h306-k-no',
+      imageUrl: '/baia_alem.png',
       distance: 'Ponta Delgada',
       hostTip: 'Look for the Monchique islet in the distance.',
       mapUrl: 'https://www.google.com/maps?q=Miradouro+da+Ba%C3%ADa+de+Al%C3%A9m,+Ilha+das+Flores,+Portugal&ftid=0xb323d16cd39a5ad:0x5f61ae4e72af9f9b&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAINeCAypRLDk0Mjk3Njk1LDk0Mjc1NDE1LDk0Mjg0NDk5LDk0MjMxMTg4LDk0MjgwNTY4LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDk0Mjg2ODY5QgJHQg%3D%3D&skid=0e915845-db29-4f0a-9bed-acd0687b4a67&g_st=ipc'
@@ -503,7 +503,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Miradouro da Pedrinha',
       description: 'View towards the interior landscapes and the coast.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyPKe7fpe06WLhDkjCjT0pCXIa9eyy2HkJAMUN3m914Du-XAfzeFtwwgxnfwYN2OOba6tjAqN1G3FJL0PMnh8JdGpq18BhcvRGPHwhdE0IuKgLQdqSGK61anhBLAgk0C9jouyHn=w408-h306-k-no',
+      imageUrl: '/pedrinha.png',
       distance: 'Ponta Delgada',
       hostTip: 'A quiet spot to admire the scenery.',
       mapUrl: 'https://www.google.com/maps/place/Miradouro+da+Pedrinha/@39.4948247,-31.195168,17z/data=!3m1!4b1!4m6!3m5!1s0xb322337ec7b09f3:0xd355aca5df4bff0c!8m2!3d39.4948247!4d-31.195168!16s%2Fg%2F11fxzsp8_l!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1131,7 +1131,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Morro Alto Viewpoint',
       description: 'O ponto mais alto da ilha, oferecendo vistas panorâmicas de lagoas e vales.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxIv191fx4vhaU8MQ_9GOsDnADLa5unttfcLI67WzitsooKG6tOkzlBjIcOD7T9TaHjSlOPxTqttIn3cr0QR1fgsDb-AszyigAFEeuJXXCnxIYvO_hsIWrhzyGKFdRVVFEhllQk=w408-h306-k-no',
+      imageUrl: '/morro_alto.png',
       distance: 'Planalto Central',
       hostTip: 'Muitas vezes nublado, mas espetacular quando limpo.',
       mapUrl: 'https://www.google.com/maps/place/Morro+Alto/@39.4631789,-31.2200023,17z/data=!3m1!4b1!4m6!3m5!1s0xb322336c2e250bb:0x5b9f3622b27c9de2!8m2!3d39.4631789!4d-31.2200023!16s%2Fg%2F11rrsd8mcz!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1141,7 +1141,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Vale da Fazenda Viewpoint',
       description: 'Com vista para o pitoresco vale da Fazenda.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyMw5wQOUCBiw89V_nXVfdqDgHCae2vML705PdTXfxiXN5h7eA9BT9G1zwz5Cd1DIMiHtWujxmTJ3vTEWGXWwtxvrnd4bX8kTAu2bZeX9AzdOzw7fypRgAJ6cobx9dsnHaJ5On6=w408-h544-k-no',
+      imageUrl: '/vale_fazenda.png',
       distance: 'Fazenda',
       hostTip: 'Ótima paragem para uma foto do vale verde.',
       mapUrl: 'https://www.google.com/maps/place/Miradouro+do+Vale+da+Fazenda/@39.4745771,-31.2011809,17z/data=!3m1!4b1!4m6!3m5!1s0xb3223b4d28f41b3:0xfed0df10b4d3372e!8m2!3d39.4745771!4d-31.2011809!16s%2Fg%2F11g0ngzy19!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1211,7 +1211,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Farol de Albarnaz',
       description: 'O farol mais ocidental dos Açores com vistas dramáticas das falésias.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzEVpQnVsC8pZtUrerCa99Yj7lQZXXmQIuoediF-L83hvPxGdnqvFWlNQ6Q1z9jOlrxmNYJ_GVMf01SnJDhis_unuGBi7YPaviWxaPtv_Nco34wPyYdoCVZn3EThEf4K3EtcZaq=w408-h306-k-no',
+      imageUrl: '/albarnaz.png',
       distance: 'Ponta Delgada',
       hostTip: 'Local ventoso, mas bonito.',
       mapUrl: 'https://www.google.com/maps/place/Farol+de+Albarnaz/@39.5199229,-31.2358461,17z/data=!3m1!4b1!4m6!3m5!1s0xb323d15d8329337:0x7bf1b0583b0a42c6!8m2!3d39.5199229!4d-31.2358461!16s%2Fm%2F011q9963!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1221,7 +1221,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Miradouro da Baía de Além',
       description: 'Vista sobre a baía e o ilhéu de Monchique, o ponto mais ocidental da Europa.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxqv4gMQ70Pfh05UvMzIVfBkjJ7CHVb15da0xqb81KUrk3hOrl2aprTEZOi-1LnWRrtrjwadnTJ4ZpA_XH_HoxotuqukP-scnHaXF1nPMY_wzduCcqtGA7p7WqLwMTGrWojeJo=w408-h306-k-no',
+      imageUrl: '/baia_alem.png',
       distance: 'Ponta Delgada',
       hostTip: 'Procure o ilhéu de Monchique ao longe.',
       mapUrl: 'https://www.google.com/maps?q=Miradouro+da+Ba%C3%ADa+de+Al%C3%A9m,+Ilha+das+Flores,+Portugal&ftid=0xb323d16cd39a5ad:0x5f61ae4e72af9f9b&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAINeCAypRLDk0Mjk3Njk1LDk0Mjc1NDE1LDk0Mjg0NDk5LDk0MjMxMTg4LDk0MjgwNTY4LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDk0Mjg2ODY5QgJHQg%3D%3D&skid=0e915845-db29-4f0a-9bed-acd0687b4a67&g_st=ipc'
@@ -1251,7 +1251,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'viewpoint',
       title: 'Miradouro da Pedrinha',
       description: 'Vista para as paisagens interiores e para a costa.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyPKe7fpe06WLhDkjCjT0pCXIa9eyy2HkJAMUN3m914Du-XAfzeFtwwgxnfwYN2OOba6tjAqN1G3FJL0PMnh8JdGpq18BhcvRGPHwhdE0IuKgLQdqSGK61anhBLAgk0C9jouyHn=w408-h306-k-no',
+      imageUrl: '/pedrinha.png',
       distance: 'Ponta Delgada',
       hostTip: 'Um local tranquilo para admirar a paisagem.',
       mapUrl: 'https://www.google.com/maps/place/Miradouro+da+Pedrinha/@39.4948247,-31.195168,17z/data=!3m1!4b1!4m6!3m5!1s0xb322337ec7b09f3:0xd355aca5df4bff0c!8m2!3d39.4948247!4d-31.195168!16s%2Fg%2F11fxzsp8_l!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
