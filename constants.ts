@@ -1058,7 +1058,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'eat',
       title: 'Restaurante O Baleia',
       description: 'Authentic spot, legendary for its super fresh grilled fish and typical ambiance.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyuq1gW44N03XmTDxCn0PuqfQhrwQmnuux4tVbGiRgY2CCOQltqdgAH6C3nE2CYCWkvF3a56vIFKWNNuymMPfyohfZqTYsdavyXUXDeb_X3zYGBtWI4QyO5Lo-CDOCiI1xqDyEnUrtsG6la=w408-h306-k-no',
+      imageUrl: '/images/baleia.png',
       distance: '15 min a pé',
       hostTip: 'Arrive early, it\'s extremely popular for the daily freshness of its fish.',
       mapUrl: 'https://www.google.com/maps/place/O+Baleia/@39.4623999,-31.1300268,17z/data=!3m1!4b1!4m6!3m5!1s0xb3225004268580b:0x951e1c5037029703!8m2!3d39.4623999!4d-31.1300268!16s%2Fg%2F11x0hf529b!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1088,7 +1088,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'eat',
       title: 'Restaurante Cana Roca',
       description: 'Famous for thin-crust pizzas and traditional Portuguese food.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyPpeaSfi_rEYGNWvf4_UAbln-Qe7jBYTU_ZEboL64vK4Gb6dZv9MerZJ0JVvbZV2mnp4qEXUg6gMxGCkE88FmD7Fy7SnY7mgPumbnSR2Tl4ccp2v_XHB7Vu_Sc7_cipwoo8cG2dQ=w408-h306-k-no',
+      imageUrl: '/images/cana.png',
       distance: '10 min de carro',
       hostTip: 'Pizzas are a local favorite in Fazenda.',
       mapUrl: 'https://www.google.com/maps?q=Cana+Roca,+Fazenda'
@@ -1659,7 +1659,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'eat',
       title: 'Restaurante O Baleia',
       description: 'Local autêntico, lendário pelo seu peixe grelhado super fresco e ambiente típico.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyuq1gW44N03XmTDxCn0PuqfQhrwQmnuux4tVbGiRgY2CCOQltqdgAH6C3nE2CYCWkvF3a56vIFKWNNuymMPfyohfZqTYsdavyXUXDeb_X3zYGBtWI4QyO5Lo-CDOCiI1xqDyEnUrtsG6la=w408-h306-k-no',
+      imageUrl: '/images/baleia.png',
       distance: '15 min a pé',
       hostTip: 'Chegue cedo, é extremamente popular pela frescura diária do peixe.',
       mapUrl: 'https://www.google.com/maps/place/O+Baleia/@39.4623999,-31.1300268,17z/data=!3m1!4b1!4m6!3m5!1s0xb3225004268580b:0x951e1c5037029703!8m2!3d39.4623999!4d-31.1300268!16s%2Fg%2F11x0hf529b!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1689,7 +1689,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'eat',
       title: 'Restaurante Cana Roca',
       description: 'Famoso pelas pizzas de massa fina e comida tradicional portuguesa.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyPpeaSfi_rEYGNWvf4_UAbln-Qe7jBYTU_ZEboL64vK4Gb6dZv9MerZJ0JVvbZV2mnp4qEXUg6gMxGCkE88FmD7Fy7SnY7mgPumbnSR2Tl4ccp2v_XHB7Vu_Sc7_cipwoo8cG2dQ=w408-h306-k-no',
+      imageUrl: '/images/cana.png',
       distance: '10 min de carro',
       hostTip: 'As pizzas são as favoritas locais na Fazenda.',
       mapUrl: 'https://www.google.com/maps?q=Cana+Roca,+Fazenda'
