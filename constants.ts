@@ -851,7 +851,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'snack',
       title: 'Lanchonete "Orquídea"',
       description: 'Known for its delicious homemade snacks and quick bites in the heart of Santa Cruz.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz9nnJrFP9g-MDlxhSZ0NqBEmDgZx8aDIm_oyiMLQJ0reaCeQkekSuQltJuJmHYeWa7gWl59sL3xyJKd7f6QMwt2_i0A8mKd1aKImUj5Xn5S28HQpoKLCHAYCfn4Rbi0Sw5xLEe=w507-h240-k-no',
+      imageUrl: '/images/orquidea.png',
       distance: 'Santa Cruz',
       hostTip: 'Their sandwiches are fresh and tasty.',
       mapUrl: 'https://www.google.com/maps/place/Lanchonete+%22Orqu%C3%ADdea%22/@39.453287,-31.1273193,17z/data=!3m1!4b1!4m6!3m5!1s0xb32242c9d39639b:0xf3ae6eececbe5cb9!8m2!3d39.453287!4d-31.1273193!16s%2Fg%2F11dyzdmcdw!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -872,7 +872,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'snack',
       title: 'Happy Hour - Lounge Bar',
       description: 'A modern lounge bar offering cocktails, music, and a relaxed environment.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzsj0rJNoH-8wm8fZnIRh-H6rJ9ag_f-xW1teu9XIGpIiz8a_tW-QMiz8jFDKNdEFy-Id56cu_2bj18YsNpsyWzv5QKfYBMj4-p_A2iBT3-eqYqhaKyY-1CwWzv4xPpFu9UzrfNZQ3-_eU5=w513-h240-k-no',
+      imageUrl: '/images/happy.png',
       distance: 'Santa Cruz',
       hostTip: 'Check their schedule for live music or DJ sets.',
       mapUrl: 'https://www.google.com/maps/place/Happy+Hour+-+Lounge+Bar+%26+Restaurante/@39.4625801,-31.1297493,17z/data=!3m1!4b1!4m6!3m5!1s0xb3225003ed89049:0xbdafb1df053f6cc!8m2!3d39.4625801!4d-31.1297493!16s%2Fg%2F11x0qh2zt_!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1556,7 +1556,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'snack',
       title: 'Lanchonete "Orquídea"',
       description: 'Conhecida pelos seus deliciosos lanches caseiros e refeições rápidas no coração de Santa Cruz.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz9nnJrFP9g-MDlxhSZ0NqBEmDgZx8aDIm_oyiMLQJ0reaCeQkekSuQltJuJmHYeWa7gWl59sL3xyJKd7f6QMwt2_i0A8mKd1aKImUj5Xn5S28HQpoKLCHAYCfn4Rbi0Sw5xLEe=w507-h240-k-no',
+      imageUrl: '/images/orquidea.png',
       distance: 'Santa Cruz',
       hostTip: 'As sandes são frescas e saborosas.',
       mapUrl: 'https://www.google.com/maps/place/Lanchonete+%22Orqu%C3%ADdea%22/@39.453287,-31.1273193,17z/data=!3m1!4b1!4m6!3m5!1s0xb32242c9d39639b:0xf3ae6eececbe5cb9!8m2!3d39.453287!4d-31.1273193!16s%2Fg%2F11dyzdmcdw!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
@@ -1577,7 +1577,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'snack',
       title: 'Happy Hour - Lounge Bar',
       description: 'Um lounge bar moderno que oferece cocktails, música e um ambiente descontraído.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzsj0rJNoH-8wm8fZnIRh-H6rJ9ag_f-xW1teu9XIGpIiz8a_tW-QMiz8jFDKNdEFy-Id56cu_2bj18YsNpsyWzv5QKfYBMj4-p_A2iBT3-eqYqhaKyY-1CwWzv4xPpFu9UzrfNZQ3-_eU5=w513-h240-k-no',
+      imageUrl: '/images/happy.png',
       distance: 'Santa Cruz',
       hostTip: 'Verifique a programação para música ao vivo ou DJ sets.',
       mapUrl: 'https://www.google.com/maps/place/Happy+Hour+-+Lounge+Bar+%26+Restaurante/@39.4625801,-31.1297493,17z/data=!3m1!4b1!4m6!3m5!1s0xb3225003ed89049:0xbdafb1df053f6cc!8m2!3d39.4625801!4d-31.1297493!16s%2Fg%2F11x0qh2zt_!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
