@@ -914,7 +914,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'shop',
       title: 'Barcelos Minimercado',
       description: 'Convenient minimarket in Ponta Delgada for daily essentials.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwYmq8HXahf8i9mBmdJJe88WwAtOvdaOE-aIr6lKksChsWrw5gmOpUckOAD03bp9nAPU7lR-GImobodY-v_KhIDtL9CMibzO2wIx9sBgtVub5XfCQzUznCjq61ZTrBX96IPBSMD=w460-h240-k-no',
+      imageUrl: '/barcelos.png',
       distance: 'Ponta Delgada',
       hostTip: 'Perfect for quick grocery runs in the north of the island.',
       mapUrl: 'https://www.google.com/maps?q=Barcelos+Minimercado,+Terra+Ch%C3%A3,+Ilha+das,+9970+Ponta+Delgada,+Portugal&ftid=0xb323d77a869871d:0x3f2a08ec24be7a74&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAINeCAypRLDk0Mjk3Njk1LDk0Mjc1NDE1LDk0Mjg0NDk5LDk0MjMxMTg4LDk0MjgwNTY4LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDk0Mjg2ODY5QgJHQg%3D%3D&skid=8a2fdf4e-3cc5-4b7a-a0fe-c49c2498b144&g_st=ipc'
@@ -924,7 +924,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'shop',
       title: 'Minimercado Luís Gregório de Freitas (SC)',
       description: 'Local grocery store in Santa Cruz offering fresh products.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyWCz0f9ma66tiOOTq-51ZK1Vn7y763t0tO7jSTGjYUPS7UlHsOHjikw_NSkkxkbPN_Aav2UVi6uIy4d84J3KL_xNzd-EuWW1eB9FtJd8vh5kIJcit2Tjb_tfEbMbasnWrBQXMr=w408-h306-k-no',
+      imageUrl: '/lgf_sc.png',
       distance: 'Santa Cruz',
       hostTip: 'Friendly local service and fresh goods.',
       mapUrl: 'https://www.google.com/maps?q=Luis+Gregorio+de+Freitas+-+Minimercado,+R.+da+Anuncia%C3%A7%C3%A3o+306,+9970-320+Santa+Cruz+das+Flores,+Portugal&ftid=0xb3225ac00bb2cfd:0x7a07aa37dbf0dcb1&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAIIgnKlEsOTQyOTc2OTUsOTQyNzU0MTUsOTQyODQ0OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsOTQyODY4NjlCAkdC&skid=6f15d879-e250-4385-93f2-531dfef4bf0a&g_st=ipc'
@@ -944,7 +944,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'shop',
       title: 'João Germano De Deus & Filho Lda',
       description: 'Traditional store in Lajes das Flores.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxZ5eOQWvfzN6KpOqNkQcJINQSiTyBu248jcg2E66bgusj1YCpPSL5yf4Sk0l_r0bUM7ii2lHBzAej9sC8aAX_XI8bWjPCkcH2dbis5w4WH9V6vQZpaLzgTpbfTzs3ClCCjdAc=w408-h306-k-no',
+      imageUrl: '/joao_germano.png',
       distance: 'Lajes',
       hostTip: 'A staple in the Lajes community.',
       mapUrl: 'https://www.google.com/maps?q=Jo%C3%A3o+Germano+De+Deus+%26+Filho+Lda,+R.+Jo%C3%A3o+Germano+de+Deus+7,+9960-435+Lajes+das+Flores,+Portugal&ftid=0xb3220c88ca4f709:0x1d42a47a9e2caab4&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAIIgnKlEsOTQyOTc2OTUsOTQyNzU0MTUsOTQyODQ0OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsOTQyODY4NjlCAkdC&skid=7e4bc135-90e1-40d5-aa78-f22165762912&g_st=ipc'
@@ -1484,7 +1484,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'shop',
       title: 'Barcelos Minimercado',
       description: 'Minimercado conveniente em Ponta Delgada para o essencial do dia-a-dia.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwYmq8HXahf8i9mBmdJJe88WwAtOvdaOE-aIr6lKksChsWrw5gmOpUckOAD03bp9nAPU7lR-GImobodY-v_KhIDtL9CMibzO2wIx9sBgtVub5XfCQzUznCjq61ZTrBX96IPBSMD=w460-h240-k-no',
+      imageUrl: '/barcelos.png',
       distance: 'Ponta Delgada',
       hostTip: 'Perfeito para compras rápidas no norte da ilha.',
       mapUrl: 'https://www.google.com/maps?q=Barcelos+Minimercado,+Terra+Ch%C3%A3,+Ilha+das,+9970+Ponta+Delgada,+Portugal&ftid=0xb323d77a869871d:0x3f2a08ec24be7a74&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAINeCAypRLDk0Mjk3Njk1LDk0Mjc1NDE1LDk0Mjg0NDk5LDk0MjMxMTg4LDk0MjgwNTY4LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDk0Mjg2ODY5QgJHQg%3D%3D&skid=8a2fdf4e-3cc5-4b7a-a0fe-c49c2498b144&g_st=ipc'
@@ -1494,7 +1494,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'shop',
       title: 'Minimercado Luís Gregório de Freitas (SC)',
       description: 'Mercearia local em Santa Cruz com produtos frescos.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyWCz0f9ma66tiOOTq-51ZK1Vn7y763t0tO7jSTGjYUPS7UlHsOHjikw_NSkkxkbPN_Aav2UVi6uIy4d84J3KL_xNzd-EuWW1eB9FtJd8vh5kIJcit2Tjb_tfEbMbasnWrBQXMr=w408-h306-k-no',
+      imageUrl: '/lgf_sc.png',
       distance: 'Santa Cruz',
       hostTip: 'Serviço local amigável e produtos frescos.',
       mapUrl: 'https://www.google.com/maps?q=Luis+Gregorio+de+Freitas+-+Minimercado,+R.+da+Anuncia%C3%A7%C3%A3o+306,+9970-320+Santa+Cruz+das+Flores,+Portugal&ftid=0xb3225ac00bb2cfd:0x7a07aa37dbf0dcb1&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAIIgnKlEsOTQyOTc2OTUsOTQyNzU0MTUsOTQyODQ0OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsOTQyODIxMzQsOTQyODY4NjlCAkdC&skid=6f15d879-e250-4385-93f2-531dfef4bf0a&g_st=ipc'
@@ -1514,7 +1514,7 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       categoryId: 'shop',
       title: 'João Germano De Deus & Filho Lda',
       description: 'Loja tradicional nas Lajes das Flores.',
-      imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxZ5eOQWvfzN6KpOqNkQcJINQSiTyBu248jcg2E66bgusj1YCpPSL5yf4Sk0l_r0bUM7ii2lHBzAej9sC8aAX_XI8bWjPCkcH2dbis5w4WH9V6vQZpaLzgTpbfTzs3ClCCjdAc=w408-h306-k-no',
+      imageUrl: '/joao_germano.png',
       distance: 'Lajes',
       hostTip: 'Um marco na comunidade das Lajes.',
       mapUrl: 'https://www.google.com/maps?q=Jo%C3%A3o+Germano+De+Deus+%26+Filho+Lda,+R.+Jo%C3%A3o+Germano+de+Deus+7,+9960-435+Lajes+das+Flores,+Portugal&ftid=0xb3220c88ca4f709:0x1d42a47a9e2caab4&entry=gps&shh=CAE&lucs=,94297695,94275415,94284499,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI1LjQ5LjkuODM4ODk5MTgzMBgAIIgnKlEsOTQyOTc2OTUsOTQyNzU0MTUsOTQyODQ0OTksOTQyMzExODgsOTQyODA1NjgsNDcwNzE3MDQsOTQyMTg2NDEsOTQyODIxMzQsOTQyODY4NjlCAkdC&skid=7e4bc135-90e1-40d5-aa78-f22165762912&g_st=ipc'
