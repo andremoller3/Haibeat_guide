@@ -200,12 +200,19 @@ export const PrintView: React.FC<PrintViewProps> = ({ t, lang, onBack }) => {
                                                 </h3>
                                                 <ul className="space-y-3">
                                                     {houseData.safety.map(item => (
-                                                        <li key={item.id} className="flex gap-3 items-start p-3 bg-red-50 rounded-lg border border-red-100 text-sm">
-                                                            <AlertCircle size={18} className="text-red-600 shrink-0 mt-0.5" />
-                                                            <div>
-                                                                <span className="font-bold text-navy-900 block">{item.name}</span>
-                                                                <span className="text-stone-700">{item.location}</span>
+                                                        <li key={item.id} className="flex flex-col gap-3 p-3 bg-red-50 rounded-lg border border-red-100 text-sm">
+                                                            <div className="flex gap-3 items-start">
+                                                                <AlertCircle size={18} className="text-red-600 shrink-0 mt-0.5" />
+                                                                <div>
+                                                                    <span className="font-bold text-navy-900 block">{item.name}</span>
+                                                                    <span className="text-stone-700">{item.location}</span>
+                                                                </div>
                                                             </div>
+                                                            {item.imageUrl && (
+                                                                <div className="mt-1 flex justify-center w-full bg-white rounded border border-red-100 p-2 break-inside-avoid">
+                                                                    <img src={item.imageUrl} alt={item.name} className="max-w-[200px] w-full h-auto object-contain" />
+                                                                </div>
+                                                            )}
                                                         </li>
                                                     ))}
                                                 </ul>

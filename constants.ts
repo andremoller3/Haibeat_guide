@@ -298,8 +298,8 @@ export const HOUSE_GUIDE_DATA: Record<'en' | 'pt', HouseGuideData> = {
       { id: 'eco', name: 'Eco-Point', colorClass: 'bg-teal-500', borderColorClass: 'border-teal-500', description: 'Eco-Point located 50m to the right of the main gate.' },
     ],
     safety: [
-      { id: 's1', name: 'Fire Extinguisher', location: 'Next to kitchen cabinet.' },
-      { id: 's3', name: 'First Aid Kit', location: 'Bathroom cabinet.' },
+      { id: 's1', name: 'Fire Extinguisher', location: 'Next to kitchen cabinet.', imageUrl: '/extintor.png' },
+      { id: 's3', name: 'First Aid Kit', location: 'Bathroom cabinet.', imageUrl: '/socorros.png' },
     ],
     gallery: [
       { id: 'living', title: 'Living Room', description: 'Spacious living area with TV and sofa bed.', imageUrls: ['/images/living_room.jpg', '/images/living_room_2.jpg'] },
@@ -362,8 +362,8 @@ export const HOUSE_GUIDE_DATA: Record<'en' | 'pt', HouseGuideData> = {
       { id: 'eco', name: 'Eco-Ponto', colorClass: 'bg-teal-500', borderColorClass: 'border-teal-500', description: 'Ecoponto localizado a 50m à direita do portão principal.' },
     ],
     safety: [
-      { id: 's1', name: 'Extintor', location: 'Ao lado do armário da cozinha.' },
-      { id: 's3', name: 'Kit Primeiros Socorros', location: 'Armário da casa de banho.' },
+      { id: 's1', name: 'Extintor', location: 'Ao lado do armário da cozinha.', imageUrl: '/extintor.png' },
+      { id: 's3', name: 'Kit Primeiros Socorros', location: 'Armário da casa de banho.', imageUrl: '/socorros.png' },
     ],
     gallery: [
       { id: 'living', title: 'Sala de Estar', description: 'Sala espaçosa com TV e sofá-cama.', imageUrls: ['/images/living_room.jpg', '/images/living_room_2.jpg'] },

@@ -280,17 +280,24 @@ export const HouseGuideView: React.FC<HouseGuideViewProps> = ({ t, lang }) => {
         {activeTab === 'safety' && (
           <div className="space-y-3 animate-fade-in">
             {data.safety.map((item) => (
-              <div key={item.id} className="bg-white border-l-4 border-red-500 rounded-r-xl shadow-sm p-4 flex gap-4 items-start border-y border-r border-stone-100">
-                <div className="bg-red-50 text-red-500 p-2 rounded-full mt-0.5">
-                  <AlertCircle size={20} />
+              <div key={item.id} className="bg-white border-l-4 border-red-500 rounded-r-xl shadow-sm p-4 flex flex-col gap-4 border-y border-r border-stone-100">
+                <div className="flex gap-4 items-start">
+                  <div className="bg-red-50 text-red-500 p-2 rounded-full mt-0.5">
+                    <AlertCircle size={20} />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-navy-900">{item.name}</h4>
+                    <p className="text-sm text-stone-600 mt-1">
+                      <span className="font-semibold text-navy-600 text-xs uppercase tracking-wide">Location: </span>
+                      {item.location}
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <h4 className="font-bold text-navy-900">{item.name}</h4>
-                  <p className="text-sm text-stone-600 mt-1">
-                    <span className="font-semibold text-navy-600 text-xs uppercase tracking-wide">Location: </span>
-                    {item.location}
-                  </p>
-                </div>
+                {item.imageUrl && (
+                  <div className="w-full flex justify-center bg-stone-50 rounded border border-stone-100 p-2">
+                    <img src={item.imageUrl} alt={item.name} className="max-w-[200px] sm:max-w-sm w-full h-auto object-contain" />
+                  </div>
+                )}
               </div>
             ))}
           </div>

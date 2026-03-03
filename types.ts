@@ -109,6 +109,7 @@ export interface SafetyItem {
   id: string;
   name: string;
   location: string;
+  imageUrl?: string;
 }
 
 export interface GalleryItem {
