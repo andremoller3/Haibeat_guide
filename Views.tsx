@@ -487,7 +487,7 @@ export const LocalGuideView: React.FC<LocalGuideViewProps> = ({ t, lang }) => {
                   referrerPolicy="no-referrer"
                 />
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-navy-900/20 to-transparent"></div>
-                {rec.categoryId !== 'eat' && rec.categoryId !== 'snack' && (
+                {rec.categoryId !== 'eat' && rec.categoryId !== 'snack' && rec.categoryId !== 'park' && (
                   <div className="absolute bottom-3 left-4 text-white text-xs font-bold tracking-wider uppercase bg-navy-900/40 backdrop-blur-md px-2 py-1 rounded-md border border-white/20">
                     {rec.distance}
                   </div>

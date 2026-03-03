@@ -457,7 +457,7 @@ export const PrintView: React.FC<PrintViewProps> = ({ t, lang, onBack }) => {
                                                                 <div className="flex-1 min-w-0 py-1">
                                                                     <div className="flex justify-between items-start mb-2">
                                                                         <h4 className="font-bold text-lg text-navy-900 leading-tight">{item.title}</h4>
-                                                                        {item.categoryId !== 'eat' && item.categoryId !== 'snack' && (
+                                                                        {item.categoryId !== 'eat' && item.categoryId !== 'snack' && item.categoryId !== 'park' && (
                                                                             <span className="text-xs font-mono font-bold text-teal-700 bg-teal-50 px-2 py-1 rounded ml-4 whitespace-nowrap border border-teal-100">
                                                                                 {item.distance}
                                                                             </span>
