@@ -3,7 +3,6 @@ import { Header, BottomNav } from './Layout';
 import { HomeView, HouseGuideView, LocalGuideView, InfoView } from './Views';
 import { PrintView } from './PrintView';
 import { AdminView } from './AdminView';
-import { ChatWidget } from './ChatWidget';
 import { Language, TabId } from './types';
 import { TRANSLATIONS } from './constants';
 
@@ -64,10 +63,6 @@ const App: React.FC = () => {
         <BottomNav activeTab={activeTab} onTabChange={setActiveTab} t={t.nav} />
       </div>
 
-      {/* Chat Widget */}
-      <div className={`print:hidden ${activeTab === 'admin' ? 'hidden' : ''}`}>
-        <ChatWidget language={lang} />
-      </div>
     </div>
   );
 };
