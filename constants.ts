@@ -1122,6 +1122,16 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       distance: 'Lajes',
       hostTip: 'Try the roasted meats!',
       mapUrl: 'https://www.google.com/maps/place/Restaurante+%22O+Forno+Transmontano%22/@39.3883899,-31.1925259,11.8z/data=!4m6!3m5!1s0xb322733a0ec1383:0x396e3f5400186aea!8m2!3d39.3861656!4d-31.1681189!16s%2Fg%2F11g9g01_47!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
+    },
+    {
+      id: 'barraca-qabana',
+      categoryId: 'eat',
+      title: "Barraca Q'abana",
+      description: "Great snacks right next to the sea in Fajã Grande. Excellent space with good food and nice prices.",
+      imageUrl: '/barraca.png',
+      distance: 'Fajã Grande',
+      hostTip: 'Worth the visit, enjoy a dive in the natural pools right in front!',
+      mapUrl: 'https://maps.app.goo.gl/8C2xBqsZRqbv5vrJ7'
     }
   ],
   pt: [
@@ -1723,6 +1733,16 @@ export const RECOMMENDATIONS_DATA: Record<'en' | 'pt', Recommendation[]> = {
       distance: 'Lajes',
       hostTip: 'Experimente as carnes assadas!',
       mapUrl: 'https://www.google.com/maps/place/Restaurante+%22O+Forno+Transmontano%22/@39.3883899,-31.1925259,11.8z/data=!4m6!3m5!1s0xb322733a0ec1383:0x396e3f5400186aea!8m2!3d39.3861656!4d-31.1681189!16s%2Fg%2F11g9g01_47!18m1!1e1?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D'
+    },
+    {
+      id: 'barraca-qabana',
+      categoryId: 'eat',
+      title: "Barraca Q'abana",
+      description: "Ótimos petiscos, mesmo ao lado do mar da Fajã Grande. Espaço muito agradável com boa comida e preços muito bons.",
+      imageUrl: '/barraca.png',
+      distance: 'Fajã Grande',
+      hostTip: 'Vale a visita e que sabe um mergulho nas piscinas naturais mesmo em frente!',
+      mapUrl: 'https://maps.app.goo.gl/8C2xBqsZRqbv5vrJ7'
     },
 
     // --- BEACH (SWIMMING) ---
